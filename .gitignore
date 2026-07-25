@@ -52,3 +52,5 @@ node_modules/
 .self-improve-backups/
 pm-skills-course.zip
 web/skill-changelog.json
+org/sessions-data/
+org/white-label/branding.json

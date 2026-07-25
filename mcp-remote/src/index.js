@@ -6,13 +6,15 @@
 // Deploy: cd mcp-remote && npx wrangler deploy  (free Cloudflare account)
 // Then add the printed https://…workers.dev/  URL as an MCP/connector endpoint.
 
+import { WIDGETS, UI_TOOLS, runUiTool } from './widgets.js';
+
 const SKILLS_URL = 'https://mohitagw15856.github.io/pm-claude-skills/skills.json';
 const WORKFLOWS_URL = 'https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/main/workflows.json';
 const REGISTRY_URL = 'https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/main/community/registry.json';
 const SERVER = {
   name: 'pm-claude-skills',
   title: 'PM Skills — Professional Agent Skills',
-  version: 'remote-1.2.0',
+  version: 'remote-1.3.0',
   websiteUrl: 'https://mohitagw15856.github.io/pm-claude-skills/',
   icons: [{ src: 'https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/main/icon.svg', mimeType: 'image/svg+xml', sizes: ['any'] }],
 };
@@ -130,6 +132,8 @@ const TOOLS = [
 const skillItem = (s) => ({ name: s.name, title: s.title, bundle: s.plugin, description: s.description });
 
 async function runTool(name, args) {
+  const ui = runUiTool(name, args);
+  if (ui) return ui;
   const skills = await getSkills();
   if (name === 'list_skills') {
     const list = args.bundle ? skills.filter((s) => s.plugin === args.bundle) : skills;
@@ -157,7 +161,7 @@ async function handle(msg) {
       case 'initialize':
         return { protocolVersion: params.protocolVersion || '2025-03-26', capabilities: { tools: {}, prompts: {}, resources: {} }, serverInfo: SERVER, instructions: INSTRUCTIONS };
       case 'tools/list':
-        return { tools: TOOLS };
+        return { tools: TOOLS.concat(UI_TOOLS) };
       case 'tools/call': {
         try { const { text, structured } = await runTool(params.name, params.arguments || {}); return { content: [{ type: 'text', text }], structuredContent: structured }; }
         catch (e) { return { content: [{ type: 'text', text: 'Error: ' + e.message }], isError: true }; }
@@ -174,10 +178,12 @@ async function handle(msg) {
       }
       case 'resources/list': {
         const s = await getSkills();
-        return { resources: s.map((x) => ({ uri: `skill://${x.name}`, name: x.title, description: x.description, mimeType: 'text/markdown' })) };
+        const widgets = Object.entries(WIDGETS).map(([uri, w]) => ({ uri, name: w.title, description: 'MCP Apps widget (interactive HTML).', mimeType: 'text/html+mcpui' }));
+        return { resources: widgets.concat(s.map((x) => ({ uri: `skill://${x.name}`, name: x.title, description: x.description, mimeType: 'text/markdown' }))) };
       }
       case 'resources/read': {
         const uri = params.uri || '';
+        if (WIDGETS[uri]) return { contents: [{ uri, mimeType: 'text/html+mcpui', text: WIDGETS[uri].html }] };
         const s = (await getSkills()).find((x) => x.name === uri.replace(/^skill:\/\//, ''));
         if (!s) throw new Error('Unknown resource');
         return { contents: [{ uri, mimeType: 'text/markdown', text: `# ${s.title}\n\n${s.body}` }] };

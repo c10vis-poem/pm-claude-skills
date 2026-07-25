@@ -50,6 +50,27 @@ curl https://pm-skills-mcp.<you>.workers.dev/v1/skills/prd-template?format=md
 See [`../connectors/n8n.md`](../connectors/n8n.md), [`../connectors/lovable.md`](../connectors/lovable.md),
 and [`../connectors/obsidian.md`](../connectors/obsidian.md) for worked integrations.
 
+## MCP Apps widgets — tool results that render as UI
+
+Three tools return an **interactive widget** in clients that support the MCP Apps
+extension (Claude, ChatGPT), instead of a wall of text:
+
+| Tool | Widget |
+|---|---|
+| `render_health_scorecard` | RAG status, weighted dimension bars, top risks |
+| `render_rice_matrix` | editable RICE table with live re-ranking |
+| `render_roadmap` | quarter-by-lane timeline with per-item status |
+
+Each widget is a self-contained `ui://widget/*.html` resource (no external requests,
+CSP-safe) linked from the tool's `_meta`. Clients without Apps support lose nothing:
+the same calls return plain text plus `structuredContent`. The intended flow is
+compute-then-render — e.g. run the `cs-health-scorecard` skill to produce the scores,
+then call `render_health_scorecard` to display them.
+
+One caveat: the extension's `_meta` key names were still settling when this shipped, so
+the tools carry both the `openai/outputTemplate` and `ui/resourceUri` spellings — check
+the current MCP spec before renaming (note in `src/widgets.js`).
+
 ## Agent-to-agent (A2A) discovery — other agents can hire the library
 
 The Worker also speaks the emerging **agent-to-agent** pattern, so autonomous agents can

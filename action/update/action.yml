@@ -1,0 +1,61 @@
+name: 'PM Skills — Update Bot'
+description: 'Dependabot for skills: finds vendored SKILL.md files that drifted from the pm-claude-skills catalog and opens one PR bumping them.'
+author: 'Mohit Aggarwal'
+branding:
+  icon: 'refresh-cw'
+  color: 'purple'
+
+inputs:
+  paths:
+    description: 'Comma-separated directories to scan for <skill>/SKILL.md.'
+    required: false
+    default: '.claude/skills,skills'
+  catalog:
+    description: 'Catalog URL (override for forks / Org Edition).'
+    required: false
+    default: 'https://mohitagw15856.github.io/pm-claude-skills/skills.json'
+  raw_base:
+    description: 'Base URL for raw upstream SKILL.md files.'
+    required: false
+    default: 'https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/main/skills'
+  dry_run:
+    description: 'true = report drift only; no writes, no PR.'
+    required: false
+    default: 'false'
+  skip:
+    description: 'Comma-separated skill names to leave alone (local forks).'
+    required: false
+  branch:
+    description: 'Branch name for the update PR.'
+    required: false
+    default: 'pm-skills-update'
+  token:
+    description: 'Token used to push the branch and open the PR. Defaults to the workflow GITHUB_TOKEN.'
+    required: false
+
+outputs:
+  stale_count:
+    description: 'Number of stale skills found.'
+    value: ${{ steps.update.outputs.stale_count }}
+  stale:
+    description: 'Comma-separated names of stale skills.'
+    value: ${{ steps.update.outputs.stale }}
+  pr_url:
+    description: 'URL of the opened/updated PR (empty when nothing was stale or dry_run).'
+    value: ${{ steps.update.outputs.pr_url }}
+
+runs:
+  using: composite
+  steps:
+    - id: update
+      shell: bash
+      run: node "$GITHUB_ACTION_PATH/run.mjs"
+      env:
+        INPUT_PATHS: ${{ inputs.paths }}
+        INPUT_CATALOG: ${{ inputs.catalog }}
+        INPUT_RAW_BASE: ${{ inputs.raw_base }}
+        INPUT_DRY_RUN: ${{ inputs.dry_run }}
+        INPUT_SKIP: ${{ inputs.skip }}
+        INPUT_BRANCH: ${{ inputs.branch }}
+        INPUT_TOKEN: ${{ inputs.token }}
+        GITHUB_TOKEN: ${{ github.token }}

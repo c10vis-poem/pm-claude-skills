@@ -13,6 +13,7 @@ import { createServer } from 'node:http';
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join, dirname, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { makeSessions } from './sessions.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const arg = (n, d) => { const i = process.argv.indexOf('--' + n); return i >= 0 && process.argv[i + 1] ? process.argv[i + 1] : d; };
@@ -47,10 +48,25 @@ setInterval(reload, 60_000).unref();   // private skills hot-reload
 const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.txt': 'text/plain', '.gif': 'image/gif', '.xml': 'application/xml', '.pdf': 'application/pdf' };
 const json = (res, obj, code = 200) => { res.writeHead(code, { 'content-type': 'application/json', 'access-control-allow-origin': '*' }); res.end(JSON.stringify(obj)); };
 
+const sessions = makeSessions(arg('sessions-data', process.env.SESSIONS_DATA || join(root, 'org', 'sessions-data')));
+
 createServer((req, res) => {
   const url = new URL(req.url, 'http://x');
   const p = url.pathname;
-  if (p === '/v1' || p === '/v1/') return json(res, { org: true, skills: SKILLS.length, endpoints: ['/v1/skills', '/v1/skills/:name', '/v1/search?q='] });
+  // Shared sessions (draft → review → approve) need the request body for POSTs.
+  if (p.startsWith('/v1/sessions') || p.startsWith('/session/')) {
+    let body = '';
+    req.on('data', (c) => { body += c; if (body.length > 600000) req.destroy(); });
+    req.on('end', () => { if (!sessions(req, res, url, json, body)) json(res, { error: 'not_found' }, 404); });
+    return;
+  }
+  if (p === '/v1' || p === '/v1/') return json(res, { org: true, skills: SKILLS.length, endpoints: ['/v1/skills', '/v1/skills/:name', '/v1/search?q=', '/v1/sessions', '/v1/branding'] });
+  if (p === '/v1/branding') {
+    // White-label deployments drop org/white-label/branding.json (see the example
+    // file); stock deployments get {} and the playground keeps default branding.
+    try { return json(res, JSON.parse(readFileSync(join(root, 'org', 'white-label', 'branding.json'), 'utf8'))); }
+    catch { return json(res, {}); }
+  }
   if (p === '/v1/skills') return json(res, SKILLS.map(({ name, description, source }) => ({ name, description, source })));
   if (p.startsWith('/v1/skills/')) {
     const s = SKILLS.find((x) => x.name === decodeURIComponent(p.slice(11)));
