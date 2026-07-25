@@ -57,6 +57,21 @@ Works natively in **Claude Code** and **Hermes Agent**, with ready-to-paste expo
 
 **Nothing here can scare your setup.** A skill is a markdown file your AI reads — no runtime, no telemetry, no accounts. Installing copies text files; uninstalling is deleting them. Skeptical? Good instinct: [read one first](skills/lease-decoder/SKILL.md) — it's designed to be read by humans too.
 
+**Don't know what to look for?** Describe your task in plain words at **[🔎 find](https://mohitagw15856.github.io/pm-claude-skills/find.html)** — *"my landlord kept my deposit"*, *"board meeting on Thursday"* — and it names the skill.
+
+## 💬 What can I ask it to do?
+
+Anything below is a real ask that activates a real skill — say it in your own words, the description does the routing:
+
+| | | |
+|---|---|---|
+| 🏠 *"decode this lease before I sign"* → [lease-decoder](skills/lease-decoder/SKILL.md) | 📋 *"write the PRD for our referral feature"* → [prd-template](skills/prd-template/SKILL.md) | 🚨 *"blameless postmortem for Friday's outage"* → [incident-postmortem](skills/incident-postmortem/SKILL.md) |
+| 💰 *"practice my salary negotiation"* → [salary-negotiation](skills/salary-negotiation/SKILL.md) | 📉 *"why is churn up this quarter?"* → [churn-analysis](skills/churn-analysis/SKILL.md) | ⚖️ *"rank the backlog with RICE"* → [rice-prioritisation](skills/rice-prioritisation/SKILL.md) |
+| 🛂 *"prep me for the visa interview"* → [the-visa-interview](skills/the-visa-interview/SKILL.md) | 🔨 *"is this contractor quote fair?"* → [home-contractor-quote-decoder](skills/home-contractor-quote-decoder/SKILL.md) | 🏡 *"should we rent or buy?"* → [rent-vs-buy](skills/rent-vs-buy/SKILL.md) |
+| 📝 *"draft my self-review honestly"* → [performance-review](skills/performance-review/SKILL.md) | 🚀 *"are we ready to launch?"* → [product-launch-checklist](skills/product-launch-checklist/SKILL.md) | 📬 *"my inbox is 4,000 deep"* → [email-triage-system](skills/email-triage-system/SKILL.md) |
+
+…all 771 asks live in **[the catalog](SKILLS.md)**.
+
 ## ⚡ Quick start
 
 | You want to… | Do this |
@@ -254,17 +269,17 @@ Every skill passes a structural gate (SkillSpec L3) and a security scan in CI; 2
 
 ## 🤝 Contributing
 
+<p align="center">
+  <a href="CONTRIBUTING.md">
+    <img src="web/docs-assets/footer.svg" width="100%" alt="The library grows a skill at a time — plant one of your own. One markdown file, one PR." />
+  </a>
+</p>
+
 Add a skill via PR ([the standard](SKILL-AUTHORING-STANDARD.md), [CONTRIBUTING](CONTRIBUTING.md)), request one via issue, or publish your own repo to the [community index](community/) and earn the badge. Translations follow the pattern in [`skills-i18n/`](skills-i18n/).
 
 ## ❤️ Support
 
 If a skill saved you real money or a real mistake, **[star the repo](https://github.com/mohitagw15856/pm-claude-skills/stargazers)** — it's how others find it. Sponsors fund the playground's free runs and get [naming rights, not influence](docs/SPONSORSHIP.md): **[become a sponsor](https://github.com/sponsors/mohitagw15856)**.
-
-<p align="center">
-  <a href="https://star-history.com/#mohitagw15856/pm-claude-skills&Date">
-    <img src="https://api.star-history.com/svg?repos=mohitagw15856/pm-claude-skills&type=Date" width="70%" alt="Star history chart for pm-claude-skills" />
-  </a>
-</p>
 
 ## 📄 License
 
