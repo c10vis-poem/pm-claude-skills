@@ -24,6 +24,25 @@
 
 Works natively in **Claude Code** and **Hermes Agent**, with ready-to-paste exports for **ChatGPT, Gemini, Cursor, Codex** and 8 more tools. *(PM stands for Professional, not just Product Management.)*
 
+<p align="center">
+  <a href="docs/installation.md"><img src="https://img.shields.io/badge/Claude_Code-native-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code — native"></a>
+  <a href="exports/chatgpt/"><img src="https://img.shields.io/badge/ChatGPT-exports-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT exports"></a>
+  <a href="exports/gemini/"><img src="https://img.shields.io/badge/Gemini-exports-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini exports"></a>
+  <a href="docs/installation.md"><img src="https://img.shields.io/badge/Cursor_·_Codex_·_Windsurf-one_command-1a1a2e?style=for-the-badge" alt="Cursor, Codex, Windsurf — one command"></a>
+  <a href="mcp-remote/"><img src="https://img.shields.io/badge/MCP-any_client-8a5cf5?style=for-the-badge" alt="MCP — any client"></a>
+  <br>
+  <a href="integrations/telegram/"><img src="https://img.shields.io/badge/Telegram-bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram bot"></a>
+  <a href="integrations/slack-app/"><img src="https://img.shields.io/badge/Slack-%2Fskill-4A154B?style=for-the-badge&logo=slack&logoColor=white" alt="Slack app"></a>
+  <a href="integrations/raycast/"><img src="https://img.shields.io/badge/Raycast-launcher-FF6363?style=for-the-badge&logo=raycast&logoColor=white" alt="Raycast launcher"></a>
+  <a href="integrations/obsidian-plugin/"><img src="https://img.shields.io/badge/Obsidian-plugin-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian plugin"></a>
+  <a href="connectors/"><img src="https://img.shields.io/badge/n8n-connector-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n connector"></a>
+  <br>
+  <a href="https://pypi.org/project/pm-skills/"><img src="https://img.shields.io/badge/Python-pip_install_pm--skills-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python — pip install pm-skills"></a>
+  <a href="dataset/"><img src="https://img.shields.io/badge/🤗_Hugging_Face-dataset-FFD21E?style=for-the-badge" alt="Hugging Face dataset"></a>
+  <a href="Dockerfile"><img src="https://img.shields.io/badge/Docker-ghcr_image-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker image on ghcr"></a>
+  <a href="action/"><img src="https://img.shields.io/badge/GitHub_Actions-CI_skills-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions"></a>
+</p>
+
 ## 🐣 New here? Pick a door — each takes about 30 seconds
 
 1. **Just looking →** open the **[▶ Playground](https://mohitagw15856.github.io/pm-claude-skills/)** and run a skill in your browser. Nothing to install, nothing to sign up for.

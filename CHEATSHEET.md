@@ -6,7 +6,7 @@
 **One link to start: https://mohitagw15856.github.io/pm-claude-skills/** — no install, no signup; runs with a free Gemini key, a fully-local in-browser model, or your own Claude/OpenAI key.
 
 > **The problem:** ask any AI for a PRD, a postmortem, or a board update and you get plausible filler you rewrite from scratch.
-> **The fix:** 771 open-source `SKILL.md` files that teach the AI the *actual structure a senior professional uses* — quality checks and anti-patterns included — so the first draft is one you can ship. **MIT. 25 professions. Works in Claude, ChatGPT, Gemini, Cursor, Codex & any MCP client.**
+> **The fix:** 771 open-source `SKILL.md` files that teach the AI the *actual structure a senior professional uses* — quality checks and anti-patterns included — so the first draft is one you can ship. **MIT. 35 professions. Works in Claude, ChatGPT, Gemini, Cursor, Codex & any MCP client.**
 
 ---
 
@@ -37,7 +37,7 @@ Plus: **🌌 [the Skill Galaxy](https://mohitagw15856.github.io/pm-claude-skills
 
 ## 🗂 What's inside
 
-**771 skills · 76 profession bundles · 35 fields** — product, engineering, customer success, marketing/GTM, data, design, sales, HR, legal, finance, founders, security, government, healthcare, education, real estate, and more. Highlights by job-to-do:
+**771 skills · 94 profession bundles · 35 fields** — product, engineering, customer success, marketing/GTM, data, design, sales, HR, legal, finance, founders, security, government, healthcare, education, real estate, and more. Highlights by job-to-do:
 
 | You need… | Reach for |
 |---|---|
@@ -49,7 +49,7 @@ Plus: **🌌 [the Skill Galaxy](https://mohitagw15856.github.io/pm-claude-skills
 | **AI at work** 🆕 | `ai-usage-policy` · `ai-roi-audit` · `role-redesign-for-ai` · `ai-assisted-performance-review` |
 | Your career | the `pm-personal` bundle (résumé → LinkedIn → portfolio) + the Gauntlet |
 
-Every **Production-Ready** skill ships `references/` (the judgment calls) + `templates/` (fill-in worksheets). **11 chained recipes** turn fuzzy asks into finished artifact sets: `/ship-a-feature`, `/land-a-job`, `/ship-an-mcp-server`, `/adopt-ai-properly`… **En español también** — the Production-Ready tier is translated (`i18n/es`), and any skill runs in 10 output languages from the playground.
+Every **Production-Ready** skill ships `references/` (the judgment calls) + `templates/` (fill-in worksheets). **11 chained recipes** turn fuzzy asks into finished artifact sets: `/ship-a-feature`, `/land-a-job`, `/ship-an-mcp-server`, `/adopt-ai-properly`… **En español también** — machine-translated editions with community review via [Crowdin](i18n/TRANSLATING.md), curated translations in 🇪🇸 🇫🇷 🇨🇳 🇯🇵 ([`skills-i18n/`](skills-i18n/)), and any skill runs in 10 output languages from the playground.
 
 ---
 
@@ -65,6 +65,8 @@ Every **Production-Ready** skill ships `references/` (the judgment calls) + `tem
 | **Claude Code plugin marketplace** | `/plugin marketplace add mohitagw15856/pm-claude-skills` |
 | **GitHub CI** (PR descriptions, changelogs, postmortem scaffolds, doc lint) | copy one file from [`action/examples/`](action/examples/) |
 | **Browser extension** — insert skills into ChatGPT/Claude/Gemini + **lint your own writing** against a skill's quality bar | [`extension/`](extension/) |
+| **Telegram / Slack** — `/find`, `/skill`, `/run` without leaving the chat | [`integrations/telegram/`](integrations/telegram/) · [`integrations/slack-app/`](integrations/slack-app/) |
+| **Keep vendored skills fresh** — Dependabot-for-skills opens the bump PR for you | [`action/update/`](action/update/) |
 
 ## 🧠 Memory that compounds
 
@@ -78,9 +80,11 @@ The **[Professional Brain](BRAIN.md)**: a local, plain-markdown memory the skill
 - **🤝 Agents can hire it** — A2A discovery card + `message/send` on the hosted worker; **[MCP pairings](connectors/mcp-pairings.md)** make skills *act* (meeting notes file themselves in Notion, updates post to Slack — always approval-gated)
 - **🌍 Read-only REST API** — `GET /v1/skills` · `/v1/search?q=` · `/v1/workflows` · `/v1/community` on the hosted worker (no auth, open CORS) → n8n, Lovable, Obsidian [connectors](connectors/)
 - **🤗 Training data** — the library distilled into a dataset, published to Hugging Face on every release
+- **🪟 MCP Apps widgets** 🆕 — health scorecards, RICE matrices, and roadmaps render as *interactive UI* inside Claude/ChatGPT via the [hosted connector](mcp-remote/)
+- **🤝 Shared sessions** 🆕 — on the [Org Edition](org/SESSIONS.md), a skill run becomes a linkable session teammates comment on and approve; editing an approved artifact reopens review
 
 ---
 
-**The numbers:** 771 skills · 94 bundles · 35 professions · 153 curated eval cases · 28 skills with published judge scores ([leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)) · 11 recipes · MIT · everything runs client-side with **your** key.
+**The numbers:** 771 skills · 94 bundles · 35 professions · 155 curated eval cases · 28 skills with published judge scores ([leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)) · 11 recipes · MIT · everything runs client-side with **your** key.
 
 <sub>⭐ **Star & share:** https://github.com/mohitagw15856/pm-claude-skills · 🚀 **Start:** https://mohitagw15856.github.io/pm-claude-skills/ · Built by [Mohit Aggarwal](https://medium.com/@mohit15856) · *PM stands for Professional.*</sub>
