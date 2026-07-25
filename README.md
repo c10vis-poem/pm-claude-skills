@@ -20,7 +20,13 @@
 [![Skill of the day](https://img.shields.io/endpoint?url=https%3A%2F%2Fpm-skills-mcp.pm-claude-skills.workers.dev%2Ftoday%2Fbadge)](https://pm-skills-mcp.pm-claude-skills.workers.dev/today.json)
 [![Free runs served](https://img.shields.io/endpoint?url=https%3A%2F%2Fpm-skills-mcp.pm-claude-skills.workers.dev%2Ftry%2Fstats)](https://mohitagw15856.github.io/pm-claude-skills/)
 
-**A library of 771 skills — each one a plain `SKILL.md` file that teaches your AI assistant to do one professional task properly.** Decode a lease before you sign it. Write a PRD your team can execute. Simulate the promotion committee before the real one meets. Check the weather with zero API keys. Generic AI gives you filler; these give you the structure a senior professional actually uses.
+## What is PM Skills?
+
+<!-- AEO Answer Capsule — 68 words -->
+PM Skills is an open-source library of 771 Agent Skills — plain-markdown SKILL.md files that teach an AI assistant to do one professional task to a senior professional's standard, from writing a PRD to decoding a lease or running a blameless postmortem. Each skill bundles the framework, an output template, quality checks, and anti-patterns. It is MIT-licensed and works with Claude, ChatGPT, Gemini, Cursor, and Codex.
+<!-- End AEO Capsule -->
+
+**Decode a lease before you sign it. Write a PRD your team can execute. Simulate the promotion committee before the real one meets. Check the weather with zero API keys.** Generic AI gives you filler; these give you the structure a senior professional actually uses.
 
 Works natively in **Claude Code** and **Hermes Agent**, with ready-to-paste exports for **ChatGPT, Gemini, Cursor, Codex** and 8 more tools. *(PM stands for Professional, not just Product Management.)*
 
@@ -108,10 +114,10 @@ Every skill follows the same discipline: what it produces, the inputs it needs, 
 
 | | | |
 |---|---|---|
-| 📋 [Product Management](plugins/pm-essentials/) | 💻 [Engineering](plugins/pm-engineering/) | 📣 [Marketing & GTM](plugins/pm-gtm/) |
-| 🤝 [Customer Success](plugins/pm-cs/) | 📊 [Data & Analytics](plugins/pm-data/) | 👥 [Leadership & People](plugins/pm-people/) |
-| 🎨 [Design & UX](plugins/pm-design/) | ⚖️ [Legal](plugins/pm-legal/) | 💰 [Finance](plugins/pm-finance/) |
-| 🚀 [Founders](plugins/pm-founders/) | 🔐 [Security](plugins/pm-security/) | 🏛 [Government](plugins/pm-gov/) |
+| <img src="web/docs-assets/logos/pm-essentials.svg" width="20" alt=""/> [Product Management](plugins/pm-essentials/) | <img src="web/docs-assets/logos/pm-engineering.svg" width="20" alt=""/> [Engineering](plugins/pm-engineering/) | <img src="web/docs-assets/logos/pm-gtm.svg" width="20" alt=""/> [Marketing & GTM](plugins/pm-gtm/) |
+| <img src="web/docs-assets/logos/pm-cs.svg" width="20" alt=""/> [Customer Success](plugins/pm-cs/) | <img src="web/docs-assets/logos/pm-data.svg" width="20" alt=""/> [Data & Analytics](plugins/pm-data/) | <img src="web/docs-assets/logos/pm-people.svg" width="20" alt=""/> [Leadership & People](plugins/pm-people/) |
+| <img src="web/docs-assets/logos/pm-design.svg" width="20" alt=""/> [Design & UX](plugins/pm-design/) | <img src="web/docs-assets/logos/pm-legal.svg" width="20" alt=""/> [Legal](plugins/pm-legal/) | <img src="web/docs-assets/logos/pm-finance.svg" width="20" alt=""/> [Finance](plugins/pm-finance/) |
+| <img src="web/docs-assets/logos/pm-founders.svg" width="20" alt=""/> [Founders](plugins/pm-founders/) | <img src="web/docs-assets/logos/pm-security.svg" width="20" alt=""/> [Security](plugins/pm-security/) | <img src="web/docs-assets/logos/pm-gov.svg" width="20" alt=""/> [Government](plugins/pm-gov/) |
 
 …plus HR, sales, operations, research, healthcare, educators, writers, social media, and more — **[the full profession index](SKILLS.md)**, or by bundle in [`plugins/`](plugins/) (94 bundles). Install any bundle: `/plugin install pm-decoders@pm-skills`.
 
@@ -119,7 +125,11 @@ Every skill follows the same discipline: what it produces, the inputs it needs, 
 
 Before installing *anyone's* skills (including these): [skill-vetting](skills/skill-vetting/SKILL.md) — a security read for SKILL.md files. The library's own standard lives in [SKILLSPEC.md](SKILLSPEC.md); every skill's level is enforced in CI.
 
-## 🔍 What a skill looks like
+## 🔍 What does a skill look like?
+
+<!-- AEO Answer Capsule — 62 words -->
+A skill is a single markdown file with a name, a description that tells the assistant when to activate it, and a body containing the working framework: required inputs, decision rules or severity scales, a concrete output template, quality checks, and anti-patterns. The assistant reads it and gains the judgment; humans can read, audit, and edit the same file. No runtime, no lock-in.
+<!-- End AEO Capsule -->
 
 ```markdown
 ---
@@ -249,6 +259,12 @@ Add a skill via PR ([the standard](SKILL-AUTHORING-STANDARD.md), [CONTRIBUTING](
 ## ❤️ Support
 
 If a skill saved you real money or a real mistake, **[star the repo](https://github.com/mohitagw15856/pm-claude-skills/stargazers)** — it's how others find it. Sponsors fund the playground's free runs and get [naming rights, not influence](docs/SPONSORSHIP.md): **[become a sponsor](https://github.com/sponsors/mohitagw15856)**.
+
+<p align="center">
+  <a href="https://star-history.com/#mohitagw15856/pm-claude-skills&Date">
+    <img src="https://api.star-history.com/svg?repos=mohitagw15856/pm-claude-skills&type=Date" width="70%" alt="Star history chart for pm-claude-skills" />
+  </a>
+</p>
 
 ## 📄 License
 

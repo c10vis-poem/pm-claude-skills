@@ -73,6 +73,79 @@ const GLYPHS = {
       </g>
       <path d="M80 76 l3.5 8 8 3.5 -8 3.5 -3.5 8 -3.5 -8 -8 -3.5 8 -3.5z" fill="#fff"/>
     </g>`,
+  'pm-engineering': `
+    <g stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="24" y="30" width="72" height="60" rx="10" fill="rgba(255,255,255,.12)"/>
+      <path d="M38 50 l12 10 -12 10"/>
+      <line x1="58" y1="72" x2="78" y2="72"/>
+    </g>`,
+  'pm-gtm': `
+    <g fill="#fff">
+      <path d="M30 54 l38 -20 v52 l-38 -20 v-12z" opacity=".95"/>
+      <rect x="24" y="52" width="10" height="16" rx="4"/>
+      <path d="M40 78 l6 16 10 -3 -6 -15z"/>
+      <g stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none">
+        <path d="M78 44 q8 16 0 32" opacity=".7"/><path d="M88 38 q12 22 0 44" opacity=".45"/>
+      </g>
+    </g>`,
+  'pm-cs': `
+    <g stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round">
+      <path d="M34 62 v-6 a26 26 0 0 1 52 0 v6"/>
+      <rect x="28" y="60" width="14" height="22" rx="7" fill="#fff" stroke="none"/>
+      <rect x="78" y="60" width="14" height="22" rx="7" fill="#fff" stroke="none"/>
+      <path d="M85 82 q0 12 -18 13"/>
+      <circle cx="63" cy="95" r="4.5" fill="#fff" stroke="none"/>
+    </g>`,
+  'pm-data': `
+    <g fill="#fff">
+      <rect x="30" y="66" width="14" height="28" rx="4" opacity=".7"/>
+      <rect x="53" y="50" width="14" height="44" rx="4" opacity=".85"/>
+      <rect x="76" y="34" width="14" height="60" rx="4"/>
+    </g>
+    <path d="M32 56 l24 -14 22 -14" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".6"/>`,
+  'pm-people': `
+    <g fill="#fff">
+      <circle cx="60" cy="38" r="12"/>
+      <path d="M40 76 q0 -20 20 -20 q20 0 20 20z"/>
+      <circle cx="34" cy="50" r="9" opacity=".7"/><path d="M20 82 q0 -16 14 -16 q7 0 10 4 q-8 5 -8 12z" opacity=".7"/>
+      <circle cx="86" cy="50" r="9" opacity=".7"/><path d="M100 82 q0 -16 -14 -16 q-7 0 -10 4 q8 5 8 12z" opacity=".7"/>
+    </g>`,
+  'pm-design': `
+    <g>
+      <path d="M60 22 l20 26 -8 34 h-24 l-8 -34z" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="6" stroke-linejoin="round"/>
+      <circle cx="60" cy="62" r="8" fill="#fff"/>
+      <line x1="60" y1="70" x2="60" y2="94" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    </g>`,
+  'pm-legal': `
+    <g stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round">
+      <line x1="60" y1="26" x2="60" y2="92"/><line x1="34" y1="38" x2="86" y2="38"/>
+      <line x1="46" y1="92" x2="74" y2="92"/>
+      <path d="M34 38 l-12 26 a 12 8 0 0 0 24 0z" fill="rgba(255,255,255,.2)"/>
+      <path d="M86 38 l-12 26 a 12 8 0 0 0 24 0z" fill="rgba(255,255,255,.2)"/>
+    </g>`,
+  'pm-finance': `
+    <circle cx="60" cy="60" r="34" fill="rgba(255,255,255,.14)" stroke="#fff" stroke-width="6"/>
+    <text x="60" y="76" font-family="-apple-system,Segoe UI,sans-serif" font-size="46" font-weight="800" fill="#fff" text-anchor="middle">$</text>`,
+  'pm-founders': `
+    <g>
+      <path d="M60 20 q18 14 18 40 l-8 14 h-20 l-8 -14 q0 -26 18 -40z" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="6" stroke-linejoin="round"/>
+      <circle cx="60" cy="50" r="8" fill="#fff"/>
+      <path d="M46 76 l-10 14 12 -4z M74 76 l10 14 -12 -4z" fill="#fff"/>
+      <path d="M55 92 q5 10 10 0" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </g>`,
+  'pm-security': `
+    <g>
+      <rect x="34" y="52" width="52" height="42" rx="10" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="6"/>
+      <path d="M44 52 v-8 a16 16 0 0 1 32 0 v8" stroke="#fff" stroke-width="7" fill="none"/>
+      <circle cx="60" cy="70" r="6" fill="#fff"/><line x1="60" y1="74" x2="60" y2="84" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+    </g>`,
+  'pm-gov': `
+    <g fill="#fff">
+      <path d="M60 22 l36 18 h-72z"/>
+      <rect x="30" y="46" width="8" height="34" rx="2"/><rect x="46" y="46" width="8" height="34" rx="2"/>
+      <rect x="62" y="46" width="8" height="34" rx="2"/><rect x="78" y="46" width="8" height="34" rx="2"/>
+      <rect x="24" y="84" width="72" height="10" rx="3"/>
+    </g>`,
 };
 
 const GRADS = {
@@ -84,6 +157,17 @@ const GRADS = {
   'pm-tokens': ['#fbbf24', '#d97706'],
   'pm-seatbelt': ['#22c55e', '#15803d'],
   'pm-essentials': ['#8a5cf5', '#5b21b6'],
+  'pm-engineering': ['#334155', '#0f172a'],
+  'pm-gtm': ['#f97316', '#db2777'],
+  'pm-cs': ['#06b6d4', '#0284c7'],
+  'pm-data': ['#0ea5e9', '#6366f1'],
+  'pm-people': ['#14b8a6', '#059669'],
+  'pm-design': ['#e879f9', '#a21caf'],
+  'pm-legal': ['#64748b', '#334155'],
+  'pm-finance': ['#16a34a', '#065f46'],
+  'pm-founders': ['#f43f5e', '#9f1239'],
+  'pm-security': ['#475569', '#dc2626'],
+  'pm-gov': ['#78716c', '#44403c'],
 };
 
 for (const [name, glyph] of Object.entries(GLYPHS)) {

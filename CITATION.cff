@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use PM Skills or SkillBench in research or writing, please cite it as below."
+title: "PM Skills: 771 Professional Agent Skills"
+type: software
+authors:
+  - family-names: Aggarwal
+    given-names: Mohit
+repository-code: "https://github.com/mohitagw15856/pm-claude-skills"
+url: "https://mohitagw15856.github.io/pm-claude-skills/"
+license: MIT
+version: 62.1.0
+date-released: 2026-07-25
+keywords:
+  - agent-skills
+  - ai-agents
+  - claude
+  - llm
+  - mcp
+  - product-management
+  - benchmark
+abstract: >-
+  An open-source library of professional Agent Skills — plain-markdown SKILL.md
+  files that teach AI assistants to produce professional-grade work (PRDs,
+  postmortems, contract decoding, negotiations) — plus SkillSpec, a conformance
+  standard for skill files, and SkillBench, a benchmark measuring model
+  performance on professional knowledge work.
