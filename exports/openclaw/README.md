@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-771 skills exported. Copy a `SKILL.md` into the tool to use it.
+776 skills exported. Copy a `SKILL.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -57,6 +57,7 @@
 | Behavior Intervention Plan | `pm-teaching` | `behavior-intervention-plan/SKILL.md` |
 | Beneficiary Audit | `pm-estate` | `beneficiary-audit/SKILL.md` |
 | Benefits Decoder | `pm-decoders` | `benefits-decoder/SKILL.md` |
+| Bennett Time Audit | `pm-dead-mentors` | `bennett-time-audit/SKILL.md` |
 | Bid / Tender Review | `pm-construction` | `bid-tender-review/SKILL.md` |
 | Blast Radius Drill | `pm-seatbelt` | `blast-radius-drill/SKILL.md` |
 | Board Deck Narrative | `pm-business` | `board-deck-narrative/SKILL.md` |
@@ -316,6 +317,7 @@
 | Form Filler Operator | `pm-operator` | `form-filler-operator/SKILL.md` |
 | Formula Detangler | `pm-cowork` | `formula-detangler/SKILL.md` |
 | Founder-Market Fit | `pm-founders` | `founder-market-fit/SKILL.md` |
+| Franklin Decision Ledger | `pm-dead-mentors` | `franklin-decision-ledger/SKILL.md` |
 | Freelance Rate | `pm-calculators` | `freelance-rate/SKILL.md` |
 | Frontend Design | `pm-design` | `frontend-design/SKILL.md` |
 | Fundraising FAQ | `pm-founders` | `fundraising-faq/SKILL.md` |
@@ -411,6 +413,7 @@
 | Local Dev Setup | `pm-engineering` | `local-dev-setup/SKILL.md` |
 | Localization Brief | `pm-localization` | `localization-brief/SKILL.md` |
 | Logistics Incident Report | `pm-supplychain` | `logistics-incident-report/SKILL.md` |
+| Machiavelli Counsel | `pm-dead-mentors` | `machiavelli-counsel/SKILL.md` |
 | Manager First 90 Days | `pm-people` | `manager-first-90-days/SKILL.md` |
 | Managing Up | `pm-comms` | `managing-up/SKILL.md` |
 | Marketing Funnel Plan | `pm-growth` | `marketing-funnel-plan/SKILL.md` |
@@ -671,6 +674,7 @@
 | Statement of Work | `pm-consulting` | `statement-of-work/SKILL.md` |
 | Status Report Pipeline | `pm-cowork` | `status-report-pipeline/SKILL.md` |
 | Stock Snapshot | `pm-live` | `stock-snapshot/SKILL.md` |
+| Stoic Setback Debrief | `pm-dead-mentors` | `stoic-setback-debrief/SKILL.md` |
 | Story Pitch | `pm-journalism` | `story-pitch/SKILL.md` |
 | Strategic Narrative Generator | `pm-strategy` | `strategic-narrative-generator/SKILL.md` |
 | Strategy Memo | `pm-business` | `strategy-memo/SKILL.md` |
@@ -685,6 +689,7 @@
 | Substack Notes Scraper | `pm-writers` | `substack-notes-scraper/SKILL.md` |
 | Subtitle & Caption | `pm-localization` | `subtitle-caption/SKILL.md` |
 | Sun and Moon | `pm-live` | `sun-and-moon/SKILL.md` |
+| Sun Tzu Strategy Brief | `pm-dead-mentors` | `sun-tzu-strategy-brief/SKILL.md` |
 | Supplier Scorecard | `pm-supplychain` | `supplier-scorecard/SKILL.md` |
 | Support Macro | `pm-support` | `support-macro/SKILL.md` |
 | Support Runbook | `pm-support` | `support-runbook/SKILL.md` |

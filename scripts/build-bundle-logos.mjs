@@ -146,6 +146,13 @@ const GLYPHS = {
       <rect x="62" y="46" width="8" height="34" rx="2"/><rect x="78" y="46" width="8" height="34" rx="2"/>
       <rect x="24" y="84" width="72" height="10" rx="3"/>
     </g>`,
+  'pm-dead-mentors': `
+    <g stroke="#fff" stroke-width="6" fill="rgba(255,255,255,.14)" stroke-linecap="round">
+      <path d="M38 30 h44 a8 8 0 0 1 0 16 h-44 a8 8 0 0 1 0 -16z"/>
+      <path d="M38 46 v40 a8 8 0 0 0 8 8 h36 a8 8 0 0 0 8 -8 v-40"/>
+      <line x1="50" y1="62" x2="78" y2="62"/><line x1="50" y1="76" x2="70" y2="76"/>
+    </g>
+    <path d="M26 96 q14 -10 20 -26 M94 96 q-14 -10 -20 -26" stroke="#d8c58a" stroke-width="5" fill="none" stroke-linecap="round"/>`,
 };
 
 const GRADS = {
@@ -168,6 +175,7 @@ const GRADS = {
   'pm-founders': ['#f43f5e', '#9f1239'],
   'pm-security': ['#475569', '#dc2626'],
   'pm-gov': ['#78716c', '#44403c'],
+  'pm-dead-mentors': ['#7c5a2e', '#3f2d16'],
 };
 
 for (const [name, glyph] of Object.entries(GLYPHS)) {

@@ -1,4 +1,4 @@
-# 🗂️ All 771 Skills — full catalog
+# 🗂️ All 776 Skills — full catalog
 
 > The complete per-skill breakdown, grouped by domain. For an interactive, searchable version see the [**live catalog**](https://mohitagw15856.github.io/pm-claude-skills/catalog.html); to run any skill in your browser, use the [**Playground**](https://mohitagw15856.github.io/pm-claude-skills/). Back to the [README](README.md).
 >
@@ -653,7 +653,7 @@
 | **Portfolio Page** (`portfolio-page`) | Structure a portfolio or case-study page that shows your work, not just lists it. | — |
 | **Resume** (`resume`) | Write a sharp, achievement-led resume/CV that passes ATS and earns the interview. | ✅ 3.3/5 |
 
-## 🌍 Industries & Public Sector (377 skills)
+## 🌍 Industries & Public Sector (382 skills)
 
 ### `pm-agentnative` — 5 skills
 
@@ -871,6 +871,16 @@
 | **Red-Team Review** (`red-team-review`) | Stress-test a plan, strategy, PRD, or launch by simulating hostile expert personas who attack it from every angle. | — |
 | **Sycophancy Challenger** (`sycophancy-challenger`) | Flip Claude’s default from validation to adversarial critique. | — |
 | **Teaching Lesson Plan** (`teaching-lesson-plan`) | Design a structured lesson plan for any subject, audience, or format. | — |
+
+### `pm-dead-mentors` — 5 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Bennett Time Audit** (`bennett-time-audit`) | Audit a week the way Arnold Bennett's 'How to Live on 24 Hours a Day' (1908) prescribes — time as the one income that cannot be increased, the… | — |
+| **Franklin Decision Ledger** (`franklin-decision-ledger`) | Run a hard two-option decision through Benjamin Franklin's 'moral or prudential algebra' — the weighted pro/con method he described to Joseph… | — |
+| **Machiavelli Counsel** (`machiavelli-counsel`) | Analyse a workplace power situation the way Machiavelli's The Prince (1532) would — who holds power, whose support you need, what fortune can take… | — |
+| **Stoic Setback Debrief** (`stoic-setback-debrief`) | Recover from a professional setback — a failed launch, brutal feedback, a public mistake, a lost deal, a layoff — using the actual exercises from… | — |
+| **Sun Tzu Strategy Brief** (`sun-tzu-strategy-brief`) | Prepare for a specific contest — a competitive deal, a negotiation, a market entry, a turf fight — using the actual planning framework from Sun… | — |
 
 ### `pm-decoders` — 20 skills
 
@@ -1269,4 +1279,4 @@
 
 ---
 
-_771 skills across 94 bundles · 28 eval-scored (4%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._
+_776 skills across 95 bundles · 28 eval-scored (4%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._

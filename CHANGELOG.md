@@ -9,6 +9,24 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [63.0.0] — the dead mentors: history's sharpest operators, resurrected as skills — 2026-07-26
+
+### Added — 🏛 [pm-dead-mentors](plugins/pm-dead-mentors): five public-domain masters, applied to modern work
+
+The Elements-of-Style play, done for professional judgment: not quotes-as-decoration, but each text's **actual method**, run on your situation. **776 skills, 95 bundles.**
+
+- **[machiavelli-counsel](skills/machiavelli-counsel/SKILL.md)** — The Prince's five analytical questions on your reorg/politics situation, chapter-cited, always paired with the honest modern counterweight ("would survive being read aloud to everyone named in it" is the built-in ethical line)
+- **[sun-tzu-strategy-brief](skills/sun-tzu-strategy-brief/SKILL.md)** — the Art of War's five factors and temple calculations on a specific contest, with a committed FIGHT / RESHAPE / DECLINE verdict and a mandatory win-without-fighting scan
+- **[franklin-decision-ledger](skills/franklin-decision-ledger/SKILL.md)** — the real moral/prudential algebra from the 1772 Priestley letter, including the steps everyone drops: weighted cancellation in pairs, and the sit-on-it period; feeds [decision-journal](skills/decision-journal/SKILL.md)
+- **[stoic-setback-debrief](skills/stoic-setback-debrief/SKILL.md)** — Meditations as procedure for the bad professional day: camera-vs-story split, the control sort, the obstacle turned into a task, one next action; knows when to say "this needs a human"
+- **[bennett-time-audit](skills/bennett-time-audit/SKILL.md)** — "How to Live on 24 Hours a Day" (1908) run properly: the 24-hour ledger, one 90-minute × 3-evenings inner-day block, and Bennett's own anti-burnout warnings that modern productivity advice dropped
+
+### Notes
+
+- Every skill quotes only what it can quote exactly (translations named) and paraphrases the rest with chapter references — the most misquoted books on the internet deserved better.
+- Collision-checked before writing: premortems stayed with [premortem-assassin](skills/premortem-assassin/SKILL.md); Aurelius took the setback, not the plan.
+- One eval case per skill added; full regen + count sweep 771 → 776.
+
 ## [62.2.0] — the distribution wave: scan anyone's skill, count what's used, meet people where they are — 2026-07-26
 
 ### Added
