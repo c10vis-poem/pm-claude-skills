@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-776 skills exported. Copy a `SKILL.md` into the tool to use it.
+777 skills exported. Copy a `SKILL.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -493,6 +493,7 @@
 | PIP Responder | `pm-career` | `pip-responder/SKILL.md` |
 | Pitch Vs Teach | `pm-cowork` | `pitch-vs-teach/SKILL.md` |
 | Pivot Analysis Planner | `pm-cowork` | `pivot-analysis-planner/SKILL.md` |
+| Pixel GIF Maker | `other` | `pixel-gif-maker/SKILL.md` |
 | Plain Language Rewrite | `pm-cowork` | `plain-language-rewrite/SKILL.md` |
 | PM Weekly Review | `pm-rituals` | `pm-weekly-review/SKILL.md` |
 | Policy Drafter | `pm-cowork` | `policy-drafter/SKILL.md` |
