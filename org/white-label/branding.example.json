@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy to org/white-label/branding.json — the Org server serves it at /v1/branding for the playground surface to consume. All fields optional; omit the file for stock branding.",
+  "name": "Acme Advisory Skill Library",
+  "shortName": "Acme Skills",
+  "accent": "#0f766e",
+  "logoUrl": "/assets/acme-logo.svg",
+  "footer": "Operated by Acme Advisory for Client Co — built on pm-claude-skills (MIT)",
+  "supportContact": "ai-team@acme.example"
+}

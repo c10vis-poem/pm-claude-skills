@@ -1,0 +1,20 @@
+# Community translation pipeline — Crowdin project configuration.
+# English skills/ is canonical; translations sync to i18n/<lang>/skills/… , the
+# same tree scripts/translate-skills.mjs writes, so machine translations pre-fill
+# the editor and native speakers review/fix instead of starting from zero.
+#
+# Owner setup (once): create a free open-source Crowdin project, add the
+# CROWDIN_PROJECT_ID + CROWDIN_PERSONAL_TOKEN repo secrets, and enable the
+# GitHub integration (or run `crowdin upload sources` / `crowdin download`).
+# Contributors never need any of this — they just translate in the Crowdin UI,
+# or keep sending plain PRs against i18n/ (both flows stay valid).
+
+preserve_hierarchy: true
+
+files:
+  - source: /skills/**/SKILL.md
+    translation: /i18n/%two_letters_code%/skills/**/%original_file_name%
+    # Markdown is parsed natively; frontmatter keys stay in English except the
+    # description (the routing `name:` must never be translated — CI checks it).
+    content_segmentation: 1
+    update_option: keep_translations

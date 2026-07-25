@@ -9,6 +9,24 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [62.1.0] — nine frontiers: widgets in the chat, updates that find you, and the org goes multiplayer — 2026-07-25
+
+### Added
+
+- **MCP Apps widgets** ([mcp-remote](mcp-remote/)) — three tools whose results render as interactive UI in Apps-capable clients: `render_health_scorecard` (RAG dial + weighted bars), `render_rice_matrix` (editable, live re-ranking), `render_roadmap` (quarter-by-lane timeline). Self-contained `ui://` HTML resources; non-UI clients keep text + structured output.
+- **The update bot** ([action/update](action/update/)) — Dependabot for skills: scans a consumer repo's vendored `SKILL.md` files, diffs them against the catalog (content-based, CRLF-safe), and opens one PR refreshing the stale ones. Dry-run mode, `skip` list for local forks, renamed/removed skills reported never deleted.
+- **SkillBench technical report** ([skillbench/REPORT.md](skillbench/REPORT.md)) — the arXiv-ready write-up of the v1 pilot, including the honest headline: near-ceiling bare scores and *negative* mean skill lift on frontier models, what that means, and the v2 design it motivates.
+- **Local-model tier** ([scripts/local-eval.mjs](scripts/local-eval.mjs), [docs/LOCAL-MODELS.md](docs/LOCAL-MODELS.md)) — the eval rubric against any OpenAI-compatible local endpoint (Ollama, LM Studio); fully-offline smoke runs or cloud-judged runs that count toward a proposed *verified-local* badge. Completes the Org Edition's zero-egress story.
+- **Telegram bot** ([integrations/telegram](integrations/telegram/)) — the Slack app's twin: `/find`, `/skill`, `/run` from any Telegram chat, webhook-secret verified, stateless, 5-minute BotFather setup.
+- **Community translation pipeline** ([crowdin.yml](crowdin.yml), [i18n/TRANSLATING.md](i18n/TRANSLATING.md), [scripts/i18n-status.mjs](scripts/i18n-status.mjs)) — Crowdin config over the existing machine-translation tree so native speakers review instead of retranslate, plus a per-language coverage/review/staleness report.
+- **RFC-0003: paid community packs** ([docs/rfcs/0003-paid-community-packs.md](docs/rfcs/0003-paid-community-packs.md)) — author-majority revenue share through the registry, payment gating delivery never listing, Polar as merchant of record. Comment window open.
+- **Shared sessions** ([org/SESSIONS.md](org/SESSIONS.md)) — the Org Edition goes multiplayer: a skill run becomes a linkable session with comments, approve/request-changes, and revision history where editing an approved artifact reopens review. One JSON file per session, no accounts by design.
+- **White-label partner program** ([org/white-label](org/white-label/)) — branded Org Edition deployments for consultancies: `branding.json` served at `/v1/branding`, the program doc (certification, listing, support — the MIT stack itself was never the paid part), and an agreement template for a real lawyer.
+
+### Notes
+
+- A tenth candidate (a cohort academy) was dropped on collision check: [docs/syllabus](docs/syllabus/) already ships it, credential and all.
+
 ## [62.0.0] — adopt-a-profession: four new verticals — 2026-07-24
 
 A new wave built from the open "Adopt a profession" issues (#163–#172): four professions the library didn't cover, each a coherent starter bundle. **771 skills, 94 bundles, 35 professions.**
