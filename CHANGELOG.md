@@ -9,6 +9,12 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [63.1.0] — pixel confetti: the GIF maker with a stdlib soul — 2026-07-26
+
+### Added — 🕹 [pixel-gif-maker](skills/pixel-gif-maker/SKILL.md)
+
+Retro pixel-text animated GIFs for Slack/Teams — scroll, pulse, party, sparkle — from a bundled **pure-stdlib GIF89a encoder** (no PIL, no dependencies; the LZW writer, the 5x7 font, and the confetti are all one 200-line Python file). Deterministic: same args + seed = byte-identical gif, verified by --self-test hashes. **777 skills.**
+
 ## [63.0.0] — the dead mentors: history's sharpest operators, resurrected as skills — 2026-07-26
 
 ### Added — 🏛 [pm-dead-mentors](plugins/pm-dead-mentors): five public-domain masters, applied to modern work
