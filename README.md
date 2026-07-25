@@ -1,5 +1,11 @@
 # 🧠 PM Skills — 771 Professional Agent Skills for Claude, ChatGPT, Gemini, Cursor, Codex & Hermes
 
+<p align="center">
+  <a href="https://mohitagw15856.github.io/pm-claude-skills/">
+    <img src="web/docs-assets/hero.svg" width="100%" alt="PM Skills — 771 professional skills your AI assistant can read. Plain markdown, works with Claude, ChatGPT, Gemini, Cursor, and Codex. MIT licensed." />
+  </a>
+</p>
+
 [![In the official Anthropic plugin directory](https://img.shields.io/badge/Anthropic%20Plugin%20Directory-Published-D97757?logo=anthropic&logoColor=white)](#-quick-start)
 [![Stars](https://img.shields.io/github/stars/mohitagw15856/pm-claude-skills?style=social)](https://github.com/mohitagw15856/pm-claude-skills/stargazers)
 [![npm](https://img.shields.io/npm/v/pm-claude-skills?logo=npm&color=cb3837)](https://www.npmjs.com/package/pm-claude-skills)
@@ -11,10 +17,20 @@
 [![Version](https://img.shields.io/github/v/release/mohitagw15856/pm-claude-skills?label=version&color=brightgreen)](https://github.com/mohitagw15856/pm-claude-skills/releases)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 [![Sponsor](https://img.shields.io/badge/sponsor-❤️-ff69b4)](https://github.com/sponsors/mohitagw15856)
+[![Skill of the day](https://img.shields.io/endpoint?url=https%3A%2F%2Fpm-skills-mcp.pm-claude-skills.workers.dev%2Ftoday%2Fbadge)](https://pm-skills-mcp.pm-claude-skills.workers.dev/today.json)
+[![Free runs served](https://img.shields.io/endpoint?url=https%3A%2F%2Fpm-skills-mcp.pm-claude-skills.workers.dev%2Ftry%2Fstats)](https://mohitagw15856.github.io/pm-claude-skills/)
 
 **A library of 771 skills — each one a plain `SKILL.md` file that teaches your AI assistant to do one professional task properly.** Decode a lease before you sign it. Write a PRD your team can execute. Simulate the promotion committee before the real one meets. Check the weather with zero API keys. Generic AI gives you filler; these give you the structure a senior professional actually uses.
 
 Works natively in **Claude Code** and **Hermes Agent**, with ready-to-paste exports for **ChatGPT, Gemini, Cursor, Codex** and 8 more tools. *(PM stands for Professional, not just Product Management.)*
+
+## 🐣 New here? Pick a door — each takes about 30 seconds
+
+1. **Just looking →** open the **[▶ Playground](https://mohitagw15856.github.io/pm-claude-skills/)** and run a skill in your browser. Nothing to install, nothing to sign up for.
+2. **You use Claude Code →** type `/plugin`, search **pm-skills**, install. Done — ask *"decode this lease"* and watch.
+3. **You use anything else →** `npx pm-claude-skills add` and pick your tool from the menu (Cursor, Codex, Windsurf, ChatGPT, Gemini…).
+
+**Nothing here can scare your setup.** A skill is a markdown file your AI reads — no runtime, no telemetry, no accounts. Installing copies text files; uninstalling is deleting them. Skeptical? Good instinct: [read one first](skills/lease-decoder/SKILL.md) — it's designed to be read by humans too.
 
 ## ⚡ Quick start
 
@@ -156,6 +172,33 @@ The whole library on one poster — start path, standout features, and install o
 ## 🆕 Latest
 
 **v62.1.0 — nine frontiers:** widgets in the chat, updates that find you, and the org goes multiplayer — **MCP Apps widgets** on the [hosted connector](mcp-remote/) (health scorecard, RICE matrix, and roadmap results render as interactive UI in Claude/ChatGPT), the **[update bot](action/update/)** (Dependabot for your vendored skills), **[shared sessions](org/SESSIONS.md)** (comment on and approve a skill run by link), a **[Telegram bot](integrations/telegram/)**, the **[local-model tier](docs/LOCAL-MODELS.md)** (same rubric, your Ollama), the **[SkillBench technical report](skillbench/REPORT.md)**, community translations via **[Crowdin](i18n/TRANSLATING.md)**, **[RFC-0003: paid community packs](docs/rfcs/0003-paid-community-packs.md)**, and the **[white-label partner program](org/white-label/)**. *Earlier — v62.0, adopt-a-profession* (pm-teaching, pm-hospitality, pm-journalism, pm-veterinary); *v61.3, most-requested skills;* *v61.1, the demand side* ([find](https://mohitagw15856.github.io/pm-claude-skills/find.html) + the honest badge). Full history: **[CHANGELOG](CHANGELOG.md)** · [releases](https://github.com/mohitagw15856/pm-claude-skills/releases)
+
+## ❓ First-timer questions, straight answers
+
+<details>
+<summary><b>Is it actually free?</b></summary>
+Yes — MIT, all 771 skills, forever. The skills are markdown; there is nothing to gate. Sponsors fund the playground's free model runs, not access.
+</details>
+
+<details>
+<summary><b>Do I need an API key?</b></summary>
+Not to browse, read, install, or use skills inside a tool you already have (Claude Code, ChatGPT, Cursor…). The playground even serves a few sponsor-funded free runs a day. A key only enters the picture for optional extras like running skills from CI.
+</details>
+
+<details>
+<summary><b>I'm not a product manager. Is this for me?</b></summary>
+PM stands for <i>Professional</i> here. Most of the library is decoders for leases and medical bills, salary-negotiation practice, career-moment kits, life admin, and 35 professions from teaching to veterinary. The product-management corner is just where it started.
+</details>
+
+<details>
+<summary><b>Will this mess with my existing setup?</b></summary>
+No. Skills are inert text files in a folder; your assistant reads them when relevant. Remove the folder and it's like they were never there. The CLI never touches anything outside the skills directory it tells you about.
+</details>
+
+<details>
+<summary><b>How do I know these are any good?</b></summary>
+Every skill passes a structural gate (SkillSpec L3) and a security scan in CI; 208 outputs are <a href="https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html">eval-scored in the open</a> (avg 4.8/5), and the <a href="skillbench/REPORT.md">benchmark report</a> publishes the negative findings too. When something's machine-translated or unscored, it's labelled.
+</details>
 
 ## 🤝 Contributing
 
