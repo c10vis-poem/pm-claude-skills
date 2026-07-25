@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-777 skills exported. Copy a `SKILL.md` into the tool to use it.
+782 skills exported. Copy a `SKILL.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -61,6 +61,7 @@
 | Bid / Tender Review | `pm-construction` | `bid-tender-review/SKILL.md` |
 | Blast Radius Drill | `pm-seatbelt` | `blast-radius-drill/SKILL.md` |
 | Board Deck Narrative | `pm-business` | `board-deck-narrative/SKILL.md` |
+| Board Game Designer | `pm-tabletop` | `board-game-designer/SKILL.md` |
 | Board Minutes | `pm-business` | `board-minutes/SKILL.md` |
 | Board Pre-Read | `pm-business` | `board-pre-read/SKILL.md` |
 | BOM Cost Review | `pm-hardware` | `bom-cost-review/SKILL.md` |
@@ -321,6 +322,7 @@
 | Freelance Rate | `pm-calculators` | `freelance-rate/SKILL.md` |
 | Frontend Design | `pm-design` | `frontend-design/SKILL.md` |
 | Fundraising FAQ | `pm-founders` | `fundraising-faq/SKILL.md` |
+| Game Night Planner | `pm-tabletop` | `game-night-planner/SKILL.md` |
 | Gantt / Roadmap | `pm-visuals` | `gantt-roadmap/SKILL.md` |
 | GDPR Compliance | `pm-compliance` | `gdpr-compliance/SKILL.md` |
 | Git Troubleshooter | `pm-engineering` | `git-troubleshooter/SKILL.md` |
@@ -600,6 +602,7 @@
 | Rollback Plan | `pm-engineering` | `rollback-plan/SKILL.md` |
 | RSS Digest | `pm-live` | `rss-digest/SKILL.md` |
 | Rubric Builder | `pm-education` | `rubric-builder/SKILL.md` |
+| Rules Lawyer | `pm-tabletop` | `rules-lawyer/SKILL.md` |
 | Runbook Writer | `pm-engineering` | `runbook-writer/SKILL.md` |
 | Runway Calculator | `pm-calculators` | `runway-calculator/SKILL.md` |
 | Runway Monte Carlo | `pm-calculators` | `runway-monte-carlo/SKILL.md` |
@@ -699,9 +702,11 @@
 | Sycophancy Challenger | `pm-cross` | `sycophancy-challenger/SKILL.md` |
 | Synthetic User Research | `pm-research` | `synthetic-user-research/SKILL.md` |
 | System Design Interview | `pm-engineering` | `system-design-interview/SKILL.md` |
+| Tabletop Negotiator | `pm-tabletop` | `tabletop-negotiator/SKILL.md` |
 | Task Triage Matrix | `pm-cowork` | `task-triage-matrix/SKILL.md` |
 | Tax Planning Checklist | `pm-finance` | `tax-planning-checklist/SKILL.md` |
 | TDD Workflow | `pm-craft` | `tdd-workflow/SKILL.md` |
+| Teach The Game | `pm-tabletop` | `teach-the-game/SKILL.md` |
 | Teaching Lesson Plan | `pm-cross` | `teaching-lesson-plan/SKILL.md` |
 | Team Budget Tracker | `pm-cowork` | `team-budget-tracker/SKILL.md` |
 | Team Health Check | `pm-people` | `team-health-check/SKILL.md` |

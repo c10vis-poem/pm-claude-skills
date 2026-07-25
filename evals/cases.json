@@ -644,6 +644,26 @@
     {
       "skill": "pixel-gif-maker",
       "input": "We just crossed 1,000 GitHub stars and I want to drop something fun in the team Slack. Something gold and celebratory, short and punchy."
+    },
+    {
+      "skill": "teach-the-game",
+      "input": "Teaching Catan tonight to my parents (60s, play cards but never modern board games) and my nephew (9). I have played maybe 20 times. We have about 2.5 hours total. Give me the teach."
+    },
+    {
+      "skill": "rules-lawyer",
+      "input": "Monopoly argument, standard UK edition: my brother landed on Free Parking and grabbed the tax money pile we had been putting in the middle. He says that is the rule, I say we made it up. Also: can he buy a property on his first lap? He says no purchases before passing GO once. Settle both."
+    },
+    {
+      "skill": "game-night-planner",
+      "input": "Hosting Saturday, 7 to 11pm. Six adults confirmed, maybe seven. Mix: two hobby gamers, three casuals, one who claims to hate board games but loves poker. We own Codenames, Catan, Wingspan, Azul, standard cards, and Ticket to Ride Europe. Plan it."
+    },
+    {
+      "skill": "board-game-designer",
+      "input": "Idea: a game about running a food truck — driving to spots around a city, cooking orders under time pressure, weather changes demand. I want families to play it in under an hour. I have nothing but the theme so far. Get me to a playtest."
+    },
+    {
+      "skill": "tabletop-negotiator",
+      "input": "Practice a Catan mid-game trade with me. I have lots of wood and sheep, desperately need ore and brick, I am on 7 points and people are starting to notice. You are the player to my left with a decent ore position. Friendly-but-competitive group. Go."
     }
   ]
 }

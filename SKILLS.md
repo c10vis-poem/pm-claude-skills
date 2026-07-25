@@ -1,4 +1,4 @@
-# 🗂️ All 777 Skills — full catalog
+# 🗂️ All 782 Skills — full catalog
 
 > The complete per-skill breakdown, grouped by domain. For an interactive, searchable version see the [**live catalog**](https://mohitagw15856.github.io/pm-claude-skills/catalog.html); to run any skill in your browser, use the [**Playground**](https://mohitagw15856.github.io/pm-claude-skills/). Back to the [README](README.md).
 >
@@ -653,7 +653,7 @@
 | **Portfolio Page** (`portfolio-page`) | Structure a portfolio or case-study page that shows your work, not just lists it. | — |
 | **Resume** (`resume`) | Write a sharp, achievement-led resume/CV that passes ATS and earns the interview. | ✅ 3.3/5 |
 
-## 🌍 Industries & Public Sector (383 skills)
+## 🌍 Industries & Public Sector (388 skills)
 
 ### `other` — 1 skill
 
@@ -1227,6 +1227,16 @@
 | **S&OP Meeting Prep** (`sop-meeting-prep`) | Prepare an S&OP cycle readout that surfaces the demand-supply gaps and forces the three decisions the meeting must make. | — |
 | **Supplier Scorecard** (`supplier-scorecard`) | Build a quarterly supplier performance scorecard with a weighted grade and a clear escalate/develop/exit call. | — |
 
+### `pm-tabletop` — 5 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Board Game Designer** (`board-game-designer`) | Take a board game idea from 'wouldn't it be cool if' to a playtestable prototype — core loop, tension source, components you can make tonight… | — |
+| **Game Night Planner** (`game-night-planner`) | Plan a game night that actually works for the specific people coming — the right lineup for player count, weight tolerance, and time, sequenced… | — |
+| **Rules Lawyer** (`rules-lawyer`) | Settle a board game rules dispute like a fair judge — reconstruct the situation, rule from the rulebook text (pasted or known), separate… | — |
+| **Tabletop Negotiator** (`tabletop-negotiator`) | Practice the table-talk that wins negotiation board games — play out a Catan-style trade, a Diplomacy-style alliance, or a Monopoly-style deal… | — |
+| **Teach The Game** (`teach-the-game`) | Build a 5-minute teach script for any board game so the table starts playing instead of listening — theme first, goal second, a turn third… | — |
+
 ### `pm-teaching` — 4 skills
 
 | Skill | What it does | Eval |
@@ -1285,4 +1295,4 @@
 
 ---
 
-_777 skills across 96 bundles · 28 eval-scored (4%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._
+_782 skills across 97 bundles · 28 eval-scored (4%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._

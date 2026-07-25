@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-777 skills exported. Copy a `GEM_INSTRUCTIONS.md` into the tool to use it.
+782 skills exported. Copy a `GEM_INSTRUCTIONS.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -61,6 +61,7 @@
 | Bid / Tender Review | `pm-construction` | `pm-construction/bid-tender-review/GEM_INSTRUCTIONS.md` |
 | Blast Radius Drill | `pm-seatbelt` | `pm-seatbelt/blast-radius-drill/GEM_INSTRUCTIONS.md` |
 | Board Deck Narrative | `pm-business` | `pm-business/board-deck-narrative/GEM_INSTRUCTIONS.md` |
+| Board Game Designer | `pm-tabletop` | `pm-tabletop/board-game-designer/GEM_INSTRUCTIONS.md` |
 | Board Minutes | `pm-business` | `pm-business/board-minutes/GEM_INSTRUCTIONS.md` |
 | Board Pre-Read | `pm-business` | `pm-business/board-pre-read/GEM_INSTRUCTIONS.md` |
 | BOM Cost Review | `pm-hardware` | `pm-hardware/bom-cost-review/GEM_INSTRUCTIONS.md` |
@@ -321,6 +322,7 @@
 | Freelance Rate | `pm-calculators` | `pm-calculators/freelance-rate/GEM_INSTRUCTIONS.md` |
 | Frontend Design | `pm-design` | `pm-design/frontend-design/GEM_INSTRUCTIONS.md` |
 | Fundraising FAQ | `pm-founders` | `pm-founders/fundraising-faq/GEM_INSTRUCTIONS.md` |
+| Game Night Planner | `pm-tabletop` | `pm-tabletop/game-night-planner/GEM_INSTRUCTIONS.md` |
 | Gantt / Roadmap | `pm-visuals` | `pm-visuals/gantt-roadmap/GEM_INSTRUCTIONS.md` |
 | GDPR Compliance | `pm-compliance` | `pm-compliance/gdpr-compliance/GEM_INSTRUCTIONS.md` |
 | Git Troubleshooter | `pm-engineering` | `pm-engineering/git-troubleshooter/GEM_INSTRUCTIONS.md` |
@@ -600,6 +602,7 @@
 | Rollback Plan | `pm-engineering` | `pm-engineering/rollback-plan/GEM_INSTRUCTIONS.md` |
 | RSS Digest | `pm-live` | `pm-live/rss-digest/GEM_INSTRUCTIONS.md` |
 | Rubric Builder | `pm-education` | `pm-education/rubric-builder/GEM_INSTRUCTIONS.md` |
+| Rules Lawyer | `pm-tabletop` | `pm-tabletop/rules-lawyer/GEM_INSTRUCTIONS.md` |
 | Runbook Writer | `pm-engineering` | `pm-engineering/runbook-writer/GEM_INSTRUCTIONS.md` |
 | Runway Calculator | `pm-calculators` | `pm-calculators/runway-calculator/GEM_INSTRUCTIONS.md` |
 | Runway Monte Carlo | `pm-calculators` | `pm-calculators/runway-monte-carlo/GEM_INSTRUCTIONS.md` |
@@ -699,9 +702,11 @@
 | Sycophancy Challenger | `pm-cross` | `pm-cross/sycophancy-challenger/GEM_INSTRUCTIONS.md` |
 | Synthetic User Research | `pm-research` | `pm-research/synthetic-user-research/GEM_INSTRUCTIONS.md` |
 | System Design Interview | `pm-engineering` | `pm-engineering/system-design-interview/GEM_INSTRUCTIONS.md` |
+| Tabletop Negotiator | `pm-tabletop` | `pm-tabletop/tabletop-negotiator/GEM_INSTRUCTIONS.md` |
 | Task Triage Matrix | `pm-cowork` | `pm-cowork/task-triage-matrix/GEM_INSTRUCTIONS.md` |
 | Tax Planning Checklist | `pm-finance` | `pm-finance/tax-planning-checklist/GEM_INSTRUCTIONS.md` |
 | TDD Workflow | `pm-craft` | `pm-craft/tdd-workflow/GEM_INSTRUCTIONS.md` |
+| Teach The Game | `pm-tabletop` | `pm-tabletop/teach-the-game/GEM_INSTRUCTIONS.md` |
 | Teaching Lesson Plan | `pm-cross` | `pm-cross/teaching-lesson-plan/GEM_INSTRUCTIONS.md` |
 | Team Budget Tracker | `pm-cowork` | `pm-cowork/team-budget-tracker/GEM_INSTRUCTIONS.md` |
 | Team Health Check | `pm-people` | `pm-people/team-health-check/GEM_INSTRUCTIONS.md` |

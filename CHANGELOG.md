@@ -9,6 +9,18 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [64.0.0] — game night: the tabletop wave — 2026-07-26
+
+### Added — 🎲 [pm-tabletop](plugins/pm-tabletop): five skills for the board game table
+
+Board games are where negotiation, teaching, judging, and design live for millions of people — the library now shows up there. **782 skills, 96 bundles.**
+
+- **[teach-the-game](skills/teach-the-game/SKILL.md)** — a 5-minute spoken teach script (theme → goal → turn → play), tuned to the actual table; uncertain rules flagged, never bluffed
+- **[rules-lawyer](skills/rules-lawyer/SKILL.md)** — settle the argument like a fair judge: RAW vs house rule, confidence-labelled rulings, and a keep-the-peace line to read aloud
+- **[game-night-planner](skills/game-night-planner/SKILL.md)** — the lineup for the people actually coming: honest times including the teach, N±1 branches, shelf before shop
+- **[board-game-designer](skills/board-game-designer/SKILL.md)** — idea → playtestable prototype: the loop sentence, the tension, cardboard tonight, numbers marked TUNE, kill criteria
+- **[tabletop-negotiator](skills/tabletop-negotiator/SKILL.md)** — spar the Catan trade against a hidden agenda, then an out-of-character debrief: your leaks, the deal that was actually available, one habit to change
+
 ## [63.1.0] — pixel confetti: the GIF maker with a stdlib soul — 2026-07-26
 
 ### Added — 🕹 [pixel-gif-maker](skills/pixel-gif-maker/SKILL.md)
