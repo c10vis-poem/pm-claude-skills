@@ -9,6 +9,23 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [62.2.0] — the distribution wave: scan anyone's skill, count what's used, meet people where they are — 2026-07-26
+
+### Added
+
+- **SkillScan as a service** ([mcp-remote](mcp-remote/)) — `GET /scan?url=` runs the library's security-pattern scan on ANY GitHub-hosted SKILL.md; `/scan/badge` for READMEs. Same rules as CI, honest caveat in every response.
+- **Opt-in telemetry** ([docs/TELEMETRY.md](docs/TELEMETRY.md)) — `PM_SKILLS_TELEMETRY=1` sends the skill *name* (nothing else) after a CLI run; `/stats/skills` is public. Exists so tier promotions can run on evidence.
+- **SkillBench v2 preview** ([skillbench/tasks-v2.json](skillbench/tasks-v2.json)) — 13 briefs with deterministic ground-truth checks (numbers that must reconcile, constraints that must survive) and `--judges` cross-family panel support with disagreement recorded. Freezes at the first official run.
+- **Glossary + comparison pages** ([what-are-agent-skills](https://mohitagw15856.github.io/pm-claude-skills/what-are-agent-skills.html) · [compare](https://mohitagw15856.github.io/pm-claude-skills/compare.html)) — answer-engine-shaped definition and honest-tradeoffs pages, "where we're the wrong choice" included.
+- **Starter-pack quiz** ([starter-pack](https://mohitagw15856.github.io/pm-claude-skills/starter-pack.html)) — two questions → your bundle, first three skills, install one-liner, and a shareable pack card. All 54 referenced skills verified.
+- **The Wall of Wins** ([scripts/build-wins.mjs](scripts/build-wins.mjs)) — `roi-story` issues render into a social-proof page; every card links its source, an empty wall says so.
+- **WhatsApp bot** ([integrations/whatsapp](integrations/whatsapp/)) — Twilio-webhook worker, TwiML replies, no Twilio creds stored; plus an **Apple Shortcuts recipe** ([integrations/shortcuts](integrations/shortcuts/)) for share-sheet and Siri access.
+- **Launch kit** ([docs/launch-drafts/v62-hn-launch.md](docs/launch-drafts/v62-hn-launch.md)) — the honest-benchmark Show HN, runbook and comment crib; **[docs/ACTIVATION.md](docs/ACTIVATION.md)** tracks every owner action still gating shipped value.
+
+### Changed
+
+- Three awesome-list PRs opened (ComposioHQ, travisvn, BehiSecc `awesome-claude-skills`); the fourth list is form-only — prefilled answers in ACTIVATION.md.
+
 ## [62.1.0] — nine frontiers: widgets in the chat, updates that find you, and the org goes multiplayer — 2026-07-25
 
 ### Added

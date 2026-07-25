@@ -71,6 +71,21 @@ One caveat: the extension's `_meta` key names were still settling when this ship
 the tools carry both the `openai/outputTemplate` and `ui/resourceUri` spellings — check
 the current MCP spec before renaming (note in `src/widgets.js`).
 
+## SkillScan — the security scan, as a service
+
+`GET /scan?url=<github SKILL.md url>` runs the library's security-pattern scan
+(prompt injection, exfiltration, destructive commands, hidden Unicode — the same
+rules CI runs on this repo) against **anyone's** GitHub-hosted skill and returns a
+findings report. `GET /scan/badge?url=…` is the shields endpoint, so any skill repo
+can wear the result. Honest caveat baked into the response: a clean scan means no
+known-bad patterns matched — it is not a safety guarantee; read what you install.
+
+## Telemetry endpoints (opt-in senders only)
+
+`POST /ping {"skill": "name"}` increments a usage counter — sent only by clients the
+user explicitly opted in (see [docs/TELEMETRY.md](../docs/TELEMETRY.md)); counts
+only, nothing else. `GET /stats/skills` returns the public top-50 counts.
+
 ## Agent-to-agent (A2A) discovery — other agents can hire the library
 
 The Worker also speaks the emerging **agent-to-agent** pattern, so autonomous agents can

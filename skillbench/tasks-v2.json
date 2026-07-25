@@ -1,0 +1,122 @@
+{
+  "_comment": "SkillBench task set v2 — every brief carries verifiable ground truth: numbers that must reconcile, constraints that must be honoured, names that must appear. checks[] are deterministic regexes the harness scores alongside the judge (see REPORT.md §6 for why v2 exists). Frozen once the first official v2 run publishes.",
+  "version": 2,
+  "tasks": [
+    {
+      "id": "rice-ranking-v2", "domain": "product", "skill": "rice-prioritisation",
+      "input": "Rank these for next quarter using RICE and show your work:\n1. Onboarding redesign — reach 4000 users/qtr, impact 2, confidence 0.8, effort 2 person-months.\n2. SSO — reach 500 accounts, impact 3, confidence 1.0, effort 3.\n3. Dark mode — reach 8000, impact 0.5, confidence 0.9, effort 1.",
+      "checks": [
+        { "re": "dark mode[\\s\\S]*onboarding[\\s\\S]*sso", "why": "correct ranking order (3600 > 3200 > 500)" },
+        { "re": "3[,.]?600", "why": "computes dark mode's RICE score correctly" },
+        { "re": "3[,.]?200", "why": "computes onboarding's RICE score correctly" }
+      ]
+    },
+    {
+      "id": "prd-constraints-v2", "domain": "product", "skill": "prd-template",
+      "input": "PRD for an in-app referral program. Hard constraints: must ship by November 15, iOS app only for v1 (web later), and we have exactly 2 engineers. Goal: +15% signups in Q4. Existing users invite colleagues; both sides get a credit.",
+      "checks": [
+        { "re": "november\\s*15|nov\\.?\\s*15", "why": "carries the deadline" },
+        { "re": "ios", "why": "carries the platform constraint" },
+        { "re": "(two|2)\\s*engineers", "why": "carries the team constraint" },
+        { "re": "15\\s*%", "why": "carries the goal metric" }
+      ]
+    },
+    {
+      "id": "board-update-v2", "domain": "communication", "skill": "stakeholder-update",
+      "input": "Draft the quarterly board update from these facts, and only these: ARR $3.6M (was $3.0M last quarter), monthly burn $250k, cash $3.5M, team of 24 (hired 3), churn steady at 2% monthly, enterprise pilot with 2 logos started. Don't invent numbers we didn't give you.",
+      "checks": [
+        { "re": "20\\s*%|0\\.6\\s*m|\\$600k", "why": "derives QoQ growth from 3.0→3.6 correctly" },
+        { "re": "14\\s*month", "why": "derives runway (3.5M / 250k = 14 months)" },
+        { "re": "3\\.6", "why": "uses the given ARR" }
+      ]
+    },
+    {
+      "id": "incident-comms-v2", "domain": "communication", "skill": "cs-escalation-brief",
+      "input": "Customer-facing incident update, mid-incident: EU region degraded since 09:12 UTC (API errors ~20%), cause identified as a failed cache-cluster upgrade, fix deploying now, ETA full restore 11:00 UTC. US/APAC unaffected. Second update of the incident.",
+      "checks": [
+        { "re": "09[:.]12", "why": "carries the start time" },
+        { "re": "11[:.]?00", "why": "carries the ETA" },
+        { "re": "eu|europe", "why": "scopes to the affected region" },
+        { "re": "us|apac|unaffected", "why": "reassures unaffected regions" }
+      ]
+    },
+    {
+      "id": "postmortem-v2", "domain": "engineering-ops", "skill": "incident-postmortem",
+      "input": "Blameless postmortem from this timeline: 14:02 config change deployed to payment router; 14:19 error-rate alert fires (checkout failures 12%); 14:31 on-call pages platform team; 14:47 config rolled back; 14:52 recovery confirmed. ~9,400 failed checkouts. The config change skipped canary because it was marked 'low risk'.",
+      "checks": [
+        { "re": "14[:.]02|config", "why": "identifies the config change as the trigger" },
+        { "re": "canary", "why": "surfaces the skipped-canary contributing factor" },
+        { "re": "9[,.]?400", "why": "carries the impact number" },
+        { "re": "action|follow[- ]?up", "why": "has an action-items section" }
+      ]
+    },
+    {
+      "id": "db-migration-v2", "domain": "engineering-ops", "skill": "model-migration-plan",
+      "input": "Plan the migration of our 2TB Postgres 12 primary to Postgres 16 with near-zero downtime — writes must keep flowing. We'll gate the cutover behind the feature flag pg16_cutover. Include the rollback path and what we verify before flipping.",
+      "checks": [
+        { "re": "pg16_cutover", "why": "uses the named feature flag" },
+        { "re": "rollback", "why": "includes a rollback path" },
+        { "re": "replica|replication|logical", "why": "names a viable zero-downtime mechanism" }
+      ]
+    },
+    {
+      "id": "churn-rate-v2", "domain": "analysis", "skill": "churn-analysis",
+      "input": "We started the quarter with 2,400 paying customers and 168 cancelled during it. 61 of the 168 cited pricing; 44 cited a missing integration; the rest gave no reason. Compute the churn rate and tell me what to do first, with the math shown.",
+      "checks": [
+        { "re": "7(\\.0)?\\s*%", "why": "computes 168/2400 = 7% correctly" },
+        { "re": "61|pricing", "why": "prioritises using the reason data" }
+      ]
+    },
+    {
+      "id": "ab-readout-v2", "domain": "analysis", "skill": "ab-test-planner",
+      "input": "Write the readout: control converted 4.0% (400 of 10,000), variant 4.6% (460 of 10,000). Product wants to ship it today. Give the lift, whether this is statistically solid, and the recommendation.",
+      "checks": [
+        { "re": "15\\s*%|0\\.6\\s*(pp|percentage points|points)", "why": "computes the lift correctly (15% relative / 0.6pp absolute)" },
+        { "re": "signific|p[- ]?value|confidence", "why": "addresses statistical strength" }
+      ]
+    },
+    {
+      "id": "teardown-v2", "domain": "strategy", "skill": "competitor-teardown",
+      "input": "Competitive teardown for our meeting-notes product against the three competitors we actually lose to: Voxel (bottom-up freemium, loved UX), Brightline (enterprise, SOC2 + SSO everywhere), and Cascade (cheapest, aggressive on price). Cover each and where we win.",
+      "checks": [
+        { "re": "voxel", "why": "covers competitor 1" },
+        { "re": "brightline", "why": "covers competitor 2" },
+        { "re": "cascade", "why": "covers competitor 3" }
+      ]
+    },
+    {
+      "id": "pricing-floor-v2", "domain": "strategy", "skill": "pricing-strategy",
+      "input": "Our unit cost is $18/seat/month (infra + support). Finance requires 70% gross margin minimum. Competitors charge $49-$79. Recommend the price point and defend it — show the margin math.",
+      "checks": [
+        { "re": "\\$?60", "why": "derives the margin floor (18 / 0.30 = $60)" },
+        { "re": "70\\s*%", "why": "anchors on the required margin" }
+      ]
+    },
+    {
+      "id": "okr-numbers-v2", "domain": "people", "skill": "okr-builder",
+      "input": "Q3 OKRs for a 6-person support team. Current: CSAT 78%, first-response time 9 hours, backlog 340 tickets. Leadership wants CSAT at 90% and first response under 4 hours by end of quarter. Make them real OKRs, not a task list.",
+      "checks": [
+        { "re": "90\\s*%", "why": "targets the given CSAT goal" },
+        { "re": "4\\s*h", "why": "targets the given response-time goal" },
+        { "re": "78|9\\s*h|340", "why": "grounds in at least one baseline number" }
+      ]
+    },
+    {
+      "id": "feedback-specifics-v2", "domain": "people", "skill": "performance-review",
+      "input": "Draft performance feedback for a mid-level engineer. Facts: missed the partner-API deadline in May (slipped 3 weeks, told nobody until the standup before); led the June 3 incident response excellently (praised by two teams); code review turnaround consistently under a day. Balanced, specific, actionable.",
+      "checks": [
+        { "re": "may", "why": "cites the May deadline miss" },
+        { "re": "june\\s*3", "why": "cites the June 3 incident lead" },
+        { "re": "review|turnaround", "why": "includes the third fact" }
+      ]
+    },
+    {
+      "id": "runway-honesty-v2", "domain": "analysis", "skill": "executive-summary",
+      "input": "One-page summary for the CEO from these numbers only: cash $1.8M, burn $300k/mo, pipeline $2.2M weighted, two enterprise deals ($400k, $250k ACV) at contract stage, hiring freeze in effect. What's our runway and what are the decision points? Do not invent figures.",
+      "checks": [
+        { "re": "6\\s*month", "why": "derives runway (1.8M / 300k = 6 months)" },
+        { "re": "400k|250k", "why": "uses the given deal sizes" }
+      ]
+    }
+  ]
+}

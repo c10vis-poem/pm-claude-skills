@@ -83,5 +83,13 @@ No setup at all? Run any skill free in the browser: https://mohitagw15856.github
   const outFile = getArg(argv, 'out');
   if (outFile) { writeFileSync(outFile, out + '\n'); console.error(`✅ Wrote ${outFile}`); }
   else process.stdout.write(out + '\n');
+
+  // Opt-in telemetry: skill NAME only, never content or identity, and only when
+  // the user set PM_SKILLS_TELEMETRY=1. Fire-and-forget; failures are silent.
+  if (process.env.PM_SKILLS_TELEMETRY === '1') {
+    fetch('https://pm-skills-mcp.pm-claude-skills.workers.dev/ping', {
+      method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ skill }),
+    }).catch(() => {});
+  }
   return 0;
 }

@@ -22,8 +22,12 @@ const root = join(__dirname, '..');
 const arg = (n, d) => { const i = process.argv.indexOf(`--${n}`); return i !== -1 ? process.argv[i + 1] : d; };
 const has = (n) => process.argv.includes(`--${n}`);
 
-const HARNESS_VERSION = '1.0';
-const JUDGE = arg('judge', 'claude-sonnet-4-6'); // pinned per benchmark release
+const HARNESS_VERSION = '1.1';
+// --judges a,b,c runs a cross-family panel (1 pass each, mean + spread recorded);
+// --judge keeps the single-judge behaviour (2 passes, mean). v2 default panels
+// exist so no single family grades its own outputs unchallenged.
+const JUDGES = (arg('judges', '') || arg('judge', 'claude-sonnet-4-6')).split(',').map((s) => s.trim()).filter(Boolean);
+const JUDGE = JUDGES.join('+');
 const models = (arg('models', '') || '').split(',').map((s) => s.trim()).filter(Boolean);
 const dryRun = has('dry-run');
 if (!models.length) { console.error('Usage: --models model-a,model-b [--dry-run]'); process.exit(1); }
@@ -88,17 +92,42 @@ const RUBRIC = `You are a strict evaluator of professional work artifacts. Score
 - usefulness: could the intended reader act on it without a rewrite?
 - grounding: does it use the task's facts, label assumptions, avoid fabricated specifics?
 Return STRICT JSON only: {"structure":n,"completeness":n,"usefulness":n,"grounding":n}`;
+async function judgeOnce(judgeModel, taskInput, output) {
+  const raw = await complete({ model: judgeModel, system: RUBRIC, user: `TASK:\n${taskInput}\n\nRESPONSE:\n${output.slice(0, 14000)}`, maxTokens: 300 });
+  try {
+    const j = JSON.parse(raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1));
+    const dims = ['structure', 'completeness', 'usefulness', 'grounding'].map((d) => Math.max(1, Math.min(5, +j[d] || 0)));
+    return dims.every((v) => v >= 1) ? dims.reduce((a, b) => a + b, 0) / 4 : null;
+  } catch { return null; }
+}
+// Single judge: 2 passes (v1 behaviour). Panel: 1 pass per judge, mean + spread.
 async function judgeScore(taskInput, output) {
   const passes = [];
-  for (let i = 0; i < 2; i++) {
-    const raw = await complete({ model: JUDGE, system: RUBRIC, user: `TASK:\n${taskInput}\n\nRESPONSE:\n${output.slice(0, 14000)}`, maxTokens: 300 });
-    try {
-      const j = JSON.parse(raw.slice(raw.indexOf('{'), raw.lastIndexOf('}') + 1));
-      const dims = ['structure', 'completeness', 'usefulness', 'grounding'].map((d) => Math.max(1, Math.min(5, +j[d] || 0)));
-      if (dims.every((v) => v >= 1)) passes.push(dims.reduce((a, b) => a + b, 0) / 4);
-    } catch { /* one bad judge pass is tolerated; two → score null */ }
+  const perJudge = {};
+  for (const jm of JUDGES) {
+    const n = JUDGES.length === 1 ? 2 : 1;
+    const mine = [];
+    for (let i = 0; i < n; i++) { const s = await judgeOnce(jm, taskInput, output); if (s != null) mine.push(s); }
+    if (mine.length) { const m = mine.reduce((a, b) => a + b, 0) / mine.length; perJudge[jm] = +m.toFixed(2); passes.push(m); }
   }
-  return passes.length ? +(passes.reduce((a, b) => a + b, 0) / passes.length).toFixed(2) : null;
+  if (!passes.length) return { score: null };
+  const score = +(passes.reduce((a, b) => a + b, 0) / passes.length).toFixed(2);
+  const spread = JUDGES.length > 1 ? +(Math.max(...passes) - Math.min(...passes)).toFixed(2) : undefined;
+  return { score, ...(spread !== undefined ? { spread, perJudge } : {}) };
+}
+
+// v2 ground truth: tasks may carry checks — regexes the output must (or must
+// not) match. Deterministic, judge-free evidence alongside the rubric score.
+function groundTruth(task, output) {
+  if (!task.checks || !task.checks.length) return undefined;
+  let pass = 0;
+  const failed = [];
+  for (const c of task.checks) {
+    const hit = new RegExp(c.re, c.flags || 'i').test(output);
+    const ok = c.absent ? !hit : hit;
+    if (ok) pass++; else failed.push(c.why || c.re);
+  }
+  return { pass, total: task.checks.length, ...(failed.length ? { failed: failed.slice(0, 4) } : {}) };
 }
 
 const skillBody = (name) => readFileSync(join(root, 'skills', name, 'SKILL.md'), 'utf8').replace(/^---[\s\S]*?---\n/, '');
@@ -119,10 +148,14 @@ for (const model of models) {
     const entry = { task: t.id, domain: t.domain };
     try {
       const bare = await complete({ model, user: t.input });
-      entry.bare = await judgeScore(t.input, bare);
+      const jb = await judgeScore(t.input, bare);
+      entry.bare = jb.score; if (jb.spread !== undefined) { entry.bareSpread = jb.spread; entry.bareJudges = jb.perJudge; }
+      const gtB = groundTruth(t, bare); if (gtB) entry.gtBare = gtB;
       const skilled = await complete({ model, system: skillBody(t.skill), user: t.input });
-      entry.skilled = await judgeScore(t.input, skilled);
-      console.log(`bare ${entry.bare ?? '–'} · skilled ${entry.skilled ?? '–'}`);
+      const js = await judgeScore(t.input, skilled);
+      entry.skilled = js.score; if (js.spread !== undefined) { entry.skilledSpread = js.spread; entry.skilledJudges = js.perJudge; }
+      const gtS = groundTruth(t, skilled); if (gtS) entry.gtSkilled = gtS;
+      console.log(`bare ${entry.bare ?? '–'}${gtB ? ` (gt ${gtB.pass}/${gtB.total})` : ''} · skilled ${entry.skilled ?? '–'}${gtS ? ` (gt ${gtS.pass}/${gtS.total})` : ''}`);
     } catch (e) {
       entry.error = String(e.message || e).slice(0, 200);
       console.log('ERROR ' + entry.error);

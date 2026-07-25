@@ -26,6 +26,15 @@ Every model runs each task **bare** (task only) and **skilled** (task + the corr
 
 The judge scores each output 1–5 on the same fixed rubric the library uses — **structure** (would a senior professional recognise the artifact?), **completeness** (are the load-bearing sections present and specific?), **usefulness** (could the reader act on it without a rewrite?), **grounding** (does it use the brief's facts, label assumptions, avoid fabrication?) — averaged, two judge passes per output, mean taken. The judge model + version is pinned per benchmark release and disclosed in the results; a model never judges its own family's outputs where an alternative judge is configured.
 
+## Task set v2 — verifiable ground truth (preview)
+
+[`tasks-v2.json`](tasks-v2.json) is the answer to v1's ceiling problem ([REPORT.md](REPORT.md) §4–6): 13 briefs where every task carries **deterministic checks** — numbers that must reconcile (runway = cash/burn, RICE scores, churn rates), constraints that must survive into the output, names that must be covered. The harness scores them judge-free alongside the rubric (`gt: pass/total` per task), and `--judges a,b,c` runs a **cross-family judge panel** with per-judge scores and disagreement spread recorded. v2 freezes when the first official run publishes.
+
+```bash
+node skillbench/run-skillbench.mjs --models claude-sonnet-4-6,gpt-4o \
+  --tasks skillbench/tasks-v2.json --judges claude-sonnet-4-6,gpt-4o --dry-run
+```
+
 ## Run it
 
 ```bash

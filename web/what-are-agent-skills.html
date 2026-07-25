@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="osZgdSLYnqidzCKt4CxjqAxo44OqGvlKi-Bmg0UmxFQ" />
+<title>What Are Agent Skills? SKILL.md Files Explained | PM Skills</title>
+<meta name="description" content="Agent skills are plain-markdown SKILL.md files that teach an AI assistant to do one task properly. What they are, how they differ from prompts, how they work in Claude and ChatGPT, and how to write one." />
+<link rel="canonical" href="https://mohitagw15856.github.io/pm-claude-skills/what-are-agent-skills.html" />
+<link rel="stylesheet" href="styles.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "What are agent skills?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Agent skills are plain-markdown instruction files — conventionally named SKILL.md — that teach an AI assistant to perform one task to a professional standard. A skill contains a name, a description that tells the assistant when to activate, and a body with the working method: required inputs, decision rules, an output template, quality checks, and anti-patterns. The assistant loads the file on demand and applies it." } },
+    { "@type": "Question", "name": "How are agent skills different from prompts?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A prompt is a one-off message; a skill is a reusable, versioned file that activates itself when relevant. Skills separate the method (checked into the file) from the request (what you type), so quality is repeatable, auditable, and improvable by pull request — properties a pasted prompt cannot have." } },
+    { "@type": "Question", "name": "What is a SKILL.md file?",
+      "acceptedAnswer": { "@type": "Answer", "text": "SKILL.md is the file convention for agent skills: YAML frontmatter with a name and an activation description, followed by a markdown body holding the framework the assistant should apply. Anthropic's Claude reads them natively; other assistants use them as system instructions. Because it is plain markdown, humans can read, audit, and edit the same file the model uses." } },
+    { "@type": "Question", "name": "Are agent skills safe to install?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A skill is inert text until an assistant reads it, but text can carry prompt injection, exfiltration instructions, or hidden Unicode — so read before installing, prefer libraries that publish a security scan, and check any skill with a scanner. Installing is copying files; uninstalling is deleting them. No runtime is involved." } }
+  ]
+}
+</script>
+<style>
+  .g-wrap { max-width: 780px; margin: 0 auto; padding: 16px 22px 70px; line-height: 1.6; }
+  .g-wrap h1 { font-size: 28px; } .g-wrap h2 { font-size: 20px; margin-top: 34px; }
+  .capsule { border-left: 4px solid var(--accent); background: var(--panel); border-radius: 0 12px 12px 0; padding: 12px 16px; margin: 10px 0 16px; }
+  .g-wrap pre { background: #0d1117; border: 1px solid var(--border); border-radius: 10px; padding: 14px; overflow-x: auto; font-size: 13px; }
+  .g-wrap table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  .g-wrap td, .g-wrap th { border-bottom: 1px solid var(--border); padding: 8px 10px; text-align: left; }
+  .updated { color: var(--muted); font-size: 12.5px; }
+</style>
+</head>
+<body>
+<nav class="toolbar-nav" id="toolbar" aria-label="Tools"></nav>
+<div class="g-wrap">
+<h1>What are agent skills? The SKILL.md format, explained</h1>
+<p class="updated">By the maintainers of the 771-skill PM Skills library · Updated 2026-07-26</p>
+
+<h2>What are agent skills?</h2>
+<div class="capsule">Agent skills are plain-markdown instruction files — conventionally named <code>SKILL.md</code> — that teach an AI assistant to perform one task to a professional standard. A skill contains a name, a description that tells the assistant when to activate, and a body with the working method: required inputs, decision rules, an output template, quality checks, and anti-patterns. The assistant loads it on demand and applies the judgment it encodes.</div>
+<p>The idea shipped with Anthropic's Claude (Claude Code and Claude.ai read skills natively), but the format is just markdown — any assistant that accepts system instructions can use one. Our library maintains 771 of them under MIT, which is where the numbers and examples on this page come from.</p>
+
+<h2>What does a SKILL.md file contain?</h2>
+<div class="capsule">A SKILL.md file has two parts: YAML frontmatter holding the skill's name and an activation description, and a markdown body holding the working framework — required inputs, the method or scoring rules, a concrete output template, quality checks, and anti-patterns. Well-formed skills are self-contained: one file, no runtime, readable by the model and by humans.</div>
+<pre>---
+name: lease-decoder
+description: "Decode a residential lease into plain English and rank the
+  clauses that can hurt you. Use when someone asks 'what am I signing'…"
+---
+## Framework: Severity Scale
+- 🔴 Can cost you real money — auto-renewal into a full new term…
+## Quality Checks
+## Anti-Patterns</pre>
+
+<h2>How are skills different from prompts?</h2>
+<div class="capsule">A prompt is a one-off message; a skill is a reusable, versioned file that activates itself when the task matches its description. Skills separate the method — checked into the file, reviewable, improvable by pull request — from the request, which is whatever you type. That separation is what makes output quality repeatable instead of dependent on remembering the right magic words.</div>
+<table>
+  <tr><th></th><th>Prompt</th><th>Skill</th></tr>
+  <tr><td>Lives</td><td>in chat history</td><td>in a versioned file</td></tr>
+  <tr><td>Activates</td><td>when you paste it</td><td>when the task matches its description</td></tr>
+  <tr><td>Improves</td><td>per person, invisibly</td><td>by PR, for everyone</td></tr>
+  <tr><td>Auditable</td><td>no</td><td>yes — read the file</td></tr>
+</table>
+
+<h2>How do skills work in Claude, ChatGPT, and other tools?</h2>
+<div class="capsule">Claude Code and Claude.ai load SKILL.md files natively and activate them by description. ChatGPT and Gemini use the same content pasted as custom instructions or a GPT's system prompt. Cursor, Windsurf, and similar tools consume skills as rules files. Assistants can also fetch skills on demand over MCP, so nothing needs installing at all.</div>
+<p>This library ships pre-converted <a href="https://github.com/mohitagw15856/pm-claude-skills/tree/main/exports">exports for 12 tools</a> plus a <a href="https://github.com/mohitagw15856/pm-claude-skills/tree/main/mcp-remote">hosted MCP endpoint</a>, so the same skill runs everywhere.</p>
+
+<h2>Are agent skills safe to install?</h2>
+<div class="capsule">A skill is inert text until an assistant reads it — but text can carry prompt injection, data-exfiltration instructions, or invisible Unicode, so treat skills like dependencies. Read before installing, prefer libraries that publish a security scan, and check any individual file with a scanner. Installing copies files; uninstalling deletes them; no code executes on its own.</div>
+<p>Two free tools from this project: the <a href="https://github.com/mohitagw15856/pm-claude-skills/blob/main/skills/skill-vetting/SKILL.md">skill-vetting</a> skill (a human checklist) and <a href="https://pm-skills-mcp.pm-claude-skills.workers.dev/scan">SkillScan</a> (the automated pattern scan, free for any public SKILL.md).</p>
+
+<h2>What makes a skill good?</h2>
+<div class="capsule">Good skills encode judgment the model lacks, not structure it already produces: severity scales with dollar consequences, decision rules with thresholds, anti-patterns naming real failure modes. Our benchmark found frontier models score near-ceiling on generic document structure — a skill earns its place by adding the parts a senior professional knows and a model guesses.</div>
+<p>The <a href="https://github.com/mohitagw15856/pm-claude-skills/blob/main/SKILLSPEC.md">SkillSpec standard</a> formalises this as conformance levels L1–L3; the finding about structure comes from the <a href="https://github.com/mohitagw15856/pm-claude-skills/blob/main/skillbench/REPORT.md">SkillBench technical report</a>, negative results included.</p>
+
+<p style="margin-top:36px"><a href="index.html">▶ Try 771 skills in the playground</a> · <a href="catalog.html">browse the catalog</a> · <a href="https://github.com/mohitagw15856/pm-claude-skills">GitHub</a></p>
+</div>
+<script src="nav.js"></script>
+</body>
+</html>

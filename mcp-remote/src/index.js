@@ -7,6 +7,7 @@
 // Then add the printed https://…workers.dev/  URL as an MCP/connector endpoint.
 
 import { WIDGETS, UI_TOOLS, runUiTool } from './widgets.js';
+import { handleScan, handlePing, handleStats } from './scan.js';
 
 const SKILLS_URL = 'https://mohitagw15856.github.io/pm-claude-skills/skills.json';
 const WORKFLOWS_URL = 'https://raw.githubusercontent.com/mohitagw15856/pm-claude-skills/main/workflows.json';
@@ -613,6 +614,13 @@ export default {
       const b64u = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
       return jsonResponse({ credential: b64u(data) + '.' + b64u(sig) });
     }
+    // SkillScan: the library's security-pattern scan for any GitHub-hosted SKILL.md.
+    if ((url.pathname === '/scan' || url.pathname === '/scan/badge') && (request.method === 'GET' || request.method === 'HEAD')) {
+      return handleScan(url, jsonResponse, CORS);
+    }
+    // Opt-in usage telemetry: counts only. POST /ping {skill}; GET /stats/skills.
+    if (url.pathname === '/ping' && request.method === 'POST') return handlePing(request, env, jsonResponse);
+    if (url.pathname === '/stats/skills' && (request.method === 'GET' || request.method === 'HEAD')) return handleStats(env, jsonResponse);
     if (url.pathname === '/badge' && (request.method === 'GET' || request.method === 'HEAD')) {
       const key = new Request(url.toString());
       const cache = caches.default;
