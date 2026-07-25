@@ -67,6 +67,29 @@ No `npm install` needed — `npx pm-claude-skills …` always runs the latest. `
 
 Every skill follows the same discipline: what it produces, the inputs it needs, a real framework (severity scales, decision rules — not vibes), a concrete output template, quality checks, and anti-patterns. All 771 pass the [SkillSpec](SKILLSPEC.md) L3 gate and a security audit in CI.
 
+<table align="center">
+  <tr align="center">
+    <td><a href="plugins/pm-decoders/"><img src="web/docs-assets/logos/pm-decoders.svg" width="84" alt="Decoders bundle crest"/></a></td>
+    <td><a href="plugins/pm-simulators/"><img src="web/docs-assets/logos/pm-simulators.svg" width="84" alt="Simulators bundle crest"/></a></td>
+    <td><a href="plugins/pm-calculators/"><img src="web/docs-assets/logos/pm-calculators.svg" width="84" alt="Calculators bundle crest"/></a></td>
+    <td><a href="plugins/pm-live/"><img src="web/docs-assets/logos/pm-live.svg" width="84" alt="Live data bundle crest"/></a></td>
+    <td><a href="plugins/pm-cowork/"><img src="web/docs-assets/logos/pm-cowork.svg" width="84" alt="Cowork bundle crest"/></a></td>
+    <td><a href="plugins/pm-tokens/"><img src="web/docs-assets/logos/pm-tokens.svg" width="84" alt="Tokens bundle crest"/></a></td>
+    <td><a href="plugins/pm-seatbelt/"><img src="web/docs-assets/logos/pm-seatbelt.svg" width="84" alt="Seatbelt bundle crest"/></a></td>
+    <td><a href="plugins/pm-essentials/"><img src="web/docs-assets/logos/pm-essentials.svg" width="84" alt="Essentials bundle crest"/></a></td>
+  </tr>
+  <tr align="center">
+    <td><a href="plugins/pm-decoders/"><b>Decoders</b></a></td>
+    <td><a href="plugins/pm-simulators/"><b>Simulators</b></a></td>
+    <td><a href="plugins/pm-calculators/"><b>Calculators</b></a></td>
+    <td><a href="plugins/pm-live/"><b>Live&nbsp;data</b></a></td>
+    <td><a href="plugins/pm-cowork/"><b>Cowork</b></a></td>
+    <td><a href="plugins/pm-tokens/"><b>Tokens</b></a></td>
+    <td><a href="plugins/pm-seatbelt/"><b>Seatbelt</b></a></td>
+    <td><a href="plugins/pm-essentials/"><b>Essentials</b></a></td>
+  </tr>
+</table>
+
 ### For everyone — life's paperwork and decisions
 
 | Family | What it does | Examples (of many) |
