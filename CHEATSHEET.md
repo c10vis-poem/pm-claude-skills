@@ -85,6 +85,6 @@ The **[Professional Brain](BRAIN.md)**: a local, plain-markdown memory the skill
 
 ---
 
-**The numbers:** 822 skills · 104 bundles · 35 professions · 155 curated eval cases · 28 skills with published judge scores ([leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)) · 11 recipes · MIT · everything runs client-side with **your** key.
+**The numbers:** 822 skills · 104 bundles · 35 professions · 206 curated eval cases · 28 skills with published judge scores ([leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)) · 11 recipes · MIT · everything runs client-side with **your** key.
 
 <sub>⭐ **Star & share:** https://github.com/mohitagw15856/pm-claude-skills · 🚀 **Start:** https://mohitagw15856.github.io/pm-claude-skills/ · Built by [Mohit Aggarwal](https://medium.com/@mohit15856) · *PM stands for Professional.*</sub>
