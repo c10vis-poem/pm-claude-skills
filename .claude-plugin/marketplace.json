@@ -1,13 +1,61 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "pm-claude-skills",
-  "version": "66.0.0",
+  "version": "67.0.0",
   "description": "PM stands for Professional, not just Product Management. 515 Claude Skills + 4 agent templates across 74 bundles covering 31 professions — engineering, security, AI/ML, customer success, legal, government & policy, finance, personal finance, HR, sales, design, Figma, marketing, social media, writers, developer relations, founders/startups, healthcare, nonprofit, crisis comms, educators, content creators, and more. Built by a PM, used by everyone. Building blocks for the Anthropic agent template architecture.",
   "owner": {
     "name": "Mohit Aggarwal",
     "email": "mohit15856@gmail.com"
   },
   "plugins": [
+    {
+      "name": "pm-musician",
+      "description": "Musician skills.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./plugins/pm-musician",
+      "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
+    },
+    {
+      "name": "pm-kitchen",
+      "description": "Kitchen skills.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./plugins/pm-kitchen",
+      "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
+    },
+    {
+      "name": "pm-aging-parents",
+      "description": "Aging Parents skills.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./plugins/pm-aging-parents",
+      "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
+    },
+    {
+      "name": "pm-maintainer",
+      "description": "Maintainer skills.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./plugins/pm-maintainer",
+      "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
+    },
+    {
+      "name": "pm-committee",
+      "description": "Committee skills.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./plugins/pm-committee",
+      "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
+    },
+    {
+      "name": "pm-trades",
+      "description": "Trades skills.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "source": "./plugins/pm-trades",
+      "homepage": "https://github.com/mohitagw15856/pm-claude-skills"
+    },
     {
       "name": "pm-newgen",
       "description": "Newgen skills.",

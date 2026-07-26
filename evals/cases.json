@@ -744,6 +744,86 @@
     {
       "skill": "attention-reset",
       "input": "Screen time says 6h48m daily: TikTok 2h50, Instagram 1h10, YouTube 1h20, WhatsApp 50m, rest misc. 140 pickups. Worst moments: scrolling in bed until 1am and first thing at 7am, plus every queue. I used to read 30 books a year, last year I finished 2. WhatsApp is how my family group works, keep that. I have deleted TikTok four times and reinstalled it four times."
+    },
+    {
+      "skill": "trade-quote-builder",
+      "input": "Electrician, sole trader. Job: full rewire of a 3-bed semi, customer wants a price. I reckon 6-7 days labor, I charge 280/day but always end up discounting, materials maybe 1400 at the wholesaler. Old house so who knows whats behind the walls. Last big job I lost money on extras I never charged for."
+    },
+    {
+      "skill": "stage-payment-shield",
+      "input": "Kitchen fitter. Just landed a 14k full kitchen job, 3 weeks work, units and worktops cost me 6k up front and the worktop is cut-to-order. Homeowner seems nice but my last big job the guy dragged the final 3k for two months. How do I structure payments? UK."
+    },
+    {
+      "skill": "apprentice-first-week",
+      "input": "Plumber, one-man band, first ever apprentice starts Monday — 17, school leaver, keen but never held a pipe wrench. This week I have two bathroom refits and a boiler service booked. Honestly I mostly need him to stop me losing half a day to fetching and tidying. On a college scheme, day release Thursdays."
+    },
+    {
+      "skill": "agm-in-a-box",
+      "input": "I somehow became secretary of our cricket club (120 members). AGM needed by end of September per the constitution (pasted below). We need to elect a new treasurer (nobody wants it), raise subs by 10 pounds which people will hate, and last year only 14 people came and we need 20 for quorum. [constitution text]"
+    },
+    {
+      "skill": "volunteer-treasurer-basics",
+      "input": "Just got voted treasurer of my kids school PTA. Previous treasurer handed me a carrier bag of receipts and a bank card. We run maybe 8k a year through fairs and a quiz night, all cash-heavy events. I do marketing for a living, numbers scare me. Set me up."
+    },
+    {
+      "skill": "committee-handover-pack",
+      "input": "Our allotment society secretary of 14 years is retiring in 6 weeks. She IS the society — the council contact, the water contractor, the waiting list spreadsheet on her laptop, the annual show, all of it. Nobody has stepped up yet. Help me extract everything before she goes."
+    },
+    {
+      "skill": "speak-at-the-council",
+      "input": "The council is deciding next month on closing our street to through traffic — sounds nice but it routes 400 extra cars past the primary school on the parallel road. I have 3 minutes at the committee meeting and about 12 angry parents in a WhatsApp group. Ive never done anything like this."
+    },
+    {
+      "skill": "maintainer-triage",
+      "input": "My CLI tool blew up on HN eight months ago. 340 open issues, 28 open PRs, no labels, and I dread opening GitHub. Its a solo hobby project, I have maybe 3 hours a week for it. Half the issues are probably support questions or stale. Set up the system and get me out of this hole."
+    },
+    {
+      "skill": "the-maintainers-no",
+      "input": "A fintech company has been commenting daily on an issue in my open source date library demanding a timeline for a fix because it blocks their release. Its a volunteer project, I have a day job, and honestly their use case is weird. The thread is at 30 comments and getting hostile. Draft my response."
+    },
+    {
+      "skill": "first-maintainer-month",
+      "input": "I open-sourced my side project two weeks ago, it just hit 800 stars, and this morning I woke up to 12 issues, 3 PRs from strangers, and a discord DM asking when I will add Windows support. I love this and I am terrified. I can give it maybe 5 hours a week. Set me up properly."
+    },
+    {
+      "skill": "aging-parent-talks",
+      "input": "My dad is 81, sharp as ever, but: a scrape on the garage door in March he laughed off, a near miss at a junction my mum quietly told me about, and last week he missed our exit and got flustered. Driving is his independence — he drives mum to church, does the shopping. My sister wants to just take the keys. Help me do this right instead."
+    },
+    {
+      "skill": "sibling-care-summit",
+      "input": "Mum is 78, managing but slipping — missed medications twice, the house is getting away from her. I live 20 minutes away and do everything. My brother is in Singapore (well off, sends money at birthdays), my sister is 3 hours away and full of opinions on calls. I am burning out and starting to resent them both. We need to sort this before something happens."
+    },
+    {
+      "skill": "meal-prep-os",
+      "input": "Two adults, both wfh Tuesday/Thursday, office other days. Fridge right now: chicken thighs, half a bag of spinach going soft, feta, eggs, carrots, a cabbage I bought ambitiously. Cupboard: rice, orzo, chickpeas, the usual spices. We ordered takeaway 3 times last week out of exhaustion. 90 minutes on Sunday, one oven, dislike: mushrooms."
+    },
+    {
+      "skill": "grocery-budget-audit",
+      "input": "Family of four. I THINK we spend maybe 700 a month on food but my banking app says the number with deliveroo and the corner shop runs is 1240 and I feel sick. Statements pasted below. The Friday pizza night is sacred, do not touch it. [statement lines]"
+    },
+    {
+      "skill": "group-trip-negotiator",
+      "input": "Eight of us trying to plan a week in Portugal for Sarahs 30th. Its been in the group chat since January. One friend keeps posting villas at 2k a head, at least two people I know are skint but wont say it, nobody has booked anything, and the dates are now at risk. I accidentally became the organizer. Fix this."
+    },
+    {
+      "skill": "release-day-countdown",
+      "input": "Bedroom indie artist, 900 monthly listeners, 2100 TikTok followers. My best song yet is mastered and the artwork is done. I want it out in about 2 months. Last release I literally just uploaded it on a random Tuesday and texted my friends. Plan me a proper release."
+    },
+    {
+      "skill": "band-agreement",
+      "input": "Four-piece, together 3 years, starting to get real support slots and just got offered studio time by a small producer. I write most of the songs but our guitarist turns them into what they actually are. The band name was our drummers idea. We have never discussed money once and it is starting to feel weird. Help before the studio thing."
+    },
+    {
+      "skill": "press-kit-epk",
+      "input": "Folk duo, two EPs out, we can pull maybe 70 people in Bristol. Venues outside our city ignore our emails — currently we send a paragraph about our musical journey and a linktree. We have one good live video from a festival slot and decent photos. Fix our EPK and our emails. For fans of: honestly like a sadder First Aid Kit?"
+    },
+    {
+      "skill": "used-car-decoder",
+      "input": "Found this on Facebook Marketplace: 2016 Golf 1.4, 89k miles, 6200 pounds. Ad says one lady owner, selling for my sister, drives lovely for age, few age related marks, no timewasters, deposit secures. Photos are all taken at night and there is no front-on shot. First car for me, I know nothing about engines. UK."
+    },
+    {
+      "skill": "mechanic-quote-decoder",
+      "input": "Took the car in because of a squeal when braking. Garage called: front pads and discs 340, but also rear pads nearly done 180, brake fluid flush overdue 89, both wiper blades 32, air con regas recommended 120, and an advisory on a slightly perished aux belt 95. Total 856. The squeal quote alone was fine but this escalated. What do I actually say when I call back?"
     }
   ]
 }

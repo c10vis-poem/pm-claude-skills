@@ -1,4 +1,4 @@
-# 🗂️ All 802 Skills — full catalog
+# 🗂️ All 822 Skills — full catalog
 
 > The complete per-skill breakdown, grouped by domain. For an interactive, searchable version see the [**live catalog**](https://mohitagw15856.github.io/pm-claude-skills/catalog.html); to run any skill in your browser, use the [**Playground**](https://mohitagw15856.github.io/pm-claude-skills/). Back to the [README](README.md).
 >
@@ -653,13 +653,16 @@
 | **Portfolio Page** (`portfolio-page`) | Structure a portfolio or case-study page that shows your work, not just lists it. | — |
 | **Resume** (`resume`) | Write a sharp, achievement-led resume/CV that passes ATS and earns the interview. | ✅ 3.3/5 |
 
-## 🌍 Industries & Public Sector (408 skills)
+## 🌍 Industries & Public Sector (428 skills)
 
-### `other` — 1 skill
+### `other` — 4 skills
 
 | Skill | What it does | Eval |
 |---|---|---|
+| **Group Trip Negotiator** (`group-trip-negotiator`) | Save the group trip from the group chat — budget alignment before anything gets booked (the awkward conversation, scripted), a decision protocol… | — |
+| **Mechanic Quote Decoder** (`mechanic-quote-decoder`) | Read a garage quote or invoice like someone who can't be padded — which line items connect to your actual symptom, which are while-we're-in-there… | — |
 | **Pixel GIF Maker** (`pixel-gif-maker`) | Generate retro pixel-text animated GIFs for Slack, Teams, or a PR comment — scrolling marquees, heartbeat pulses, confetti parties, twinkling… | — |
+| **Used Car Decoder** (`used-car-decoder`) | Decode a used-car listing before you drive an hour to see it — what the seller's phrasing is hiding, the history-check items that matter, a… | — |
 
 ### `pm-2027` — 10 skills
 
@@ -695,6 +698,13 @@
 | **Context Engineering Review** (`context-engineering-review`) | Review what an LLM feature or agent actually puts in its context window — and find what's bloating, missing, or fighting itself. | — |
 | **Model Migration Plan** (`model-migration-plan`) | Plan the migration of an LLM feature from one model to another without breaking production. | — |
 | **Prompt Regression Suite** (`prompt-regression-suite`) | Design a regression test suite that catches an LLM feature getting worse when the prompt, model, or context changes. | — |
+
+### `pm-aging-parents` — 2 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Aging Parent Talks** (`aging-parent-talks`) | Prepare the conversations with aging parents that everyone postpones — the driving talk, the money talk, the care-options talk, the moving talk —… | — |
+| **Sibling Care Summit** (`sibling-care-summit`) | Get siblings onto one team about aging parents before the crisis does it for them — a structured family meeting with an agenda that prevents… | — |
 
 ### `pm-aiwork` — 5 skills
 
@@ -732,6 +742,15 @@
 | **Climate Risk Assessment** (`climate-risk-assessment`) | Assess physical and transition climate risk for a site, product, or portfolio with scenario-based structure. | — |
 | **ESG Disclosure Draft** (`esg-disclosure-draft`) | Draft an honest, audit-ready ESG disclosure section in a CSRD/ESRS-flavored structure, adaptable to other frameworks. | — |
 | **Greenwashing Self-Audit** (`greenwashing-self-audit`) | Audit your own marketing and report claims for greenwashing risk before a regulator, journalist, or competitor does. | — |
+
+### `pm-committee` — 4 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **AGM In A Box** (`agm-in-a-box`) | Run a club, PTA, or association AGM that finishes on time and holds up later — the notice and agenda done right, a quorum plan, minutes that… | — |
+| **Committee Handover Pack** (`committee-handover-pack`) | Capture everything an outgoing club secretary, chair, or organizer carries in their head before they disappear — accounts and logins with owners… | — |
+| **Speak At The Council** (`speak-at-the-council`) | Turn three minutes at a council or community meeting into the version that actually moves the decision — a public comment built as… | — |
+| **Volunteer Treasurer Basics** (`volunteer-treasurer-basics`) | Be a club or association treasurer without being an accountant — the two-column cashbook that's genuinely enough, monthly reconciliation in 20… | — |
 
 ### `pm-construction` — 6 skills
 
@@ -1046,6 +1065,13 @@
 | **Source Protection Plan** (`source-protection-plan`) | Assess and reduce the risk of exposing a confidential journalistic source. | — |
 | **Story Pitch** (`story-pitch`) | Pitch a news or feature story to an editor — the angle, why now, and how you'll report it. | — |
 
+### `pm-kitchen` — 2 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Grocery Budget Audit** (`grocery-budget-audit`) | Find where the food money actually goes — a no-shame ledger built from real receipts/statements, the four leak categories (waste, convenience… | — |
+| **Meal Prep OS** (`meal-prep-os`) | Turn what's actually in the fridge and 90 minutes on Sunday into a week that mostly feeds itself — a cook-once-eat-thrice batch plan, the… | — |
+
 ### `pm-layoff` — 4 skills
 
 | Skill | What it does | Eval |
@@ -1092,6 +1118,14 @@
 | **Subtitle & Caption** (`subtitle-caption`) | Write or translate subtitles/captions that respect reading speed and timing rules. | — |
 | **Transcreation** (`transcreation`) | Transcreate marketing/brand copy for another language and culture — recreate the impact, not the words. | — |
 
+### `pm-maintainer` — 3 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **First Maintainer Month** (`first-maintainer-month`) | Set up a new open-source project's first month so it can grow without eating its maintainer — the README that routes people correctly… | — |
+| **Maintainer Triage** (`maintainer-triage`) | Get an open-source repo's issue backlog from 400-and-drowning to triaged-and-honest in one pass — a label taxonomy that encodes decisions, batch… | — |
+| **The Maintainer's No** (`the-maintainers-no`) | Say no as an open-source maintainer without burning contributors or yourself — the feature that doesn't fit, the PR that took someone a weekend… | — |
+
 ### `pm-method` — 10 skills
 
 | Skill | What it does | Eval |
@@ -1106,6 +1140,14 @@
 | **Subagent Orchestration** (`subagent-orchestration`) | Decompose work across parallel subagents properly — task slicing that avoids collisions, briefs that stand alone, and result integration that… | — |
 | **Verification Before Completion** (`verification-before-completion`) | Verify work actually meets its brief BEFORE declaring it done — a structured self-review pass that catches the gaps, unmet requirements, and… | — |
 | **Writing Plans** (`writing-plans`) | Write an executable work plan BEFORE starting a complex task — decomposed steps with verification points, risks pre-named, and explicit stop… | — |
+
+### `pm-musician` — 3 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Band Agreement** (`band-agreement`) | Write the band agreement before the money or the breakup arrives — who owns the songs, how money splits (writing vs performing distinguished), who… | — |
+| **Press Kit EPK** (`press-kit-epk`) | Build an electronic press kit that bookers and blogs actually read — the three-sentence bio that isn't 'genre-defying', a one-page layout with… | — |
+| **Release Day Countdown** (`release-day-countdown`) | Plan an independent music release backwards from release day — the 8-week countdown with distributor upload deadlines flagged, playlist pitch… | — |
 
 ### `pm-newgen` — 10 skills
 
@@ -1287,6 +1329,14 @@
 | **Token Cost** (`token-cost`) | Measure before optimizing — estimate token counts locally with stated heuristics, price them at your model's rates, and quantify before/after… | — |
 | **Token Diet** (`token-diet`) | Cut LLM output tokens 40–70% by stripping grammatical scaffolding while preserving every fact — telegraphic output modes, when they pay… | — |
 
+### `pm-trades` — 3 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Apprentice First Week** (`apprentice-first-week`) | Plan an apprentice's or new laborer's first week so they're useful by Friday and safe from hour one — day-by-day teaching order, the safety… | — |
+| **Stage Payment Shield** (`stage-payment-shield`) | Set up deposits and stage payments that protect a tradesperson from the customer who won't pay AND read as fair to the customer — stage triggers… | — |
+| **Trade Quote Builder** (`trade-quote-builder`) | Build a trade quote that wins the job and protects the margin — materials and labor itemized, assumptions and exclusions stated, variations priced… | — |
+
 ### `pm-veterinary` — 4 skills
 
 | Skill | What it does | Eval |
@@ -1325,4 +1375,4 @@
 
 ---
 
-_802 skills across 99 bundles · 28 eval-scored (3%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._
+_822 skills across 105 bundles · 28 eval-scored (3%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._

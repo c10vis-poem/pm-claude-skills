@@ -9,6 +9,20 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [67.0.0] — the everywhere wave: six new rooms the library walks into — 2026-07-26
+
+### Added — six new bundles + additions (**822 skills, 104 bundles**)
+
+- **🔧 [pm-trades](plugins/pm-trades)** — [trade-quote-builder](skills/trade-quote-builder/SKILL.md) (costing sheet + customer one-pager + the exclusions that stop free work), [stage-payment-shield](skills/stage-payment-shield/SKILL.md) (visible-milestone stages, exposure math, chase scripts), [apprentice-first-week](skills/apprentice-first-week/SKILL.md) (safety brief verbatim, the touch list, Friday review both directions)
+- **🏛 [pm-committee](plugins/pm-committee)** — [agm-in-a-box](skills/agm-in-a-box/SKILL.md), [volunteer-treasurer-basics](skills/volunteer-treasurer-basics/SKILL.md) (controls that protect the treasurer), [committee-handover-pack](skills/committee-handover-pack/SKILL.md) (extract Linda before she goes), [speak-at-the-council](skills/speak-at-the-council/SKILL.md) (ask-story-evidence-ask in 3 minutes)
+- **🧑‍💻 [pm-maintainer](plugins/pm-maintainer)** — [maintainer-triage](skills/maintainer-triage/SKILL.md) (labels are decisions; bugs never auto-stale), [the-maintainers-no](skills/the-maintainers-no/SKILL.md) (the fork blessing, the company reply), [first-maintainer-month](skills/first-maintainer-month/SKILL.md) (boundaries written before contributors)
+- **🤍 [pm-aging-parents](plugins/pm-aging-parents)** — [aging-parent-talks](skills/aging-parent-talks/SKILL.md) (permission-openers, rehearsal against real resistance, dignity as strategy), [sibling-care-summit](skills/sibling-care-summit/SKILL.md) (fair-not-equal across three currencies; 1994 is not tonight's agenda)
+- **🍳 [pm-kitchen](plugins/pm-kitchen)** — [meal-prep-os](skills/meal-prep-os/SKILL.md) (components not dishes; the Thursday plan), [grocery-budget-audit](skills/grocery-budget-audit/SKILL.md) (chosen spending protected, captured spending targeted)
+- **🎸 [pm-musician](plugins/pm-musician)** — [release-day-countdown](skills/release-day-countdown/SKILL.md), [band-agreement](skills/band-agreement/SKILL.md) (who owns the songs, decided while you still share a van), [press-kit-epk](skills/press-kit-epk/SKILL.md) (the 15-second EPK)
+- **🚗 pm-decoders grows** — [used-car-decoder](skills/used-car-decoder/SKILL.md) (the listing dialect, cold-start checks, walk-away list), [mechanic-quote-decoder](skills/mechanic-quote-decoder/SKILL.md) (the safety-critical-today question)
+- **✈️ pm-newgen grows** — [group-trip-negotiator](skills/group-trip-negotiator/SKILL.md) (anonymous ceilings, champagne pays for its own bubbles)
+- **🌱 [Daily practice](https://mohitagw15856.github.io/pm-claude-skills/streak.html)** — the gentle streak page: one skill a day on something real; missed days pause, never reset
+
 ## [66.0.0] — the new-generation wave — 2026-07-26
 
 ### Added — ⚡ [pm-newgen](plugins/pm-newgen): ten skills for how the next generation actually lives and earns
