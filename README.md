@@ -1,8 +1,8 @@
-# 🧠 PM Skills — 792 Professional Agent Skills for Claude, ChatGPT, Gemini, Cursor, Codex & Hermes
+# 🧠 PM Skills — 802 Professional Agent Skills for Claude, ChatGPT, Gemini, Cursor, Codex & Hermes
 
 <p align="center">
   <a href="https://mohitagw15856.github.io/pm-claude-skills/">
-    <img src="web/docs-assets/hero.svg" width="100%" alt="PM Skills — 792 professional skills your AI assistant can read. Plain markdown, works with Claude, ChatGPT, Gemini, Cursor, and Codex. MIT licensed." />
+    <img src="web/docs-assets/hero.svg" width="100%" alt="PM Skills — 802 professional skills your AI assistant can read. Plain markdown, works with Claude, ChatGPT, Gemini, Cursor, and Codex. MIT licensed." />
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 ## What is PM Skills?
 
 <!-- AEO Answer Capsule — 68 words -->
-PM Skills is an open-source library of 792 Agent Skills — plain-markdown SKILL.md files that teach an AI assistant to do one professional task to a senior professional's standard, from writing a PRD to decoding a lease or running a blameless postmortem. Each skill bundles the framework, an output template, quality checks, and anti-patterns. It is MIT-licensed and works with Claude, ChatGPT, Gemini, Cursor, and Codex.
+PM Skills is an open-source library of 802 Agent Skills — plain-markdown SKILL.md files that teach an AI assistant to do one professional task to a senior professional's standard, from writing a PRD to decoding a lease or running a blameless postmortem. Each skill bundles the framework, an output template, quality checks, and anti-patterns. It is MIT-licensed and works with Claude, ChatGPT, Gemini, Cursor, and Codex.
 <!-- End AEO Capsule -->
 
 **Decode a lease before you sign it. Write a PRD your team can execute. Simulate the promotion committee before the real one meets. Check the weather with zero API keys.** Generic AI gives you filler; these give you the structure a senior professional actually uses.
@@ -70,7 +70,7 @@ Anything below is a real ask that activates a real skill — say it in your own 
 | 🛂 *"prep me for the visa interview"* → [the-visa-interview](skills/the-visa-interview/SKILL.md) | 🔨 *"is this contractor quote fair?"* → [home-contractor-quote-decoder](skills/home-contractor-quote-decoder/SKILL.md) | 🏡 *"should we rent or buy?"* → [rent-vs-buy](skills/rent-vs-buy/SKILL.md) |
 | 📝 *"draft my self-review honestly"* → [performance-review](skills/performance-review/SKILL.md) | 🚀 *"are we ready to launch?"* → [product-launch-checklist](skills/product-launch-checklist/SKILL.md) | 📬 *"my inbox is 4,000 deep"* → [email-triage-system](skills/email-triage-system/SKILL.md) |
 
-…all 792 asks live in **[the catalog](SKILLS.md)**.
+…all 802 asks live in **[the catalog](SKILLS.md)**.
 
 ## ⚡ Quick start
 
@@ -86,7 +86,7 @@ No `npm install` needed — `npx pm-claude-skills …` always runs the latest. `
 
 ## 📚 The skills
 
-Every skill follows the same discipline: what it produces, the inputs it needs, a real framework (severity scales, decision rules — not vibes), a concrete output template, quality checks, and anti-patterns. All 792 pass the [SkillSpec](SKILLSPEC.md) L3 gate and a security audit in CI.
+Every skill follows the same discipline: what it produces, the inputs it needs, a real framework (severity scales, decision rules — not vibes), a concrete output template, quality checks, and anti-patterns. All 802 pass the [SkillSpec](SKILLSPEC.md) L3 gate and a security audit in CI.
 
 <table align="center">
   <tr align="center">
@@ -122,6 +122,7 @@ Every skill follows the same discipline: what it produces, the inputs it needs, 
 | 🏠 **Life admin** | The unglamorous logistics, done in order | [relocation](skills/relocation-planner/SKILL.md) · [new parent](skills/new-parent-logistics/SKILL.md) · [caregiving](skills/caregiver-coordination/SKILL.md) · [doctor visits](skills/doctor-visit-prep/SKILL.md) · [records requests](skills/medical-records-request/SKILL.md) |
 | 💼 **Career moments** | The weeks that decide years | [layoff kit](plugins/pm-layoff/) · [resignation kit](plugins/pm-resignation/) · [PIP response](skills/pip-responder/SKILL.md) · [first 90 days as manager](skills/manager-first-90-days/SKILL.md) · [interview gauntlet](plugins/pm-jobsearch/) |
 | 🏛 **Dead mentors** (5) 🆕 | History's sharpest operators, resurrected — the *real* methods from public-domain classics, applied to modern work | [Machiavelli on office politics](skills/machiavelli-counsel/SKILL.md) · [Sun Tzu on picking your fights](skills/sun-tzu-strategy-brief/SKILL.md) · [Franklin's decision algebra](skills/franklin-decision-ledger/SKILL.md) · [Marcus Aurelius on bad days](skills/stoic-setback-debrief/SKILL.md) · [Bennett's 1908 time audit](skills/bennett-time-audit/SKILL.md) |
+| ⚡ **New-gen** (10) 🆕 | How the next generation lives and earns — creator deals, clips, D&D, ranked, resale, the attention war | [creator-deal-decoder](skills/creator-deal-decoder/SKILL.md) · [clip-factory](skills/clip-factory/SKILL.md) · [ttrpg-session-forge](skills/ttrpg-session-forge/SKILL.md) · [the-vibe-check](skills/the-vibe-check/SKILL.md) · [ranked-climb-coach](skills/ranked-climb-coach/SKILL.md) · [attention-reset](skills/attention-reset/SKILL.md) |
 | 🔮 **2027** (10) 🆕 | Problems you don't have yet, but will — the agent era's operational skills | [agent-severance](skills/agent-severance/SKILL.md) · [deepfake-drill](skills/deepfake-drill/SKILL.md) · [agent-hiring-panel](skills/agent-hiring-panel/SKILL.md) · [context-bankruptcy](skills/context-bankruptcy/SKILL.md) · [clone-brief](skills/clone-brief/SKILL.md) · [api-for-yourself](skills/api-for-yourself/SKILL.md) · [the-org-simulator](skills/the-org-simulator/SKILL.md) |
 | 🎲 **Tabletop** (5) 🆕 | Game night, upgraded — teach, judge, plan, design, and practice the trades | [teach-the-game](skills/teach-the-game/SKILL.md) · [rules-lawyer](skills/rules-lawyer/SKILL.md) · [game-night-planner](skills/game-night-planner/SKILL.md) · [board-game-designer](skills/board-game-designer/SKILL.md) · [tabletop-negotiator](skills/tabletop-negotiator/SKILL.md) |
 | 🧾 **Freelance & renters & parents** | Small bundles for specific lives | [pricing your services](skills/pricing-your-services/SKILL.md) · [late invoices](skills/late-invoice-escalation/SKILL.md) · [deposit recovery](skills/security-deposit-recovery/SKILL.md) · [IEP meetings](skills/iep-504-meeting-kit/SKILL.md) · [students](plugins/pm-students/) |
@@ -137,7 +138,7 @@ Every skill follows the same discipline: what it produces, the inputs it needs, 
 | <img src="web/docs-assets/logos/pm-design.svg" width="20" alt=""/> [Design & UX](plugins/pm-design/) | <img src="web/docs-assets/logos/pm-legal.svg" width="20" alt=""/> [Legal](plugins/pm-legal/) | <img src="web/docs-assets/logos/pm-finance.svg" width="20" alt=""/> [Finance](plugins/pm-finance/) |
 | <img src="web/docs-assets/logos/pm-founders.svg" width="20" alt=""/> [Founders](plugins/pm-founders/) | <img src="web/docs-assets/logos/pm-security.svg" width="20" alt=""/> [Security](plugins/pm-security/) | <img src="web/docs-assets/logos/pm-gov.svg" width="20" alt=""/> [Government](plugins/pm-gov/) |
 
-…plus HR, sales, operations, research, healthcare, educators, writers, social media, and more — **[the full profession index](SKILLS.md)**, or by bundle in [`plugins/`](plugins/) (97 bundles). Install any bundle: `/plugin install pm-decoders@pm-skills`.
+…plus HR, sales, operations, research, healthcare, educators, writers, social media, and more — **[the full profession index](SKILLS.md)**, or by bundle in [`plugins/`](plugins/) (98 bundles). Install any bundle: `/plugin install pm-decoders@pm-skills`.
 
 ### Meta
 
@@ -241,13 +242,13 @@ The whole library on one poster — start path, standout features, and install o
 
 ## 🆕 Latest
 
-**v65.0.0 — pm-2027:** ten skills for problems you don't have yet (but will) — [offboard an AI coworker](skills/agent-severance/SKILL.md), [drill the deepfake wire-fraud call](skills/deepfake-drill/SKILL.md), [hire your agent like an employee](skills/agent-hiring-panel/SKILL.md), [declare context bankruptcy](skills/context-bankruptcy/SKILL.md), [send your position to meetings instead of your body](skills/clone-brief/SKILL.md), [publish your personal API](skills/api-for-yourself/SKILL.md), [simulate the reorg before announcing it](skills/the-org-simulator/SKILL.md); 792 skills, 97 bundles. *v64 — game night;* [pm-tabletop](plugins/pm-tabletop) — teach any board game in 5 minutes, settle rules arguments fairly, plan the lineup, design your own game, and [spar the Catan trade](skills/tabletop-negotiator/SKILL.md) against a hidden agenda with a scored debrief; 792 skills, 97 bundles. *v63.1 — pixel confetti:* [pixel-gif-maker](skills/pixel-gif-maker/SKILL.md) — custom retro Slack GIFs (scroll, pulse, party, sparkle) from a pure-stdlib deterministic encoder; 792 skills. *And v63.0.0 — the dead mentors:* history's sharpest operators, resurrected as skills — **[Machiavelli](skills/machiavelli-counsel/SKILL.md)** reads your reorg (with the honest counterweight built in), **[Sun Tzu](skills/sun-tzu-strategy-brief/SKILL.md)** decides fight/reshape/decline, **[Franklin's decision algebra](skills/franklin-decision-ledger/SKILL.md)** settles the offer you keep flip-flopping on, **[Marcus Aurelius](skills/stoic-setback-debrief/SKILL.md)** debriefs the day that went badly, and **[Arnold Bennett (1908)](skills/bennett-time-audit/SKILL.md)** finds your inner day — real methods from public-domain classics, chapter-cited, never misquoted. *Earlier — v62.2, the distribution wave* (SkillScan, telemetry, SkillBench v2, quiz, wins, WhatsApp); *v62.1, nine frontiers.* Full history: **[CHANGELOG](CHANGELOG.md)** · [releases](https://github.com/mohitagw15856/pm-claude-skills/releases)
+**v66.0.0 — the new-generation wave:** [pm-newgen](plugins/pm-newgen) — [decode your first brand deal](skills/creator-deal-decoder/SKILL.md), [clip the podcast](skills/clip-factory/SKILL.md), [prep tonight's D&D](skills/ttrpg-session-forge/SKILL.md), [fix the dating profile honestly](skills/dating-profile-doctor/SKILL.md), [vibe-check the weekend app](skills/the-vibe-check/SKILL.md), [keep the flat peaceful](skills/roommate-agreement/SKILL.md), [climb ranked on purpose](skills/ranked-climb-coach/SKILL.md), [flip thrift finds](skills/resale-flip-kit/SKILL.md), [plan the micro-retirement](skills/micro-retirement-planner/SKILL.md), [get your attention back](skills/attention-reset/SKILL.md); 802 skills, 98 bundles. *v65 — pm-2027;* ten skills for problems you don't have yet (but will) — [offboard an AI coworker](skills/agent-severance/SKILL.md), [drill the deepfake wire-fraud call](skills/deepfake-drill/SKILL.md), [hire your agent like an employee](skills/agent-hiring-panel/SKILL.md), [declare context bankruptcy](skills/context-bankruptcy/SKILL.md), [send your position to meetings instead of your body](skills/clone-brief/SKILL.md), [publish your personal API](skills/api-for-yourself/SKILL.md), [simulate the reorg before announcing it](skills/the-org-simulator/SKILL.md); 802 skills, 98 bundles. *v64 — game night;* [pm-tabletop](plugins/pm-tabletop) — teach any board game in 5 minutes, settle rules arguments fairly, plan the lineup, design your own game, and [spar the Catan trade](skills/tabletop-negotiator/SKILL.md) against a hidden agenda with a scored debrief; 802 skills, 98 bundles. *v63.1 — pixel confetti:* [pixel-gif-maker](skills/pixel-gif-maker/SKILL.md) — custom retro Slack GIFs (scroll, pulse, party, sparkle) from a pure-stdlib deterministic encoder; 802 skills. *And v63.0.0 — the dead mentors:* history's sharpest operators, resurrected as skills — **[Machiavelli](skills/machiavelli-counsel/SKILL.md)** reads your reorg (with the honest counterweight built in), **[Sun Tzu](skills/sun-tzu-strategy-brief/SKILL.md)** decides fight/reshape/decline, **[Franklin's decision algebra](skills/franklin-decision-ledger/SKILL.md)** settles the offer you keep flip-flopping on, **[Marcus Aurelius](skills/stoic-setback-debrief/SKILL.md)** debriefs the day that went badly, and **[Arnold Bennett (1908)](skills/bennett-time-audit/SKILL.md)** finds your inner day — real methods from public-domain classics, chapter-cited, never misquoted. *Earlier — v62.2, the distribution wave* (SkillScan, telemetry, SkillBench v2, quiz, wins, WhatsApp); *v62.1, nine frontiers.* Full history: **[CHANGELOG](CHANGELOG.md)** · [releases](https://github.com/mohitagw15856/pm-claude-skills/releases)
 
 ## ❓ First-timer questions, straight answers
 
 <details>
 <summary><b>Is it actually free?</b></summary>
-Yes — MIT, all 792 skills, forever. The skills are markdown; there is nothing to gate. Sponsors fund the playground's free model runs, not access.
+Yes — MIT, all 802 skills, forever. The skills are markdown; there is nothing to gate. Sponsors fund the playground's free model runs, not access.
 </details>
 
 <details>
@@ -290,4 +291,4 @@ MIT — use them, fork them, ship them at work. Skills are judgment, and judgmen
 
 ---
 
-*Built by [Mohit](https://github.com/mohitagw15856) with Claude. 792 skills · 97 bundles · 35 professions · every commit gated. The long version of this README — every feature, wave, and frontier bet — lives in the **[Showcase](docs/SHOWCASE.md)**.*
+*Built by [Mohit](https://github.com/mohitagw15856) with Claude. 802 skills · 98 bundles · 35 professions · every commit gated. The long version of this README — every feature, wave, and frontier bet — lives in the **[Showcase](docs/SHOWCASE.md)**.*

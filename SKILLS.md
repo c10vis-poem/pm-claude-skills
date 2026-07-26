@@ -1,4 +1,4 @@
-# 🗂️ All 792 Skills — full catalog
+# 🗂️ All 802 Skills — full catalog
 
 > The complete per-skill breakdown, grouped by domain. For an interactive, searchable version see the [**live catalog**](https://mohitagw15856.github.io/pm-claude-skills/catalog.html); to run any skill in your browser, use the [**Playground**](https://mohitagw15856.github.io/pm-claude-skills/). Back to the [README](README.md).
 >
@@ -653,7 +653,7 @@
 | **Portfolio Page** (`portfolio-page`) | Structure a portfolio or case-study page that shows your work, not just lists it. | — |
 | **Resume** (`resume`) | Write a sharp, achievement-led resume/CV that passes ATS and earns the interview. | ✅ 3.3/5 |
 
-## 🌍 Industries & Public Sector (398 skills)
+## 🌍 Industries & Public Sector (408 skills)
 
 ### `other` — 1 skill
 
@@ -1107,6 +1107,21 @@
 | **Verification Before Completion** (`verification-before-completion`) | Verify work actually meets its brief BEFORE declaring it done — a structured self-review pass that catches the gaps, unmet requirements, and… | — |
 | **Writing Plans** (`writing-plans`) | Write an executable work plan BEFORE starting a complex task — decomposed steps with verification points, risks pre-named, and explicit stop… | — |
 
+### `pm-newgen` — 10 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Attention Reset** (`attention-reset`) | Get your attention back with a 30-day protocol that assumes you'll break it — a screen-time ledger without moralizing, friction engineering (what… | — |
+| **Clip Factory** (`clip-factory`) | Turn one long video, podcast, or stream transcript into 8-12 short-form clips — each with a hook line, cut timestamps, captions, and a platform… | — |
+| **Creator Deal Decoder** (`creator-deal-decoder`) | Decode a brand deal or UGC contract before signing — usage rights, exclusivity windows, whitelisting, payment terms, and kill clauses ranked… | — |
+| **Dating Profile Doctor** (`dating-profile-doctor`) | Rewrite a dating profile so it sounds like you on a good day — mined from how you actually talk, specific instead of generic, with photo order… | — |
+| **Micro Retirement Planner** (`micro-retirement-planner`) | Plan a deliberate career break — 3 to 12 months off between chapters — with honest runway math, the re-entry story rehearsed before you leave… | — |
+| **Ranked Climb Coach** (`ranked-climb-coach`) | Climb ranked on purpose instead of on tilt — a VOD-review protocol (three deaths per game, one pattern per week), a tilt debrief that ends… | — |
+| **Resale Flip Kit** (`resale-flip-kit`) | Sell secondhand like someone who's done it 500 times — honest condition grading, comps-based pricing with a floor and an anchor, listing titles… | — |
+| **Roommate Agreement** (`roommate-agreement`) | Write the flat's constitution before the first passive-aggressive note — money, chores, guests, noise, food, and the exit plan, decided while… | — |
+| **The Vibe Check** (`the-vibe-check`) | Harden a vibe-coded app before strangers use it — the audit for prototypes built fast with AI: exposed secrets, missing auth checks, unvalidated… | — |
+| **TTRPG Session Forge** (`ttrpg-session-forge`) | Prep tonight's TTRPG session in 30 minutes — three scenes with stakes, NPC voice cards, a flexible encounter, treasure/clues, and the 'players did… | — |
+
 ### `pm-nonprofit` — 3 skills
 
 | Skill | What it does | Eval |
@@ -1310,4 +1325,4 @@
 
 ---
 
-_792 skills across 98 bundles · 28 eval-scored (4%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._
+_802 skills across 99 bundles · 28 eval-scored (3%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._

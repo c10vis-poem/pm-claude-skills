@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-792 skills exported. Copy a `SKILL.md` into the tool to use it.
+802 skills exported. Copy a `SKILL.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -56,6 +56,7 @@
 | Async Instead | `pm-cowork` | `async-instead/SKILL.md` |
 | Async Standup Compiler (Live) | `pm-cowork-live` | `async-standup-compiler/SKILL.md` |
 | Async Update Format | `pm-cowork` | `async-update-format/SKILL.md` |
+| Attention Reset | `pm-newgen` | `attention-reset/SKILL.md` |
 | Auto Repair Estimate Decoder | `pm-decoders` | `auto-repair-estimate-decoder/SKILL.md` |
 | Autopilot Charter | `pm-autopilot` | `autopilot-charter/SKILL.md` |
 | Behavior Intervention Plan | `pm-teaching` | `behavior-intervention-plan/SKILL.md` |
@@ -120,6 +121,7 @@
 | Climate Risk Assessment | `pm-climate` | `climate-risk-assessment/SKILL.md` |
 | Clinical Case Summary | `pm-research` | `clinical-case-summary/SKILL.md` |
 | Clinical Trial Protocol | `pm-health` | `clinical-trial-protocol/SKILL.md` |
+| Clip Factory | `pm-newgen` | `clip-factory/SKILL.md` |
 | Clone Brief | `pm-2027` | `clone-brief/SKILL.md` |
 | Closing Disclosure Decoder | `pm-decoders` | `closing-disclosure-decoder/SKILL.md` |
 | Co-Marketing | `pm-growth` | `co-marketing/SKILL.md` |
@@ -165,6 +167,7 @@
 | Cover Letter | `pm-personal` | `cover-letter/SKILL.md` |
 | Coverage Gap Analysis | `pm-insurance` | `coverage-gap-analysis/SKILL.md` |
 | Creator Brand Kit | `pm-creator` | `creator-brand-kit/SKILL.md` |
+| Creator Deal Decoder | `pm-newgen` | `creator-deal-decoder/SKILL.md` |
 | Creator Media Kit | `pm-creator` | `creator-media-kit/SKILL.md` |
 | Credit Memo | `pm-banking` | `credit-memo/SKILL.md` |
 | Crypto Prices | `pm-live` | `crypto-prices/SKILL.md` |
@@ -189,6 +192,7 @@
 | Database Migration Plan | `pm-engineering` | `database-migration-plan/SKILL.md` |
 | Database Schema Design | `pm-engineering` | `database-schema-design/SKILL.md` |
 | Dataset Datasheet | `pm-ai` | `dataset-datasheet/SKILL.md` |
+| Dating Profile Doctor | `pm-newgen` | `dating-profile-doctor/SKILL.md` |
 | Daycare vs Stay-Home | `pm-calculators` | `daycare-vs-stay-home/SKILL.md` |
 | dbt Model Spec | `pm-dataeng` | `dbt-model-spec/SKILL.md` |
 | Debt Payoff | `pm-calculators` | `debt-payoff/SKILL.md` |
@@ -443,6 +447,7 @@
 | Metric Semantic Layer | `pm-dataeng` | `metric-semantic-layer/SKILL.md` |
 | Metric Tree Builder | `pm-data` | `metric-tree-builder/SKILL.md` |
 | Metrics Framework | `pm-data` | `metrics-framework/SKILL.md` |
+| Micro Retirement Planner | `pm-newgen` | `micro-retirement-planner/SKILL.md` |
 | Microcopy Writer | `pm-uxwriting` | `microcopy-writer/SKILL.md` |
 | Microservices Decomposition | `pm-engineering` | `microservices-decomposition/SKILL.md` |
 | Migration Day Runbook | `pm-cowork` | `migration-day-runbook/SKILL.md` |
@@ -558,6 +563,7 @@
 | RAG Architecture Review | `pm-ai` | `rag-architecture-review/SKILL.md` |
 | RAG Design Doc | `pm-ai` | `rag-design-doc/SKILL.md` |
 | Raise vs Jump | `pm-calculators` | `raise-vs-jump/SKILL.md` |
+| Ranked Climb Coach | `pm-newgen` | `ranked-climb-coach/SKILL.md` |
 | Rate Card | `pm-consulting` | `rate-card/SKILL.md` |
 | README Writer | `pm-devrel` | `readme-writer/SKILL.md` |
 | Receipts Audit | `pm-method` | `receipts-audit/SKILL.md` |
@@ -584,6 +590,7 @@
 | Repair Request Escalation | `pm-renters` | `repair-request-escalation/SKILL.md` |
 | Reply In Their Tone | `pm-cowork` | `reply-in-their-tone/SKILL.md` |
 | Repo Map | `pm-tokens` | `repo-map/SKILL.md` |
+| Resale Flip Kit | `pm-newgen` | `resale-flip-kit/SKILL.md` |
 | Research Protocol | `pm-research` | `research-protocol/SKILL.md` |
 | Research Repo Setup | `pm-cowork` | `research-repo-setup/SKILL.md` |
 | Resignation Letter | `pm-resignation` | `resignation-letter/SKILL.md` |
@@ -607,6 +614,7 @@
 | ROI Estimator | `pm-calculators` | `roi-estimator/SKILL.md` |
 | Role Redesign For AI | `pm-aiwork` | `role-redesign-for-ai/SKILL.md` |
 | Rollback Plan | `pm-engineering` | `rollback-plan/SKILL.md` |
+| Roommate Agreement | `pm-newgen` | `roommate-agreement/SKILL.md` |
 | RSS Digest | `pm-live` | `rss-digest/SKILL.md` |
 | Rubric Builder | `pm-education` | `rubric-builder/SKILL.md` |
 | Rules Lawyer | `pm-tabletop` | `rules-lawyer/SKILL.md` |
@@ -738,6 +746,7 @@
 | The Thesis Defense | `pm-students` | `the-thesis-defense/SKILL.md` |
 | The Time Capsule | `pm-2027` | `the-time-capsule/SKILL.md` |
 | The Understudy | `pm-2027` | `the-understudy/SKILL.md` |
+| The Vibe Check | `pm-newgen` | `the-vibe-check/SKILL.md` |
 | The Visa Interview | `pm-simulators` | `the-visa-interview/SKILL.md` |
 | Thesis Outline | `pm-students` | `thesis-outline/SKILL.md` |
 | Thread To Decision | `pm-cowork` | `thread-to-decision/SKILL.md` |
@@ -755,6 +764,7 @@
 | Transcreation | `pm-localization` | `transcreation/SKILL.md` |
 | Travel Brief | `pm-cowork` | `travel-brief/SKILL.md` |
 | Treatment Plan Estimate | `pm-veterinary` | `treatment-plan-estimate/SKILL.md` |
+| TTRPG Session Forge | `pm-newgen` | `ttrpg-session-forge/SKILL.md` |
 | Unblock Protocol | `pm-cowork` | `unblock-protocol/SKILL.md` |
 | Underwriting Narrative | `pm-insurance` | `underwriting-narrative/SKILL.md` |
 | Unit Economics | `pm-calculators` | `unit-economics/SKILL.md` |

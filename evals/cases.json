@@ -704,6 +704,46 @@
     {
       "skill": "the-org-simulator",
       "input": "Proposed: merge our two product teams (Consumer, 12 people under Maya; Business, 9 under Tom) into one group under Maya. Tom becomes principal PM, no reports. Real reason: Tom is a strong IC and a weak manager, but the memo will say focus and velocity. Two of Toms people are loyal to him. Announce in 2 weeks. Simulate it."
+    },
+    {
+      "skill": "creator-deal-decoder",
+      "input": "First real brand deal, 45k TikTok followers. They offered 800 dollars for 2 videos. Contract says: perpetual worldwide royalty-free license to all content including my name and likeness, 6 months exclusivity in the beverage category, they can run the videos as ads from my account, payment net-60 after brand approval, unlimited revisions. Is this normal?? [full contract pasted]"
+    },
+    {
+      "skill": "clip-factory",
+      "input": "Here is the timestamped transcript of my 74-minute podcast episode with a startup founder who sold her company, nearly went bankrupt twice, and has strong opinions about VC money being poison for most businesses. My channel is business-advice-with-jokes tone. Targets: TikTok and Shorts. [transcript]"
+    },
+    {
+      "skill": "ttrpg-session-forge",
+      "input": "D&D 5e, four level-6 players (paladin, rogue, wizard, bard). Last session they burned down the smugglers warehouse WITH the evidence inside and befriended the guard captain sent to arrest them. The campaign villain is the harbormaster. 3-hour session Sunday. My players ignore every hook that looks like a hook. Help."
+    },
+    {
+      "skill": "dating-profile-doctor",
+      "input": "Hinge, 29M, London. Getting matches but conversations die in 3 messages. Bio: Fluent in sarcasm. Love travel and good food. Gym is my therapy. Just ask! Prompts equally generic. Here are some texts to my mates so you can hear how I actually talk: [texts]. Last week I: did a pottery taster (disaster, kept the bowl), ran a 10k badly, made a frankly excellent curry."
+    },
+    {
+      "skill": "the-vibe-check",
+      "input": "I vibe-coded a habit tracker with Claude in a weekend: Next.js on Vercel, Supabase (using the anon key everywhere), OpenAI API called from the browser with my key in the frontend env, no rate limits, users sign up with email. 40 people from Reddit want in. Am I okay to share the link? Repo pasted below. [code]"
+    },
+    {
+      "skill": "roommate-agreement",
+      "input": "Three of us moving into a 3-bed next month: me, my best mate, and a guy from SpareRoom we barely know. Rooms are very unequal (one en-suite, one box room). My mates girlfriend already basically lives with us at the old place, 5 nights a week. All our names on the lease. Write the agreement and how do I even bring this up without being weird."
+    },
+    {
+      "skill": "ranked-climb-coach",
+      "input": "Valorant, hardstuck Gold 2 for 3 acts, peak Plat 1. I play 5 agents depending on lobby. I think my aim is the problem. Last 3 losses: one I bottom-fragged after going 0-4 pistol and tilting, one we lost to a smurf Jett, one was close but I kept dying first on site hits. I queue like 15 games a weekend, more if I am losing."
+    },
+    {
+      "skill": "resale-flip-kit",
+      "input": "Selling on Vinted UK: a Carhartt Detroit jacket, brown duck canvas, size M, bought 2019, good shape but one cuff is frayed and there is a small paint fleck on the back. Similar sold ones I found: 85, 95, and 110 pounds. I want it gone within 2 weeks but not given away. Also constantly getting is this still available messages that go nowhere."
+    },
+    {
+      "skill": "micro-retirement-planner",
+      "input": "29, senior data analyst in Manchester, 31k saved. Monthly costs about 1900 (rent 950). I want 6 months off starting spring: 2 months in Southeast Asia, then home working on a small data tools project and actually resting. Terrified of the CV gap question. Can I afford this and how do I not wreck my career?"
+    },
+    {
+      "skill": "attention-reset",
+      "input": "Screen time says 6h48m daily: TikTok 2h50, Instagram 1h10, YouTube 1h20, WhatsApp 50m, rest misc. 140 pickups. Worst moments: scrolling in bed until 1am and first thing at 7am, plus every queue. I used to read 30 books a year, last year I finished 2. WhatsApp is how my family group works, keep that. I have deleted TikTok four times and reinstalled it four times."
     }
   ]
 }

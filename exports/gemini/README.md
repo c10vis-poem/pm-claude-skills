@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-792 skills exported. Copy a `GEM_INSTRUCTIONS.md` into the tool to use it.
+802 skills exported. Copy a `GEM_INSTRUCTIONS.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -56,6 +56,7 @@
 | Async Instead | `pm-cowork` | `pm-cowork/async-instead/GEM_INSTRUCTIONS.md` |
 | Async Standup Compiler (Live) | `pm-cowork-live` | `pm-cowork-live/async-standup-compiler/GEM_INSTRUCTIONS.md` |
 | Async Update Format | `pm-cowork` | `pm-cowork/async-update-format/GEM_INSTRUCTIONS.md` |
+| Attention Reset | `pm-newgen` | `pm-newgen/attention-reset/GEM_INSTRUCTIONS.md` |
 | Auto Repair Estimate Decoder | `pm-decoders` | `pm-decoders/auto-repair-estimate-decoder/GEM_INSTRUCTIONS.md` |
 | Autopilot Charter | `pm-autopilot` | `pm-autopilot/autopilot-charter/GEM_INSTRUCTIONS.md` |
 | Behavior Intervention Plan | `pm-teaching` | `pm-teaching/behavior-intervention-plan/GEM_INSTRUCTIONS.md` |
@@ -120,6 +121,7 @@
 | Climate Risk Assessment | `pm-climate` | `pm-climate/climate-risk-assessment/GEM_INSTRUCTIONS.md` |
 | Clinical Case Summary | `pm-research` | `pm-research/clinical-case-summary/GEM_INSTRUCTIONS.md` |
 | Clinical Trial Protocol | `pm-health` | `pm-health/clinical-trial-protocol/GEM_INSTRUCTIONS.md` |
+| Clip Factory | `pm-newgen` | `pm-newgen/clip-factory/GEM_INSTRUCTIONS.md` |
 | Clone Brief | `pm-2027` | `pm-2027/clone-brief/GEM_INSTRUCTIONS.md` |
 | Closing Disclosure Decoder | `pm-decoders` | `pm-decoders/closing-disclosure-decoder/GEM_INSTRUCTIONS.md` |
 | Co-Marketing | `pm-growth` | `pm-growth/co-marketing/GEM_INSTRUCTIONS.md` |
@@ -165,6 +167,7 @@
 | Cover Letter | `pm-personal` | `pm-personal/cover-letter/GEM_INSTRUCTIONS.md` |
 | Coverage Gap Analysis | `pm-insurance` | `pm-insurance/coverage-gap-analysis/GEM_INSTRUCTIONS.md` |
 | Creator Brand Kit | `pm-creator` | `pm-creator/creator-brand-kit/GEM_INSTRUCTIONS.md` |
+| Creator Deal Decoder | `pm-newgen` | `pm-newgen/creator-deal-decoder/GEM_INSTRUCTIONS.md` |
 | Creator Media Kit | `pm-creator` | `pm-creator/creator-media-kit/GEM_INSTRUCTIONS.md` |
 | Credit Memo | `pm-banking` | `pm-banking/credit-memo/GEM_INSTRUCTIONS.md` |
 | Crypto Prices | `pm-live` | `pm-live/crypto-prices/GEM_INSTRUCTIONS.md` |
@@ -189,6 +192,7 @@
 | Database Migration Plan | `pm-engineering` | `pm-engineering/database-migration-plan/GEM_INSTRUCTIONS.md` |
 | Database Schema Design | `pm-engineering` | `pm-engineering/database-schema-design/GEM_INSTRUCTIONS.md` |
 | Dataset Datasheet | `pm-ai` | `pm-ai/dataset-datasheet/GEM_INSTRUCTIONS.md` |
+| Dating Profile Doctor | `pm-newgen` | `pm-newgen/dating-profile-doctor/GEM_INSTRUCTIONS.md` |
 | Daycare vs Stay-Home | `pm-calculators` | `pm-calculators/daycare-vs-stay-home/GEM_INSTRUCTIONS.md` |
 | dbt Model Spec | `pm-dataeng` | `pm-dataeng/dbt-model-spec/GEM_INSTRUCTIONS.md` |
 | Debt Payoff | `pm-calculators` | `pm-calculators/debt-payoff/GEM_INSTRUCTIONS.md` |
@@ -443,6 +447,7 @@
 | Metric Semantic Layer | `pm-dataeng` | `pm-dataeng/metric-semantic-layer/GEM_INSTRUCTIONS.md` |
 | Metric Tree Builder | `pm-data` | `pm-data/metric-tree-builder/GEM_INSTRUCTIONS.md` |
 | Metrics Framework | `pm-data` | `pm-data/metrics-framework/GEM_INSTRUCTIONS.md` |
+| Micro Retirement Planner | `pm-newgen` | `pm-newgen/micro-retirement-planner/GEM_INSTRUCTIONS.md` |
 | Microcopy Writer | `pm-uxwriting` | `pm-uxwriting/microcopy-writer/GEM_INSTRUCTIONS.md` |
 | Microservices Decomposition | `pm-engineering` | `pm-engineering/microservices-decomposition/GEM_INSTRUCTIONS.md` |
 | Migration Day Runbook | `pm-cowork` | `pm-cowork/migration-day-runbook/GEM_INSTRUCTIONS.md` |
@@ -558,6 +563,7 @@
 | RAG Architecture Review | `pm-ai` | `pm-ai/rag-architecture-review/GEM_INSTRUCTIONS.md` |
 | RAG Design Doc | `pm-ai` | `pm-ai/rag-design-doc/GEM_INSTRUCTIONS.md` |
 | Raise vs Jump | `pm-calculators` | `pm-calculators/raise-vs-jump/GEM_INSTRUCTIONS.md` |
+| Ranked Climb Coach | `pm-newgen` | `pm-newgen/ranked-climb-coach/GEM_INSTRUCTIONS.md` |
 | Rate Card | `pm-consulting` | `pm-consulting/rate-card/GEM_INSTRUCTIONS.md` |
 | README Writer | `pm-devrel` | `pm-devrel/readme-writer/GEM_INSTRUCTIONS.md` |
 | Receipts Audit | `pm-method` | `pm-method/receipts-audit/GEM_INSTRUCTIONS.md` |
@@ -584,6 +590,7 @@
 | Repair Request Escalation | `pm-renters` | `pm-renters/repair-request-escalation/GEM_INSTRUCTIONS.md` |
 | Reply In Their Tone | `pm-cowork` | `pm-cowork/reply-in-their-tone/GEM_INSTRUCTIONS.md` |
 | Repo Map | `pm-tokens` | `pm-tokens/repo-map/GEM_INSTRUCTIONS.md` |
+| Resale Flip Kit | `pm-newgen` | `pm-newgen/resale-flip-kit/GEM_INSTRUCTIONS.md` |
 | Research Protocol | `pm-research` | `pm-research/research-protocol/GEM_INSTRUCTIONS.md` |
 | Research Repo Setup | `pm-cowork` | `pm-cowork/research-repo-setup/GEM_INSTRUCTIONS.md` |
 | Resignation Letter | `pm-resignation` | `pm-resignation/resignation-letter/GEM_INSTRUCTIONS.md` |
@@ -607,6 +614,7 @@
 | ROI Estimator | `pm-calculators` | `pm-calculators/roi-estimator/GEM_INSTRUCTIONS.md` |
 | Role Redesign For AI | `pm-aiwork` | `pm-aiwork/role-redesign-for-ai/GEM_INSTRUCTIONS.md` |
 | Rollback Plan | `pm-engineering` | `pm-engineering/rollback-plan/GEM_INSTRUCTIONS.md` |
+| Roommate Agreement | `pm-newgen` | `pm-newgen/roommate-agreement/GEM_INSTRUCTIONS.md` |
 | RSS Digest | `pm-live` | `pm-live/rss-digest/GEM_INSTRUCTIONS.md` |
 | Rubric Builder | `pm-education` | `pm-education/rubric-builder/GEM_INSTRUCTIONS.md` |
 | Rules Lawyer | `pm-tabletop` | `pm-tabletop/rules-lawyer/GEM_INSTRUCTIONS.md` |
@@ -738,6 +746,7 @@
 | The Thesis Defense | `pm-students` | `pm-students/the-thesis-defense/GEM_INSTRUCTIONS.md` |
 | The Time Capsule | `pm-2027` | `pm-2027/the-time-capsule/GEM_INSTRUCTIONS.md` |
 | The Understudy | `pm-2027` | `pm-2027/the-understudy/GEM_INSTRUCTIONS.md` |
+| The Vibe Check | `pm-newgen` | `pm-newgen/the-vibe-check/GEM_INSTRUCTIONS.md` |
 | The Visa Interview | `pm-simulators` | `pm-simulators/the-visa-interview/GEM_INSTRUCTIONS.md` |
 | Thesis Outline | `pm-students` | `pm-students/thesis-outline/GEM_INSTRUCTIONS.md` |
 | Thread To Decision | `pm-cowork` | `pm-cowork/thread-to-decision/GEM_INSTRUCTIONS.md` |
@@ -755,6 +764,7 @@
 | Transcreation | `pm-localization` | `pm-localization/transcreation/GEM_INSTRUCTIONS.md` |
 | Travel Brief | `pm-cowork` | `pm-cowork/travel-brief/GEM_INSTRUCTIONS.md` |
 | Treatment Plan Estimate | `pm-veterinary` | `pm-veterinary/treatment-plan-estimate/GEM_INSTRUCTIONS.md` |
+| TTRPG Session Forge | `pm-newgen` | `pm-newgen/ttrpg-session-forge/GEM_INSTRUCTIONS.md` |
 | Unblock Protocol | `pm-cowork` | `pm-cowork/unblock-protocol/GEM_INSTRUCTIONS.md` |
 | Underwriting Narrative | `pm-insurance` | `pm-insurance/underwriting-narrative/GEM_INSTRUCTIONS.md` |
 | Unit Economics | `pm-calculators` | `pm-calculators/unit-economics/GEM_INSTRUCTIONS.md` |

@@ -9,6 +9,23 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [66.0.0] — the new-generation wave — 2026-07-26
+
+### Added — ⚡ [pm-newgen](plugins/pm-newgen): ten skills for how the next generation actually lives and earns
+
+**802 skills, 98 bundles.**
+
+- **[creator-deal-decoder](skills/creator-deal-decoder/SKILL.md)** — the brand-deal lease-decoder: usage rights, exclusivity, whitelisting priced out 🔴🟡🟢, plus the counter-ask email
+- **[clip-factory](skills/clip-factory/SKILL.md)** — long video → 8-12 ranked short-form clips with hooks and cut timestamps, gated by an honesty check that kills out-of-context bait
+- **[ttrpg-session-forge](skills/ttrpg-session-forge/SKILL.md)** — 30-minute D&D session prep: situations not plots, floating clues, NPC voice cards, the derailment ladder
+- **[dating-profile-doctor](skills/dating-profile-doctor/SKILL.md)** — profile rewrites mined from how you actually talk, under one rule: nothing you can't back up in person
+- **[the-vibe-check](skills/the-vibe-check/SKILL.md)** — harden the vibe-coded app before strangers arrive: the five embarrassing holes, ranked, with a committed ship/not-yet verdict
+- **[roommate-agreement](skills/roommate-agreement/SKILL.md)** — the flat's constitution decided while everyone still likes each other, plus the house-meeting script
+- **[ranked-climb-coach](skills/ranked-climb-coach/SKILL.md)** — three-deaths VOD review, one habit per week, and the tilt protocol (the stoic debrief's gamer sibling)
+- **[resale-flip-kit](skills/resale-flip-kit/SKILL.md)** — Vinted/Depop/eBay like a pro: sold-comps pricing with a pre-set floor, search-term titles, flaw-honest listings, haggle scripts
+- **[micro-retirement-planner](skills/micro-retirement-planner/SKILL.md)** — the career break with honest runway math (re-entry cushion included), kill criteria, and the interview answer written before you leave
+- **[attention-reset](skills/attention-reset/SKILL.md)** — 30 days of friction engineering with planned relapses; chosen time stays, captured time is the target — Bennett's modern sequel
+
 ## [65.0.0] — pm-2027: skills for problems you don't have yet (but will) — 2026-07-26
 
 ### Added — 🔮 [pm-2027](plugins/pm-2027): ten skills from the near future

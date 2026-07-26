@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-792 skills exported. Copy a `.md rule` into the tool to use it.
+802 skills exported. Copy a `.md rule` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -56,6 +56,7 @@
 | Async Instead | `pm-cowork` | `pm-cowork/async-instead/async-instead.md` |
 | Async Standup Compiler (Live) | `pm-cowork-live` | `pm-cowork-live/async-standup-compiler/async-standup-compiler.md` |
 | Async Update Format | `pm-cowork` | `pm-cowork/async-update-format/async-update-format.md` |
+| Attention Reset | `pm-newgen` | `pm-newgen/attention-reset/attention-reset.md` |
 | Auto Repair Estimate Decoder | `pm-decoders` | `pm-decoders/auto-repair-estimate-decoder/auto-repair-estimate-decoder.md` |
 | Autopilot Charter | `pm-autopilot` | `pm-autopilot/autopilot-charter/autopilot-charter.md` |
 | Behavior Intervention Plan | `pm-teaching` | `pm-teaching/behavior-intervention-plan/behavior-intervention-plan.md` |
@@ -120,6 +121,7 @@
 | Climate Risk Assessment | `pm-climate` | `pm-climate/climate-risk-assessment/climate-risk-assessment.md` |
 | Clinical Case Summary | `pm-research` | `pm-research/clinical-case-summary/clinical-case-summary.md` |
 | Clinical Trial Protocol | `pm-health` | `pm-health/clinical-trial-protocol/clinical-trial-protocol.md` |
+| Clip Factory | `pm-newgen` | `pm-newgen/clip-factory/clip-factory.md` |
 | Clone Brief | `pm-2027` | `pm-2027/clone-brief/clone-brief.md` |
 | Closing Disclosure Decoder | `pm-decoders` | `pm-decoders/closing-disclosure-decoder/closing-disclosure-decoder.md` |
 | Co-Marketing | `pm-growth` | `pm-growth/co-marketing/co-marketing.md` |
@@ -165,6 +167,7 @@
 | Cover Letter | `pm-personal` | `pm-personal/cover-letter/cover-letter.md` |
 | Coverage Gap Analysis | `pm-insurance` | `pm-insurance/coverage-gap-analysis/coverage-gap-analysis.md` |
 | Creator Brand Kit | `pm-creator` | `pm-creator/creator-brand-kit/creator-brand-kit.md` |
+| Creator Deal Decoder | `pm-newgen` | `pm-newgen/creator-deal-decoder/creator-deal-decoder.md` |
 | Creator Media Kit | `pm-creator` | `pm-creator/creator-media-kit/creator-media-kit.md` |
 | Credit Memo | `pm-banking` | `pm-banking/credit-memo/credit-memo.md` |
 | Crypto Prices | `pm-live` | `pm-live/crypto-prices/crypto-prices.md` |
@@ -189,6 +192,7 @@
 | Database Migration Plan | `pm-engineering` | `pm-engineering/database-migration-plan/database-migration-plan.md` |
 | Database Schema Design | `pm-engineering` | `pm-engineering/database-schema-design/database-schema-design.md` |
 | Dataset Datasheet | `pm-ai` | `pm-ai/dataset-datasheet/dataset-datasheet.md` |
+| Dating Profile Doctor | `pm-newgen` | `pm-newgen/dating-profile-doctor/dating-profile-doctor.md` |
 | Daycare vs Stay-Home | `pm-calculators` | `pm-calculators/daycare-vs-stay-home/daycare-vs-stay-home.md` |
 | dbt Model Spec | `pm-dataeng` | `pm-dataeng/dbt-model-spec/dbt-model-spec.md` |
 | Debt Payoff | `pm-calculators` | `pm-calculators/debt-payoff/debt-payoff.md` |
@@ -443,6 +447,7 @@
 | Metric Semantic Layer | `pm-dataeng` | `pm-dataeng/metric-semantic-layer/metric-semantic-layer.md` |
 | Metric Tree Builder | `pm-data` | `pm-data/metric-tree-builder/metric-tree-builder.md` |
 | Metrics Framework | `pm-data` | `pm-data/metrics-framework/metrics-framework.md` |
+| Micro Retirement Planner | `pm-newgen` | `pm-newgen/micro-retirement-planner/micro-retirement-planner.md` |
 | Microcopy Writer | `pm-uxwriting` | `pm-uxwriting/microcopy-writer/microcopy-writer.md` |
 | Microservices Decomposition | `pm-engineering` | `pm-engineering/microservices-decomposition/microservices-decomposition.md` |
 | Migration Day Runbook | `pm-cowork` | `pm-cowork/migration-day-runbook/migration-day-runbook.md` |
@@ -558,6 +563,7 @@
 | RAG Architecture Review | `pm-ai` | `pm-ai/rag-architecture-review/rag-architecture-review.md` |
 | RAG Design Doc | `pm-ai` | `pm-ai/rag-design-doc/rag-design-doc.md` |
 | Raise vs Jump | `pm-calculators` | `pm-calculators/raise-vs-jump/raise-vs-jump.md` |
+| Ranked Climb Coach | `pm-newgen` | `pm-newgen/ranked-climb-coach/ranked-climb-coach.md` |
 | Rate Card | `pm-consulting` | `pm-consulting/rate-card/rate-card.md` |
 | README Writer | `pm-devrel` | `pm-devrel/readme-writer/readme-writer.md` |
 | Receipts Audit | `pm-method` | `pm-method/receipts-audit/receipts-audit.md` |
@@ -584,6 +590,7 @@
 | Repair Request Escalation | `pm-renters` | `pm-renters/repair-request-escalation/repair-request-escalation.md` |
 | Reply In Their Tone | `pm-cowork` | `pm-cowork/reply-in-their-tone/reply-in-their-tone.md` |
 | Repo Map | `pm-tokens` | `pm-tokens/repo-map/repo-map.md` |
+| Resale Flip Kit | `pm-newgen` | `pm-newgen/resale-flip-kit/resale-flip-kit.md` |
 | Research Protocol | `pm-research` | `pm-research/research-protocol/research-protocol.md` |
 | Research Repo Setup | `pm-cowork` | `pm-cowork/research-repo-setup/research-repo-setup.md` |
 | Resignation Letter | `pm-resignation` | `pm-resignation/resignation-letter/resignation-letter.md` |
@@ -607,6 +614,7 @@
 | ROI Estimator | `pm-calculators` | `pm-calculators/roi-estimator/roi-estimator.md` |
 | Role Redesign For AI | `pm-aiwork` | `pm-aiwork/role-redesign-for-ai/role-redesign-for-ai.md` |
 | Rollback Plan | `pm-engineering` | `pm-engineering/rollback-plan/rollback-plan.md` |
+| Roommate Agreement | `pm-newgen` | `pm-newgen/roommate-agreement/roommate-agreement.md` |
 | RSS Digest | `pm-live` | `pm-live/rss-digest/rss-digest.md` |
 | Rubric Builder | `pm-education` | `pm-education/rubric-builder/rubric-builder.md` |
 | Rules Lawyer | `pm-tabletop` | `pm-tabletop/rules-lawyer/rules-lawyer.md` |
@@ -738,6 +746,7 @@
 | The Thesis Defense | `pm-students` | `pm-students/the-thesis-defense/the-thesis-defense.md` |
 | The Time Capsule | `pm-2027` | `pm-2027/the-time-capsule/the-time-capsule.md` |
 | The Understudy | `pm-2027` | `pm-2027/the-understudy/the-understudy.md` |
+| The Vibe Check | `pm-newgen` | `pm-newgen/the-vibe-check/the-vibe-check.md` |
 | The Visa Interview | `pm-simulators` | `pm-simulators/the-visa-interview/the-visa-interview.md` |
 | Thesis Outline | `pm-students` | `pm-students/thesis-outline/thesis-outline.md` |
 | Thread To Decision | `pm-cowork` | `pm-cowork/thread-to-decision/thread-to-decision.md` |
@@ -755,6 +764,7 @@
 | Transcreation | `pm-localization` | `pm-localization/transcreation/transcreation.md` |
 | Travel Brief | `pm-cowork` | `pm-cowork/travel-brief/travel-brief.md` |
 | Treatment Plan Estimate | `pm-veterinary` | `pm-veterinary/treatment-plan-estimate/treatment-plan-estimate.md` |
+| TTRPG Session Forge | `pm-newgen` | `pm-newgen/ttrpg-session-forge/ttrpg-session-forge.md` |
 | Unblock Protocol | `pm-cowork` | `pm-cowork/unblock-protocol/unblock-protocol.md` |
 | Underwriting Narrative | `pm-insurance` | `pm-insurance/underwriting-narrative/underwriting-narrative.md` |
 | Unit Economics | `pm-calculators` | `pm-calculators/unit-economics/unit-economics.md` |

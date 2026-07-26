@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-792 skills exported. Copy a `.mdc rule` into the tool to use it.
+802 skills exported. Copy a `.mdc rule` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -56,6 +56,7 @@
 | Async Instead | `pm-cowork` | `pm-cowork/async-instead/async-instead.mdc` |
 | Async Standup Compiler (Live) | `pm-cowork-live` | `pm-cowork-live/async-standup-compiler/async-standup-compiler.mdc` |
 | Async Update Format | `pm-cowork` | `pm-cowork/async-update-format/async-update-format.mdc` |
+| Attention Reset | `pm-newgen` | `pm-newgen/attention-reset/attention-reset.mdc` |
 | Auto Repair Estimate Decoder | `pm-decoders` | `pm-decoders/auto-repair-estimate-decoder/auto-repair-estimate-decoder.mdc` |
 | Autopilot Charter | `pm-autopilot` | `pm-autopilot/autopilot-charter/autopilot-charter.mdc` |
 | Behavior Intervention Plan | `pm-teaching` | `pm-teaching/behavior-intervention-plan/behavior-intervention-plan.mdc` |
@@ -120,6 +121,7 @@
 | Climate Risk Assessment | `pm-climate` | `pm-climate/climate-risk-assessment/climate-risk-assessment.mdc` |
 | Clinical Case Summary | `pm-research` | `pm-research/clinical-case-summary/clinical-case-summary.mdc` |
 | Clinical Trial Protocol | `pm-health` | `pm-health/clinical-trial-protocol/clinical-trial-protocol.mdc` |
+| Clip Factory | `pm-newgen` | `pm-newgen/clip-factory/clip-factory.mdc` |
 | Clone Brief | `pm-2027` | `pm-2027/clone-brief/clone-brief.mdc` |
 | Closing Disclosure Decoder | `pm-decoders` | `pm-decoders/closing-disclosure-decoder/closing-disclosure-decoder.mdc` |
 | Co-Marketing | `pm-growth` | `pm-growth/co-marketing/co-marketing.mdc` |
@@ -165,6 +167,7 @@
 | Cover Letter | `pm-personal` | `pm-personal/cover-letter/cover-letter.mdc` |
 | Coverage Gap Analysis | `pm-insurance` | `pm-insurance/coverage-gap-analysis/coverage-gap-analysis.mdc` |
 | Creator Brand Kit | `pm-creator` | `pm-creator/creator-brand-kit/creator-brand-kit.mdc` |
+| Creator Deal Decoder | `pm-newgen` | `pm-newgen/creator-deal-decoder/creator-deal-decoder.mdc` |
 | Creator Media Kit | `pm-creator` | `pm-creator/creator-media-kit/creator-media-kit.mdc` |
 | Credit Memo | `pm-banking` | `pm-banking/credit-memo/credit-memo.mdc` |
 | Crypto Prices | `pm-live` | `pm-live/crypto-prices/crypto-prices.mdc` |
@@ -189,6 +192,7 @@
 | Database Migration Plan | `pm-engineering` | `pm-engineering/database-migration-plan/database-migration-plan.mdc` |
 | Database Schema Design | `pm-engineering` | `pm-engineering/database-schema-design/database-schema-design.mdc` |
 | Dataset Datasheet | `pm-ai` | `pm-ai/dataset-datasheet/dataset-datasheet.mdc` |
+| Dating Profile Doctor | `pm-newgen` | `pm-newgen/dating-profile-doctor/dating-profile-doctor.mdc` |
 | Daycare vs Stay-Home | `pm-calculators` | `pm-calculators/daycare-vs-stay-home/daycare-vs-stay-home.mdc` |
 | dbt Model Spec | `pm-dataeng` | `pm-dataeng/dbt-model-spec/dbt-model-spec.mdc` |
 | Debt Payoff | `pm-calculators` | `pm-calculators/debt-payoff/debt-payoff.mdc` |
@@ -443,6 +447,7 @@
 | Metric Semantic Layer | `pm-dataeng` | `pm-dataeng/metric-semantic-layer/metric-semantic-layer.mdc` |
 | Metric Tree Builder | `pm-data` | `pm-data/metric-tree-builder/metric-tree-builder.mdc` |
 | Metrics Framework | `pm-data` | `pm-data/metrics-framework/metrics-framework.mdc` |
+| Micro Retirement Planner | `pm-newgen` | `pm-newgen/micro-retirement-planner/micro-retirement-planner.mdc` |
 | Microcopy Writer | `pm-uxwriting` | `pm-uxwriting/microcopy-writer/microcopy-writer.mdc` |
 | Microservices Decomposition | `pm-engineering` | `pm-engineering/microservices-decomposition/microservices-decomposition.mdc` |
 | Migration Day Runbook | `pm-cowork` | `pm-cowork/migration-day-runbook/migration-day-runbook.mdc` |
@@ -558,6 +563,7 @@
 | RAG Architecture Review | `pm-ai` | `pm-ai/rag-architecture-review/rag-architecture-review.mdc` |
 | RAG Design Doc | `pm-ai` | `pm-ai/rag-design-doc/rag-design-doc.mdc` |
 | Raise vs Jump | `pm-calculators` | `pm-calculators/raise-vs-jump/raise-vs-jump.mdc` |
+| Ranked Climb Coach | `pm-newgen` | `pm-newgen/ranked-climb-coach/ranked-climb-coach.mdc` |
 | Rate Card | `pm-consulting` | `pm-consulting/rate-card/rate-card.mdc` |
 | README Writer | `pm-devrel` | `pm-devrel/readme-writer/readme-writer.mdc` |
 | Receipts Audit | `pm-method` | `pm-method/receipts-audit/receipts-audit.mdc` |
@@ -584,6 +590,7 @@
 | Repair Request Escalation | `pm-renters` | `pm-renters/repair-request-escalation/repair-request-escalation.mdc` |
 | Reply In Their Tone | `pm-cowork` | `pm-cowork/reply-in-their-tone/reply-in-their-tone.mdc` |
 | Repo Map | `pm-tokens` | `pm-tokens/repo-map/repo-map.mdc` |
+| Resale Flip Kit | `pm-newgen` | `pm-newgen/resale-flip-kit/resale-flip-kit.mdc` |
 | Research Protocol | `pm-research` | `pm-research/research-protocol/research-protocol.mdc` |
 | Research Repo Setup | `pm-cowork` | `pm-cowork/research-repo-setup/research-repo-setup.mdc` |
 | Resignation Letter | `pm-resignation` | `pm-resignation/resignation-letter/resignation-letter.mdc` |
@@ -607,6 +614,7 @@
 | ROI Estimator | `pm-calculators` | `pm-calculators/roi-estimator/roi-estimator.mdc` |
 | Role Redesign For AI | `pm-aiwork` | `pm-aiwork/role-redesign-for-ai/role-redesign-for-ai.mdc` |
 | Rollback Plan | `pm-engineering` | `pm-engineering/rollback-plan/rollback-plan.mdc` |
+| Roommate Agreement | `pm-newgen` | `pm-newgen/roommate-agreement/roommate-agreement.mdc` |
 | RSS Digest | `pm-live` | `pm-live/rss-digest/rss-digest.mdc` |
 | Rubric Builder | `pm-education` | `pm-education/rubric-builder/rubric-builder.mdc` |
 | Rules Lawyer | `pm-tabletop` | `pm-tabletop/rules-lawyer/rules-lawyer.mdc` |
@@ -738,6 +746,7 @@
 | The Thesis Defense | `pm-students` | `pm-students/the-thesis-defense/the-thesis-defense.mdc` |
 | The Time Capsule | `pm-2027` | `pm-2027/the-time-capsule/the-time-capsule.mdc` |
 | The Understudy | `pm-2027` | `pm-2027/the-understudy/the-understudy.mdc` |
+| The Vibe Check | `pm-newgen` | `pm-newgen/the-vibe-check/the-vibe-check.mdc` |
 | The Visa Interview | `pm-simulators` | `pm-simulators/the-visa-interview/the-visa-interview.mdc` |
 | Thesis Outline | `pm-students` | `pm-students/thesis-outline/thesis-outline.mdc` |
 | Thread To Decision | `pm-cowork` | `pm-cowork/thread-to-decision/thread-to-decision.mdc` |
@@ -755,6 +764,7 @@
 | Transcreation | `pm-localization` | `pm-localization/transcreation/transcreation.mdc` |
 | Travel Brief | `pm-cowork` | `pm-cowork/travel-brief/travel-brief.mdc` |
 | Treatment Plan Estimate | `pm-veterinary` | `pm-veterinary/treatment-plan-estimate/treatment-plan-estimate.mdc` |
+| TTRPG Session Forge | `pm-newgen` | `pm-newgen/ttrpg-session-forge/ttrpg-session-forge.mdc` |
 | Unblock Protocol | `pm-cowork` | `pm-cowork/unblock-protocol/unblock-protocol.mdc` |
 | Underwriting Narrative | `pm-insurance` | `pm-insurance/underwriting-narrative/underwriting-narrative.mdc` |
 | Unit Economics | `pm-calculators` | `pm-calculators/unit-economics/unit-economics.mdc` |

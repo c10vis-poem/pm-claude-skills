@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-792 skills exported. Copy a `SYSTEM_PROMPT.md` into the tool to use it.
+802 skills exported. Copy a `SYSTEM_PROMPT.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -56,6 +56,7 @@
 | Async Instead | `pm-cowork` | `pm-cowork/async-instead/SYSTEM_PROMPT.md` |
 | Async Standup Compiler (Live) | `pm-cowork-live` | `pm-cowork-live/async-standup-compiler/SYSTEM_PROMPT.md` |
 | Async Update Format | `pm-cowork` | `pm-cowork/async-update-format/SYSTEM_PROMPT.md` |
+| Attention Reset | `pm-newgen` | `pm-newgen/attention-reset/SYSTEM_PROMPT.md` |
 | Auto Repair Estimate Decoder | `pm-decoders` | `pm-decoders/auto-repair-estimate-decoder/SYSTEM_PROMPT.md` |
 | Autopilot Charter | `pm-autopilot` | `pm-autopilot/autopilot-charter/SYSTEM_PROMPT.md` |
 | Behavior Intervention Plan | `pm-teaching` | `pm-teaching/behavior-intervention-plan/SYSTEM_PROMPT.md` |
@@ -120,6 +121,7 @@
 | Climate Risk Assessment | `pm-climate` | `pm-climate/climate-risk-assessment/SYSTEM_PROMPT.md` |
 | Clinical Case Summary | `pm-research` | `pm-research/clinical-case-summary/SYSTEM_PROMPT.md` |
 | Clinical Trial Protocol | `pm-health` | `pm-health/clinical-trial-protocol/SYSTEM_PROMPT.md` |
+| Clip Factory | `pm-newgen` | `pm-newgen/clip-factory/SYSTEM_PROMPT.md` |
 | Clone Brief | `pm-2027` | `pm-2027/clone-brief/SYSTEM_PROMPT.md` |
 | Closing Disclosure Decoder | `pm-decoders` | `pm-decoders/closing-disclosure-decoder/SYSTEM_PROMPT.md` |
 | Co-Marketing | `pm-growth` | `pm-growth/co-marketing/SYSTEM_PROMPT.md` |
@@ -165,6 +167,7 @@
 | Cover Letter | `pm-personal` | `pm-personal/cover-letter/SYSTEM_PROMPT.md` |
 | Coverage Gap Analysis | `pm-insurance` | `pm-insurance/coverage-gap-analysis/SYSTEM_PROMPT.md` |
 | Creator Brand Kit | `pm-creator` | `pm-creator/creator-brand-kit/SYSTEM_PROMPT.md` |
+| Creator Deal Decoder | `pm-newgen` | `pm-newgen/creator-deal-decoder/SYSTEM_PROMPT.md` |
 | Creator Media Kit | `pm-creator` | `pm-creator/creator-media-kit/SYSTEM_PROMPT.md` |
 | Credit Memo | `pm-banking` | `pm-banking/credit-memo/SYSTEM_PROMPT.md` |
 | Crypto Prices | `pm-live` | `pm-live/crypto-prices/SYSTEM_PROMPT.md` |
@@ -189,6 +192,7 @@
 | Database Migration Plan | `pm-engineering` | `pm-engineering/database-migration-plan/SYSTEM_PROMPT.md` |
 | Database Schema Design | `pm-engineering` | `pm-engineering/database-schema-design/SYSTEM_PROMPT.md` |
 | Dataset Datasheet | `pm-ai` | `pm-ai/dataset-datasheet/SYSTEM_PROMPT.md` |
+| Dating Profile Doctor | `pm-newgen` | `pm-newgen/dating-profile-doctor/SYSTEM_PROMPT.md` |
 | Daycare vs Stay-Home | `pm-calculators` | `pm-calculators/daycare-vs-stay-home/SYSTEM_PROMPT.md` |
 | dbt Model Spec | `pm-dataeng` | `pm-dataeng/dbt-model-spec/SYSTEM_PROMPT.md` |
 | Debt Payoff | `pm-calculators` | `pm-calculators/debt-payoff/SYSTEM_PROMPT.md` |
@@ -443,6 +447,7 @@
 | Metric Semantic Layer | `pm-dataeng` | `pm-dataeng/metric-semantic-layer/SYSTEM_PROMPT.md` |
 | Metric Tree Builder | `pm-data` | `pm-data/metric-tree-builder/SYSTEM_PROMPT.md` |
 | Metrics Framework | `pm-data` | `pm-data/metrics-framework/SYSTEM_PROMPT.md` |
+| Micro Retirement Planner | `pm-newgen` | `pm-newgen/micro-retirement-planner/SYSTEM_PROMPT.md` |
 | Microcopy Writer | `pm-uxwriting` | `pm-uxwriting/microcopy-writer/SYSTEM_PROMPT.md` |
 | Microservices Decomposition | `pm-engineering` | `pm-engineering/microservices-decomposition/SYSTEM_PROMPT.md` |
 | Migration Day Runbook | `pm-cowork` | `pm-cowork/migration-day-runbook/SYSTEM_PROMPT.md` |
@@ -558,6 +563,7 @@
 | RAG Architecture Review | `pm-ai` | `pm-ai/rag-architecture-review/SYSTEM_PROMPT.md` |
 | RAG Design Doc | `pm-ai` | `pm-ai/rag-design-doc/SYSTEM_PROMPT.md` |
 | Raise vs Jump | `pm-calculators` | `pm-calculators/raise-vs-jump/SYSTEM_PROMPT.md` |
+| Ranked Climb Coach | `pm-newgen` | `pm-newgen/ranked-climb-coach/SYSTEM_PROMPT.md` |
 | Rate Card | `pm-consulting` | `pm-consulting/rate-card/SYSTEM_PROMPT.md` |
 | README Writer | `pm-devrel` | `pm-devrel/readme-writer/SYSTEM_PROMPT.md` |
 | Receipts Audit | `pm-method` | `pm-method/receipts-audit/SYSTEM_PROMPT.md` |
@@ -584,6 +590,7 @@
 | Repair Request Escalation | `pm-renters` | `pm-renters/repair-request-escalation/SYSTEM_PROMPT.md` |
 | Reply In Their Tone | `pm-cowork` | `pm-cowork/reply-in-their-tone/SYSTEM_PROMPT.md` |
 | Repo Map | `pm-tokens` | `pm-tokens/repo-map/SYSTEM_PROMPT.md` |
+| Resale Flip Kit | `pm-newgen` | `pm-newgen/resale-flip-kit/SYSTEM_PROMPT.md` |
 | Research Protocol | `pm-research` | `pm-research/research-protocol/SYSTEM_PROMPT.md` |
 | Research Repo Setup | `pm-cowork` | `pm-cowork/research-repo-setup/SYSTEM_PROMPT.md` |
 | Resignation Letter | `pm-resignation` | `pm-resignation/resignation-letter/SYSTEM_PROMPT.md` |
@@ -607,6 +614,7 @@
 | ROI Estimator | `pm-calculators` | `pm-calculators/roi-estimator/SYSTEM_PROMPT.md` |
 | Role Redesign For AI | `pm-aiwork` | `pm-aiwork/role-redesign-for-ai/SYSTEM_PROMPT.md` |
 | Rollback Plan | `pm-engineering` | `pm-engineering/rollback-plan/SYSTEM_PROMPT.md` |
+| Roommate Agreement | `pm-newgen` | `pm-newgen/roommate-agreement/SYSTEM_PROMPT.md` |
 | RSS Digest | `pm-live` | `pm-live/rss-digest/SYSTEM_PROMPT.md` |
 | Rubric Builder | `pm-education` | `pm-education/rubric-builder/SYSTEM_PROMPT.md` |
 | Rules Lawyer | `pm-tabletop` | `pm-tabletop/rules-lawyer/SYSTEM_PROMPT.md` |
@@ -738,6 +746,7 @@
 | The Thesis Defense | `pm-students` | `pm-students/the-thesis-defense/SYSTEM_PROMPT.md` |
 | The Time Capsule | `pm-2027` | `pm-2027/the-time-capsule/SYSTEM_PROMPT.md` |
 | The Understudy | `pm-2027` | `pm-2027/the-understudy/SYSTEM_PROMPT.md` |
+| The Vibe Check | `pm-newgen` | `pm-newgen/the-vibe-check/SYSTEM_PROMPT.md` |
 | The Visa Interview | `pm-simulators` | `pm-simulators/the-visa-interview/SYSTEM_PROMPT.md` |
 | Thesis Outline | `pm-students` | `pm-students/thesis-outline/SYSTEM_PROMPT.md` |
 | Thread To Decision | `pm-cowork` | `pm-cowork/thread-to-decision/SYSTEM_PROMPT.md` |
@@ -755,6 +764,7 @@
 | Transcreation | `pm-localization` | `pm-localization/transcreation/SYSTEM_PROMPT.md` |
 | Travel Brief | `pm-cowork` | `pm-cowork/travel-brief/SYSTEM_PROMPT.md` |
 | Treatment Plan Estimate | `pm-veterinary` | `pm-veterinary/treatment-plan-estimate/SYSTEM_PROMPT.md` |
+| TTRPG Session Forge | `pm-newgen` | `pm-newgen/ttrpg-session-forge/SYSTEM_PROMPT.md` |
 | Unblock Protocol | `pm-cowork` | `pm-cowork/unblock-protocol/SYSTEM_PROMPT.md` |
 | Underwriting Narrative | `pm-insurance` | `pm-insurance/underwriting-narrative/SYSTEM_PROMPT.md` |
 | Unit Economics | `pm-calculators` | `pm-calculators/unit-economics/SYSTEM_PROMPT.md` |
