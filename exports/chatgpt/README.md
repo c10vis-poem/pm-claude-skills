@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-782 skills exported. Copy a `SYSTEM_PROMPT.md` into the tool to use it.
+792 skills exported. Copy a `SYSTEM_PROMPT.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -20,13 +20,16 @@
 | Agenda Or Cancel | `pm-cowork` | `pm-cowork/agenda-or-cancel/SYSTEM_PROMPT.md` |
 | Agent Design Review | `pm-ai` | `pm-ai/agent-design-review/SYSTEM_PROMPT.md` |
 | Agent Era Pricing | `pm-agentnative` | `pm-agentnative/agent-era-pricing/SYSTEM_PROMPT.md` |
+| Agent Hiring Panel | `pm-2027` | `pm-2027/agent-hiring-panel/SYSTEM_PROMPT.md` |
 | Agent Incident Postmortem | `pm-agentops` | `pm-agentops/agent-incident-postmortem/SYSTEM_PROMPT.md` |
 | Agent Observability Spec | `pm-agentops` | `pm-agentops/agent-observability-spec/SYSTEM_PROMPT.md` |
 | Agent Readiness Audit | `pm-agentnative` | `pm-agentnative/agent-readiness-audit/SYSTEM_PROMPT.md` |
+| Agent Severance | `pm-2027` | `pm-2027/agent-severance/SYSTEM_PROMPT.md` |
 | Agent Spec | `pm-ai` | `pm-ai/agent-spec/SYSTEM_PROMPT.md` |
 | AI-Assisted Performance Review | `pm-aiwork` | `pm-aiwork/ai-assisted-performance-review/SYSTEM_PROMPT.md` |
 | AI Code Review | `pm-engineering` | `pm-engineering/ai-code-review/SYSTEM_PROMPT.md` |
 | AI Content Audit | `pm-aiwork` | `pm-aiwork/ai-content-audit/SYSTEM_PROMPT.md` |
+| AI Disclosure Policy | `pm-2027` | `pm-2027/ai-disclosure-policy/SYSTEM_PROMPT.md` |
 | AI Ethics Review | `pm-advanced` | `pm-advanced/ai-ethics-review/SYSTEM_PROMPT.md` |
 | AI Eval Plan | `pm-ai` | `pm-ai/ai-eval-plan/SYSTEM_PROMPT.md` |
 | AI Feature PRD | `pm-ai` | `pm-ai/ai-feature-prd/SYSTEM_PROMPT.md` |
@@ -40,6 +43,7 @@
 | Analyst Relations Brief | `pm-pmm` | `pm-pmm/analyst-relations-brief/SYSTEM_PROMPT.md` |
 | Announcement Card | `pm-visuals` | `pm-visuals/announcement-card/SYSTEM_PROMPT.md` |
 | API Docs Writer | `pm-engineering` | `pm-engineering/api-docs-writer/SYSTEM_PROMPT.md` |
+| API For Yourself | `pm-2027` | `pm-2027/api-for-yourself/SYSTEM_PROMPT.md` |
 | API Test Plan | `pm-qa` | `pm-qa/api-test-plan/SYSTEM_PROMPT.md` |
 | API Versioning Strategy | `pm-engineering` | `pm-engineering/api-versioning-strategy/SYSTEM_PROMPT.md` |
 | Apology Letter | `pm-crisis` | `pm-crisis/apology-letter/SYSTEM_PROMPT.md` |
@@ -116,6 +120,7 @@
 | Climate Risk Assessment | `pm-climate` | `pm-climate/climate-risk-assessment/SYSTEM_PROMPT.md` |
 | Clinical Case Summary | `pm-research` | `pm-research/clinical-case-summary/SYSTEM_PROMPT.md` |
 | Clinical Trial Protocol | `pm-health` | `pm-health/clinical-trial-protocol/SYSTEM_PROMPT.md` |
+| Clone Brief | `pm-2027` | `pm-2027/clone-brief/SYSTEM_PROMPT.md` |
 | Closing Disclosure Decoder | `pm-decoders` | `pm-decoders/closing-disclosure-decoder/SYSTEM_PROMPT.md` |
 | Co-Marketing | `pm-growth` | `pm-growth/co-marketing/SYSTEM_PROMPT.md` |
 | Code Explainer | `pm-engineering` | `pm-engineering/code-explainer/SYSTEM_PROMPT.md` |
@@ -146,6 +151,7 @@
 | Content Calendar | `pm-gtm` | `pm-gtm/content-calendar/SYSTEM_PROMPT.md` |
 | Content Repurposer | `pm-creator` | `pm-creator/content-repurposer/SYSTEM_PROMPT.md` |
 | Content Style Guide | `pm-uxwriting` | `pm-uxwriting/content-style-guide/SYSTEM_PROMPT.md` |
+| Context Bankruptcy | `pm-2027` | `pm-2027/context-bankruptcy/SYSTEM_PROMPT.md` |
 | Context Budget | `pm-tokens` | `pm-tokens/context-budget/SYSTEM_PROMPT.md` |
 | Context Crusher | `pm-tokens` | `pm-tokens/context-crusher/SYSTEM_PROMPT.md` |
 | Context Engineering Review | `pm-agentops` | `pm-agentops/context-engineering-review/SYSTEM_PROMPT.md` |
@@ -200,6 +206,7 @@
 | Deck Outline First | `pm-cowork` | `pm-cowork/deck-outline-first/SYSTEM_PROMPT.md` |
 | Deck Review Rubric | `pm-cowork` | `pm-cowork/deck-review-rubric/SYSTEM_PROMPT.md` |
 | Deep Work Blocking | `pm-cowork` | `pm-cowork/deep-work-blocking/SYSTEM_PROMPT.md` |
+| Deepfake Drill | `pm-2027` | `pm-2027/deepfake-drill/SYSTEM_PROMPT.md` |
 | Delay Claim Letter | `pm-construction` | `pm-construction/delay-claim-letter/SYSTEM_PROMPT.md` |
 | Delegation Brief | `pm-cowork` | `pm-cowork/delegation-brief/SYSTEM_PROMPT.md` |
 | Delta Briefing | `pm-autopilot` | `pm-autopilot/delta-briefing/SYSTEM_PROMPT.md` |
@@ -724,10 +731,13 @@
 | The Insurance Adjuster | `pm-simulators` | `pm-simulators/the-insurance-adjuster/SYSTEM_PROMPT.md` |
 | The Journalist Call | `pm-simulators` | `pm-simulators/the-journalist-call/SYSTEM_PROMPT.md` |
 | The Open House | `pm-simulators` | `pm-simulators/the-open-house/SYSTEM_PROMPT.md` |
+| The Org Simulator | `pm-2027` | `pm-2027/the-org-simulator/SYSTEM_PROMPT.md` |
 | The Price Pushback | `pm-simulators` | `pm-simulators/the-price-pushback/SYSTEM_PROMPT.md` |
 | The Procurement Gauntlet | `pm-simulators` | `pm-simulators/the-procurement-gauntlet/SYSTEM_PROMPT.md` |
 | The Promotion Committee | `pm-simulators` | `pm-simulators/the-promotion-committee/SYSTEM_PROMPT.md` |
 | The Thesis Defense | `pm-students` | `pm-students/the-thesis-defense/SYSTEM_PROMPT.md` |
+| The Time Capsule | `pm-2027` | `pm-2027/the-time-capsule/SYSTEM_PROMPT.md` |
+| The Understudy | `pm-2027` | `pm-2027/the-understudy/SYSTEM_PROMPT.md` |
 | The Visa Interview | `pm-simulators` | `pm-simulators/the-visa-interview/SYSTEM_PROMPT.md` |
 | Thesis Outline | `pm-students` | `pm-students/thesis-outline/SYSTEM_PROMPT.md` |
 | Thread To Decision | `pm-cowork` | `pm-cowork/thread-to-decision/SYSTEM_PROMPT.md` |

@@ -664,6 +664,46 @@
     {
       "skill": "tabletop-negotiator",
       "input": "Practice a Catan mid-game trade with me. I have lots of wood and sheep, desperately need ore and brick, I am on 7 points and people are starting to notice. You are the player to my left with a decent ore position. Friendly-but-competitive group. Go."
+    },
+    {
+      "skill": "the-understudy",
+      "input": "Here are three of my real Slack updates to leadership: (1) Shipped the export revamp. Adoption 12% day one vs 8% forecast. One sev-3 on Tuesday, fixed same day. Next: pricing page test. (2) Churn work: interviewed 9 cancelled accounts, 6 cited the integrations gap. Pausing the referral experiment to staff it. Flagging: this delays Q3 OKR-2. (3) Heads up: I am killing the widget beta. Usage flat for 6 weeks, keeping it costs a designer. Happy to discuss but default is off by Friday. --- Now draft, as me, an update announcing we are delaying the mobile launch by 3 weeks because of app store review issues."
+    },
+    {
+      "skill": "agent-severance",
+      "input": "We are shutting down Jarvis, a Slack bot on Claude that our ops team ran for 14 months. It summarized standup, had a Notion integration, a Google Drive OAuth grant, posted a weekly metrics digest from a cron job, and people DMed it constantly. We are switching vendors. What do we do?"
+    },
+    {
+      "skill": "deepfake-drill",
+      "input": "I run finance at a 200-person company. Two-person approval above 50k, but approvals happen over Slack half the time. Our CEO is on podcasts constantly so his voice is everywhere. Design a drill for my AP team of four, announced-window style."
+    },
+    {
+      "skill": "ai-disclosure-policy",
+      "input": "B2C fintech, EU and UK customers. AI use today: support chatbot (fully automated, humans on escalation), marketing blog posts (AI-drafted, human edited), auto-generated spending insights in-app, and we are testing an AI voice for payment reminder calls. What must we label and how?"
+    },
+    {
+      "skill": "the-time-capsule",
+      "input": "I am leaving my Head of Product role in 3 weeks after 4 years. My successor starts a month after I go. The platform rewrite is half done, the CEO thinks it lands in Q1 which I doubt, my two leads are quietly competing for my job, and the enterprise pivot everyone loves has soft numbers. Write my capsule, open on their day 30."
+    },
+    {
+      "skill": "agent-hiring-panel",
+      "input": "We want an AI agent to draft first responses to support tickets (SaaS, ~400 tickets/week, tier 1). Candidates: three vendor tools whose demos all look great. Support lead would own it. Tickets contain customer data. Baseline today: median 4h first response. Build the hiring process."
+    },
+    {
+      "skill": "clone-brief",
+      "input": "Quarterly roadmap prioritisation is Thursday, I am at a wedding. My senior PM Dana attends for me. At stake: whether the integrations work keeps its 3 engineers or loses 2 to the enterprise push. My real position: I can live with losing 1 for a quarter, never 2, and if they offer to backfill in Q1 in writing I would even champion it. The VP eng will push hard. Brief Dana."
+    },
+    {
+      "skill": "context-bankruptcy",
+      "input": "My Claude project memory is 8 months old and it keeps being wrong: it thinks I still run the growth team (moved to platform in April), keeps suggesting my old manager as an approver (she left), insists we deploy Fridays (changed after an incident), but it also knows my writing preferences perfectly and I do not want to lose those. Memory file pasted below. Fix this properly. [memory: ...]"
+    },
+    {
+      "skill": "api-for-yourself",
+      "input": "New team of 8 inherits me as their engineering manager next Monday. Honest facts: I do best with a one-line ask plus a doc link, I get snippy after 4+ meetings a day, I need 24h notice for anything Friday afternoon, I over-question new ideas for the first 10 minutes but come around, and DMs after 9pm get read at 8am. Make my API spec."
+    },
+    {
+      "skill": "the-org-simulator",
+      "input": "Proposed: merge our two product teams (Consumer, 12 people under Maya; Business, 9 under Tom) into one group under Maya. Tom becomes principal PM, no reports. Real reason: Tom is a strong IC and a weak manager, but the memo will say focus and velocity. Two of Toms people are loyal to him. Announce in 2 weeks. Simulate it."
     }
   ]
 }

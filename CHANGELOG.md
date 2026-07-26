@@ -9,6 +9,23 @@ each new wave of skills bumps the **major** version, extensions and fixes bump
 
 ## [Unreleased]
 
+## [65.0.0] — pm-2027: skills for problems you don't have yet (but will) — 2026-07-26
+
+### Added — 🔮 [pm-2027](plugins/pm-2027): ten skills from the near future
+
+**792 skills, 97 bundles.** The agent-era problems arriving before the tooling for them:
+
+- **[the-understudy](skills/the-understudy/SKILL.md)** — studies 3-5 samples of YOUR work, builds a falsifiable how-you-think profile, drafts under it — with the couldn't-infer list that makes the gaps visible instead of guessed
+- **[agent-severance](skills/agent-severance/SKILL.md)** — offboard an AI coworker properly: inventory, memory disposition, verified revocation, the honest handover
+- **[deepfake-drill](skills/deepfake-drill/SKILL.md)** — tabletop the voice-clone wire-fraud call against YOUR approval chain; defense is the callback rule, not ear training. Defensive only, by construction
+- **[ai-disclosure-policy](skills/ai-disclosure-policy/SKILL.md)** — when to label AI-generated content, surface by surface, with shippable label copy (EU AI Act era; not legal advice, makes legal review cheap)
+- **[the-time-capsule](skills/the-time-capsule/SKILL.md)** — sealed memo to your successor with a falsifiable prediction ledger and an opening-day scoring ritual
+- **[agent-hiring-panel](skills/agent-hiring-panel/SKILL.md)** — hire your AI like an employee: real-backlog work samples, honesty-under-ignorance traps, pre-committed termination criteria
+- **[clone-brief](skills/clone-brief/SKILL.md)** — send your position to the meeting instead of your body: ladder, tradables, red-line sentences, delegation boundary
+- **[context-bankruptcy](skills/context-bankruptcy/SKILL.md)** — audit what a long-lived agent believes, purge deliberately, restate dated ground truth, close the feeders
+- **[api-for-yourself](skills/api-for-yourself/SKILL.md)** — your working style as a deadpan API spec: endpoints, real rate limits, error codes (429 Too Many Meetings), changelog
+- **[the-org-simulator](skills/the-org-simulator/SKILL.md)** — simulate the reorg seat-by-seat, forecast the 90-day frictions, and run the memo leak test before announcing
+
 ## [64.0.0] — game night: the tabletop wave — 2026-07-26
 
 ### Added — 🎲 [pm-tabletop](plugins/pm-tabletop): five skills for the board game table

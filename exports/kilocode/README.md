@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-782 skills exported. Copy a `.md rule` into the tool to use it.
+792 skills exported. Copy a `.md rule` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -20,13 +20,16 @@
 | Agenda Or Cancel | `pm-cowork` | `pm-cowork/agenda-or-cancel/agenda-or-cancel.md` |
 | Agent Design Review | `pm-ai` | `pm-ai/agent-design-review/agent-design-review.md` |
 | Agent Era Pricing | `pm-agentnative` | `pm-agentnative/agent-era-pricing/agent-era-pricing.md` |
+| Agent Hiring Panel | `pm-2027` | `pm-2027/agent-hiring-panel/agent-hiring-panel.md` |
 | Agent Incident Postmortem | `pm-agentops` | `pm-agentops/agent-incident-postmortem/agent-incident-postmortem.md` |
 | Agent Observability Spec | `pm-agentops` | `pm-agentops/agent-observability-spec/agent-observability-spec.md` |
 | Agent Readiness Audit | `pm-agentnative` | `pm-agentnative/agent-readiness-audit/agent-readiness-audit.md` |
+| Agent Severance | `pm-2027` | `pm-2027/agent-severance/agent-severance.md` |
 | Agent Spec | `pm-ai` | `pm-ai/agent-spec/agent-spec.md` |
 | AI-Assisted Performance Review | `pm-aiwork` | `pm-aiwork/ai-assisted-performance-review/ai-assisted-performance-review.md` |
 | AI Code Review | `pm-engineering` | `pm-engineering/ai-code-review/ai-code-review.md` |
 | AI Content Audit | `pm-aiwork` | `pm-aiwork/ai-content-audit/ai-content-audit.md` |
+| AI Disclosure Policy | `pm-2027` | `pm-2027/ai-disclosure-policy/ai-disclosure-policy.md` |
 | AI Ethics Review | `pm-advanced` | `pm-advanced/ai-ethics-review/ai-ethics-review.md` |
 | AI Eval Plan | `pm-ai` | `pm-ai/ai-eval-plan/ai-eval-plan.md` |
 | AI Feature PRD | `pm-ai` | `pm-ai/ai-feature-prd/ai-feature-prd.md` |
@@ -40,6 +43,7 @@
 | Analyst Relations Brief | `pm-pmm` | `pm-pmm/analyst-relations-brief/analyst-relations-brief.md` |
 | Announcement Card | `pm-visuals` | `pm-visuals/announcement-card/announcement-card.md` |
 | API Docs Writer | `pm-engineering` | `pm-engineering/api-docs-writer/api-docs-writer.md` |
+| API For Yourself | `pm-2027` | `pm-2027/api-for-yourself/api-for-yourself.md` |
 | API Test Plan | `pm-qa` | `pm-qa/api-test-plan/api-test-plan.md` |
 | API Versioning Strategy | `pm-engineering` | `pm-engineering/api-versioning-strategy/api-versioning-strategy.md` |
 | Apology Letter | `pm-crisis` | `pm-crisis/apology-letter/apology-letter.md` |
@@ -116,6 +120,7 @@
 | Climate Risk Assessment | `pm-climate` | `pm-climate/climate-risk-assessment/climate-risk-assessment.md` |
 | Clinical Case Summary | `pm-research` | `pm-research/clinical-case-summary/clinical-case-summary.md` |
 | Clinical Trial Protocol | `pm-health` | `pm-health/clinical-trial-protocol/clinical-trial-protocol.md` |
+| Clone Brief | `pm-2027` | `pm-2027/clone-brief/clone-brief.md` |
 | Closing Disclosure Decoder | `pm-decoders` | `pm-decoders/closing-disclosure-decoder/closing-disclosure-decoder.md` |
 | Co-Marketing | `pm-growth` | `pm-growth/co-marketing/co-marketing.md` |
 | Code Explainer | `pm-engineering` | `pm-engineering/code-explainer/code-explainer.md` |
@@ -146,6 +151,7 @@
 | Content Calendar | `pm-gtm` | `pm-gtm/content-calendar/content-calendar.md` |
 | Content Repurposer | `pm-creator` | `pm-creator/content-repurposer/content-repurposer.md` |
 | Content Style Guide | `pm-uxwriting` | `pm-uxwriting/content-style-guide/content-style-guide.md` |
+| Context Bankruptcy | `pm-2027` | `pm-2027/context-bankruptcy/context-bankruptcy.md` |
 | Context Budget | `pm-tokens` | `pm-tokens/context-budget/context-budget.md` |
 | Context Crusher | `pm-tokens` | `pm-tokens/context-crusher/context-crusher.md` |
 | Context Engineering Review | `pm-agentops` | `pm-agentops/context-engineering-review/context-engineering-review.md` |
@@ -200,6 +206,7 @@
 | Deck Outline First | `pm-cowork` | `pm-cowork/deck-outline-first/deck-outline-first.md` |
 | Deck Review Rubric | `pm-cowork` | `pm-cowork/deck-review-rubric/deck-review-rubric.md` |
 | Deep Work Blocking | `pm-cowork` | `pm-cowork/deep-work-blocking/deep-work-blocking.md` |
+| Deepfake Drill | `pm-2027` | `pm-2027/deepfake-drill/deepfake-drill.md` |
 | Delay Claim Letter | `pm-construction` | `pm-construction/delay-claim-letter/delay-claim-letter.md` |
 | Delegation Brief | `pm-cowork` | `pm-cowork/delegation-brief/delegation-brief.md` |
 | Delta Briefing | `pm-autopilot` | `pm-autopilot/delta-briefing/delta-briefing.md` |
@@ -724,10 +731,13 @@
 | The Insurance Adjuster | `pm-simulators` | `pm-simulators/the-insurance-adjuster/the-insurance-adjuster.md` |
 | The Journalist Call | `pm-simulators` | `pm-simulators/the-journalist-call/the-journalist-call.md` |
 | The Open House | `pm-simulators` | `pm-simulators/the-open-house/the-open-house.md` |
+| The Org Simulator | `pm-2027` | `pm-2027/the-org-simulator/the-org-simulator.md` |
 | The Price Pushback | `pm-simulators` | `pm-simulators/the-price-pushback/the-price-pushback.md` |
 | The Procurement Gauntlet | `pm-simulators` | `pm-simulators/the-procurement-gauntlet/the-procurement-gauntlet.md` |
 | The Promotion Committee | `pm-simulators` | `pm-simulators/the-promotion-committee/the-promotion-committee.md` |
 | The Thesis Defense | `pm-students` | `pm-students/the-thesis-defense/the-thesis-defense.md` |
+| The Time Capsule | `pm-2027` | `pm-2027/the-time-capsule/the-time-capsule.md` |
+| The Understudy | `pm-2027` | `pm-2027/the-understudy/the-understudy.md` |
 | The Visa Interview | `pm-simulators` | `pm-simulators/the-visa-interview/the-visa-interview.md` |
 | Thesis Outline | `pm-students` | `pm-students/thesis-outline/thesis-outline.md` |
 | Thread To Decision | `pm-cowork` | `pm-cowork/thread-to-decision/thread-to-decision.md` |

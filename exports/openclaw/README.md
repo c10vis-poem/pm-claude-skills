@@ -3,7 +3,7 @@
 > Auto-generated from `skills/*/SKILL.md` by `scripts/build-exports.mjs`.
 > **Do not edit these files by hand** — edit the source skill and regenerate.
 
-782 skills exported. Copy a `SKILL.md` into the tool to use it.
+792 skills exported. Copy a `SKILL.md` into the tool to use it.
 
 | Skill | Bundle | Path |
 |---|---|---|
@@ -20,13 +20,16 @@
 | Agenda Or Cancel | `pm-cowork` | `agenda-or-cancel/SKILL.md` |
 | Agent Design Review | `pm-ai` | `agent-design-review/SKILL.md` |
 | Agent Era Pricing | `pm-agentnative` | `agent-era-pricing/SKILL.md` |
+| Agent Hiring Panel | `pm-2027` | `agent-hiring-panel/SKILL.md` |
 | Agent Incident Postmortem | `pm-agentops` | `agent-incident-postmortem/SKILL.md` |
 | Agent Observability Spec | `pm-agentops` | `agent-observability-spec/SKILL.md` |
 | Agent Readiness Audit | `pm-agentnative` | `agent-readiness-audit/SKILL.md` |
+| Agent Severance | `pm-2027` | `agent-severance/SKILL.md` |
 | Agent Spec | `pm-ai` | `agent-spec/SKILL.md` |
 | AI-Assisted Performance Review | `pm-aiwork` | `ai-assisted-performance-review/SKILL.md` |
 | AI Code Review | `pm-engineering` | `ai-code-review/SKILL.md` |
 | AI Content Audit | `pm-aiwork` | `ai-content-audit/SKILL.md` |
+| AI Disclosure Policy | `pm-2027` | `ai-disclosure-policy/SKILL.md` |
 | AI Ethics Review | `pm-advanced` | `ai-ethics-review/SKILL.md` |
 | AI Eval Plan | `pm-ai` | `ai-eval-plan/SKILL.md` |
 | AI Feature PRD | `pm-ai` | `ai-feature-prd/SKILL.md` |
@@ -40,6 +43,7 @@
 | Analyst Relations Brief | `pm-pmm` | `analyst-relations-brief/SKILL.md` |
 | Announcement Card | `pm-visuals` | `announcement-card/SKILL.md` |
 | API Docs Writer | `pm-engineering` | `api-docs-writer/SKILL.md` |
+| API For Yourself | `pm-2027` | `api-for-yourself/SKILL.md` |
 | API Test Plan | `pm-qa` | `api-test-plan/SKILL.md` |
 | API Versioning Strategy | `pm-engineering` | `api-versioning-strategy/SKILL.md` |
 | Apology Letter | `pm-crisis` | `apology-letter/SKILL.md` |
@@ -116,6 +120,7 @@
 | Climate Risk Assessment | `pm-climate` | `climate-risk-assessment/SKILL.md` |
 | Clinical Case Summary | `pm-research` | `clinical-case-summary/SKILL.md` |
 | Clinical Trial Protocol | `pm-health` | `clinical-trial-protocol/SKILL.md` |
+| Clone Brief | `pm-2027` | `clone-brief/SKILL.md` |
 | Closing Disclosure Decoder | `pm-decoders` | `closing-disclosure-decoder/SKILL.md` |
 | Co-Marketing | `pm-growth` | `co-marketing/SKILL.md` |
 | Code Explainer | `pm-engineering` | `code-explainer/SKILL.md` |
@@ -146,6 +151,7 @@
 | Content Calendar | `pm-gtm` | `content-calendar/SKILL.md` |
 | Content Repurposer | `pm-creator` | `content-repurposer/SKILL.md` |
 | Content Style Guide | `pm-uxwriting` | `content-style-guide/SKILL.md` |
+| Context Bankruptcy | `pm-2027` | `context-bankruptcy/SKILL.md` |
 | Context Budget | `pm-tokens` | `context-budget/SKILL.md` |
 | Context Crusher | `pm-tokens` | `context-crusher/SKILL.md` |
 | Context Engineering Review | `pm-agentops` | `context-engineering-review/SKILL.md` |
@@ -200,6 +206,7 @@
 | Deck Outline First | `pm-cowork` | `deck-outline-first/SKILL.md` |
 | Deck Review Rubric | `pm-cowork` | `deck-review-rubric/SKILL.md` |
 | Deep Work Blocking | `pm-cowork` | `deep-work-blocking/SKILL.md` |
+| Deepfake Drill | `pm-2027` | `deepfake-drill/SKILL.md` |
 | Delay Claim Letter | `pm-construction` | `delay-claim-letter/SKILL.md` |
 | Delegation Brief | `pm-cowork` | `delegation-brief/SKILL.md` |
 | Delta Briefing | `pm-autopilot` | `delta-briefing/SKILL.md` |
@@ -724,10 +731,13 @@
 | The Insurance Adjuster | `pm-simulators` | `the-insurance-adjuster/SKILL.md` |
 | The Journalist Call | `pm-simulators` | `the-journalist-call/SKILL.md` |
 | The Open House | `pm-simulators` | `the-open-house/SKILL.md` |
+| The Org Simulator | `pm-2027` | `the-org-simulator/SKILL.md` |
 | The Price Pushback | `pm-simulators` | `the-price-pushback/SKILL.md` |
 | The Procurement Gauntlet | `pm-simulators` | `the-procurement-gauntlet/SKILL.md` |
 | The Promotion Committee | `pm-simulators` | `the-promotion-committee/SKILL.md` |
 | The Thesis Defense | `pm-students` | `the-thesis-defense/SKILL.md` |
+| The Time Capsule | `pm-2027` | `the-time-capsule/SKILL.md` |
+| The Understudy | `pm-2027` | `the-understudy/SKILL.md` |
 | The Visa Interview | `pm-simulators` | `the-visa-interview/SKILL.md` |
 | Thesis Outline | `pm-students` | `thesis-outline/SKILL.md` |
 | Thread To Decision | `pm-cowork` | `thread-to-decision/SKILL.md` |

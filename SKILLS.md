@@ -1,4 +1,4 @@
-# 🗂️ All 782 Skills — full catalog
+# 🗂️ All 792 Skills — full catalog
 
 > The complete per-skill breakdown, grouped by domain. For an interactive, searchable version see the [**live catalog**](https://mohitagw15856.github.io/pm-claude-skills/catalog.html); to run any skill in your browser, use the [**Playground**](https://mohitagw15856.github.io/pm-claude-skills/). Back to the [README](README.md).
 >
@@ -653,13 +653,28 @@
 | **Portfolio Page** (`portfolio-page`) | Structure a portfolio or case-study page that shows your work, not just lists it. | — |
 | **Resume** (`resume`) | Write a sharp, achievement-led resume/CV that passes ATS and earns the interview. | ✅ 3.3/5 |
 
-## 🌍 Industries & Public Sector (388 skills)
+## 🌍 Industries & Public Sector (398 skills)
 
 ### `other` — 1 skill
 
 | Skill | What it does | Eval |
 |---|---|---|
 | **Pixel GIF Maker** (`pixel-gif-maker`) | Generate retro pixel-text animated GIFs for Slack, Teams, or a PR comment — scrolling marquees, heartbeat pulses, confetti parties, twinkling… | — |
+
+### `pm-2027` — 10 skills
+
+| Skill | What it does | Eval |
+|---|---|---|
+| **Agent Hiring Panel** (`agent-hiring-panel`) | Hire an AI agent the way you'd hire an employee — a role spec with success criteria, a structured work-sample interview run on your real tasks… | — |
+| **Agent Severance** (`agent-severance`) | Offboard an AI agent the way you'd offboard an employee — inventory what it knew and touched, export then purge its memory, revoke every… | — |
+| **AI Disclosure Policy** (`ai-disclosure-policy`) | Decide when and how your product and communications must (or should) label AI-generated content, and write the disclosure policy —… | — |
+| **API For Yourself** (`api-for-yourself`) | Publish 'how to work with me' as a literal API spec — endpoints (what to ask me for and what you'll get back), rate limits (meeting and interrupt… | — |
+| **Clone Brief** (`clone-brief`) | Send your position to a meeting instead of your body — a one-page brief carrying your stances, fallbacks, red lines, tradables, and delegation… | — |
+| **Context Bankruptcy** (`context-bankruptcy`) | Declare bankruptcy on a long-lived AI agent's accumulated memory — audit what it currently believes, separate ground truth from stale and wrong… | — |
+| **Deepfake Drill** (`deepfake-drill`) | Run a tabletop drill of a voice-clone or deepfake fraud attempt — the 'CEO needs this wire today' call — against your actual approval process… | — |
+| **The Org Simulator** (`the-org-simulator`) | Stress-test a proposed org change before announcing it — simulate who gains, who loses, who blocks, where friction erupts in the first 90 days… | — |
+| **The Time Capsule** (`the-time-capsule`) | Write a sealed memo to your future self or successor — the honest state of things, falsifiable predictions with confidence levels, and the advice… | — |
+| **The Understudy** (`the-understudy`) | Study 3-5 samples of the user's real writing and decisions, build an explicit 'how you think' profile, then draft new work as their understudy —… | — |
 
 ### `pm-agentnative` — 5 skills
 
@@ -1295,4 +1310,4 @@
 
 ---
 
-_782 skills across 97 bundles · 28 eval-scored (4%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._
+_792 skills across 98 bundles · 28 eval-scored (4%). See the [leaderboard](https://mohitagw15856.github.io/pm-claude-skills/leaderboard.html)._
